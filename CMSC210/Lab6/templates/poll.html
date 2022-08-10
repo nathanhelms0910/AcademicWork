@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Favorite Animal Poll</h1>
+
+<p id="question">Of the animals listed below, which is your favorite? Vote by selecting the radio button in front of your favorite and then clicking on the submit button.</p>
+
+<form action="/vote" method=POST>
+	<p><input id="tiger" type="radio" name="animal" value="tiger">
+		<label for="tiger">Tiger</label></p>	
+	<p><input id="llama" type="radio" name="animal" value="llama">
+		<label for="llama">Llama</label></p>
+	<p><input id="parakeet" type="radio" name="animal" value="parakeet">
+		<label for="parakeet">Parakeet</label></p>
+	<p><input id="snail" type="radio" name="animal" value="snail">
+		<label for="snail">Snail</label></p>
+	<p><input id="horse" type="radio" name="animal" value="horse">
+		<label for="horse">Horse</label></p>
+	<p><input id="cheetah" type="radio" name="animal" value="cheetah">
+		<label for="cheetah">Cheetah</label></p>
+	<p><input type="submit"></p>
+</form>
+
+{% endblock %}

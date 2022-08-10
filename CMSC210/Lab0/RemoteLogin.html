@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<title>How to connect to the Hardy House Systems</title>
+<meta charset=utf-8 />
+<link rel="stylesheet" href="cmsc.css" type="text/css" />
+</head>
+<body>
+
+<h1>Longwood University Department of Computer Science Advanced Computing Lab</h1>
+<div class="docdate">13 Jan 2021</div>
+
+<h2>Remote Access</h2>
+<p>The Advanced Computing Lab, located in the basement of the Hardy House, is
+open 24/7 to students enrolled in a 200-level or higher computer science
+course.  Sometimes, it is convenient to connect to the lab network remotely,
+using the Secure Shell (SSH) protocol.  To do that, you need an SSH client.
+Most Linux distributions provide a version of "openssh" that can be accessed
+through the terminal.  If it is not installed by default, there are
+instructions at the bottom of this page for setting one up.</p>
+
+<h2>Remote Access Software</h2>
+<p>In Linux, you can usually connect to the lab directly using the "ssh"
+command.  In Mac OS X, you can also use the "ssh" command if you first pull up
+the Terminal application (usually found under Applications/Utilities).
+However, to transfer files you may find it convenient to install a program
+called <a href="http://cyberduck.ch/">CyberDuck</a> that provides a GUI which
+makes transferring files easier.</p>
+
+<p>There is a good <a
+href="http://www.techradar.com/us/how-to/computing/apple/how-to-enable-ssh-on-your-mac-1305644">tutorial
+on how to enable SSH logins</a> on your Mac at TechRadar.</p>
+
+<h2>Accessing the lab using Microsoft Windows</h2>
+
+<p>We discourage the use of Windows systems in the lab for many reasons (such
+as security and poor network behavior). However, if you must connect to the
+network from a Windows system, there are several SSH clients you may use.</p>
+
+<p>Be aware that text files, including source code, written on a Windows
+machine use a different format than those on a Linux system.  When transferring
+files from one system to another, it is important to run the
+<code>dos2unix</code> or <code>unix2dos</code> commands to convert between the
+different formats.</p>
+
+<p>To connect from a Windows system, you will need to download and install a terminal program that
+supports SSH.  We recommend the following clients:
+<ul>
+<li><a href="https://mobaxterm.mobatek.net/">MobaXterm</a> supports tabbed sessions, X11 forwarding, and file transfer with SFTP.</li>
+<li><a href="https://github.com/cyd01/KiTTY">KiTTY</a> supports automatic login, session filters, and system tray integration.</li>
+<li><a href="https://https://www.putty.org/">PuTTY</a> is the simplest, most basic SSH client for Windows and is recommended by Campus I.T.</li>
+</ul>
+If you need to transfer files from Windows to the Linux systems or vice-versa,
+<a href="https://winscp.net/eng/download.php">WinSCP</a> or <a
+href="https://cyberduck.io/">CyberDuck</a> are good options.
+</p>
+
+<h2>Connecting directly to the server</h2>
+<p>We greatly prefer that you use the workstations (rather than the servers)
+for your work.  The best way to connect to the workstations over SSH is to use
+port forwarding (see below).  However, if you need to connect directly to a
+server, you can do it by opening up a terminal and typing: <br/><br/>
+
+<code>ssh username@torvalds.cs.longwood.edu</code></p>
+
+<p>Replace <code>username</code> with the login name of your lab account.  If
+your username on the server is the same as the username on your personal
+computer, you can omit the <code>username@</code> and simply type:</p>
+
+<p><code>ssh torvalds.cs.longwood.edu</code></p>
+
+<p>Connecting directly to the server is generally a bad idea -- if you run any
+code that causes the server to crash, you'll take it down for everyone.  Since
+the lab depends pretty heavily on having the servers up and running, this ruins
+everything for everyone.  Also, if everyone logs into the server, it will run
+much slower than if we spread the load out among the workstations.  For this
+reason, we do not install a complete development environment on the
+servers.</p>
+
+<p><em>You should not do any serious work when logged in to the server</em>.</p> 
+
+<h2>Port Forwarding</h2>
+
+<p>To avoid these problems, I have set up port forwarding on both servers.
+This means that if you connect to one of the servers on a special port, your
+connection will be passed to one of the workstations as if you had logged into
+that system directly.<br/><br/>
+
+Here are the ports for each system:</p>
+
+<table>
+<tr><th>System</th><th>Port</th><th>System</th><th>Port</th></tr>
+
+<tr><td>amdahl</td><td>220</td>     <td>stroustrup</td><td>233</td></tr>
+<tr><td>babbage</td><td>221</td>    <td>sutherland</td><td>234</td></tr>
+<tr><td>chomsky</td><td>222</td>    <td>turing</td><td>235</td></tr>
+<tr><td>church</td><td>223</td>     <td>vonneumann</td><td>236</td></tr>
+<tr><td>dijkstra</td><td>224</td>   <td>wirth</td><td>237</td></tr>
+<tr><td>kernighan</td><td>225</td>  <td>belladonna</td><td>238</td></tr>
+<tr><td>knuth</td><td>226</td>      <td>bilbo</td><td>239</td></tr>
+<tr><td>lamport</td><td>227</td>    <td>bullroarer</td><td>240</td></tr>
+<tr><td>lovelace</td><td>228</td>   <td>frodo</td><td>241</td></tr>
+<tr><td>mccarthy</td><td>229</td>   <td>merry</td><td>242</td></tr>
+<tr><td>pascal</td><td>230</td>     <td>pippin</td><td>243</td></tr>
+<tr><td>ritchie</td><td>231</td>    <td>samwise</td><td>244</td></tr>
+<tr><td>shannon</td><td>232</td><td></td></tr>
+</table>
+
+<p>To connect using a particular port, add the -p flag.  For instance, to connect to frodo, type:<br/><br/>
+
+<code>ssh -p 241 username@torvalds.cs.longwood.edu</code><br/>
+</p>
+
+<p>An even easier method (if you are using Linux) is to download this <a
+href="http://torvalds.cs.longwood.edu/config">config file</a> and place it in
+your .ssh directory.  Then you can simply type "ssh frodo" and openssh will
+take care of the port forwarding for you.  This method is described in more
+detail later in this document.</p>
+
+<h2>Logging into one workstation from another</h2>
+
+<p>Once you are logged into a workstation, you can connect to any other system in
+the lab by typing "ssh" followed by the appropriate hostname.
+
+For instance, you might type:<br/><br/> 
+
+<code>ssh vonneumann</code></p>
+
+<p>to connect to the workstation named for John Von Neumann.  Here are the
+names of the workstations you can use:</p>
+
+<div id="columns">
+<ul id="col1">
+<li><a href="http://en.wikipedia.org/wiki/Gene_Amdahl">amdahl</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Charles_Babbage">babbage</a></li>
+<li><a href="http://www.chomsky.info/">chomsky</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Alonzo_Church">church</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Edsger_W._Dijkstra">dijkstra</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Brian_Kernighan">kernighan</a></li>
+</ul>
+<ul id="col2">
+<li><a href="http://www-cs-faculty.stanford.edu/~uno/">knuth</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Leslie_Lamport">lamport</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Ada_Lovelace">lovelace</a></li>
+<li><a href="http://www-formal.stanford.edu/jmc/">mccarthy</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Blaise_Pascal">pascal</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Dennis_Ritchie">ritchie</a></li>
+</ul>
+<ul id="col3">
+<li><a href="http://en.wikipedia.org/wiki/Claude_Shannon">shannon</a></li>
+<li><a href="http://www.stroustrup.com/">stroustrup</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Ivan_Sutherland">sutherland</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Alan_turing">turing</a></li>
+<li><a href="http://en.wikipedia.org/wiki/John_von_Neumann">vonneumann</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Niklaus_Wirth">wirth</a></li>
+</ul>
+<ul id="col4">
+<li><a href="http://tolkiengateway.net/wiki/Merry_Brandybuck">merry</a></li>
+<li><a href="http://tolkiengateway.net/wiki/Pippin">pippin</a></li>
+<li><a href="http://tolkiengateway.net/wiki/Bilbo">bilbo</a></li>
+<li><a href="http://tolkiengateway.net/wiki/Frodo">frodo</a></li>
+<li><a href="http://tolkiengateway.net/wiki/Sam_Gamgee">samwise</a></li>
+<li><a href="http://tolkiengateway.net/wiki/Bullroarer">bullroarer</a></li>
+<li><a href="http://tolkiengateway.net/wiki/Belladonna_Took">belladonna</a></li>
+<li><a href="http://www.computerhistory.org/fellowawards/hall/ken-thompson/">thompson</a></li>
+</ul>
+<br/>
+</div>
+
+<h2>File Transfer</h2>
+
+<p>Since all the files in your home directory are stored on the server, you can
+connect directly to the server to retrieve or transfer files.</p>
+
+<p>To copy a file from your laptop to the server, first change directories to
+the folder which contains the file and type: <br/><br/>
+
+<code>scp filename username@torvalds.cs.longwood.edu:</code></p>
+
+<p>Replace <code>filename</code> with the name of the file to copy and
+<code>username</code> with your login name in the lab.  Be sure to place a
+colon at the end, or it will make a local copy instead of transferring the
+files over the network.</p>
+
+<p>This only works for copying a single file.  If you want to copy a folder,
+add the flag <code>-r</code> after the scp command:<br/><br/>
+
+<code>scp -r folder username@torvalds.cs.longwood.edu:</code><br/><br/>
+
+This does a recursive copy, copying the folder and all its contents.</p>
+
+<p>To copy a file from the server to your laptop, first cd to the directory in
+which you want to place the file and then type: <br/><br/>
+
+<code>scp username@torvalds.cs.longwood.edu:/path/to/file .</code></p>
+
+<p>Replace <code>username</code> with your lab account name and
+<code>/path/to/file</code> with the location of your files on the server.</p>
+
+<p>Make sure you include the "dot" at the end of the command -- it indicates
+that the files should go in the current directory.  If you want to copy an
+entire folder, add the flag <code>-r</code> after the scp command.</p>
+
+<p>If you only need to transfer files from your home directory, you can scp
+directly to the server.  However, if you need to access a file that is only
+installed on the workstations (for instance, a file in a /scratch folder), you
+may need to use port forwarding.</p>
+
+<p>Unfortunately, the flag for port forwarding in scp is different from the one
+you use with ssh. Instead of a lowercase p, you need to use a capital
+P:<br/><br/>
+<code>scp -P 240 username@torvalds.cs.longwood.edu:/path/to/file filename</code></p>
+
+<p>This is a lot easier to do if you are using the "config" file described
+earlier.  Then you can simply type:<br/><br/> <code>scp username@frodo:/path/to/file
+filename</code><br/><br/> (replace frodo with the name of whichever workstation has the file).</p>
+
+<h3>An advanced technique</h3>
+
+<p>If you use scp to copy files from one user account to another, scp will
+change the ownership and permissions on your files so that the new account owns
+them.  Usually, this is what you want.  However, if you need to preserve
+ownership and permissions, you can instead transfer a tarball and extract it.
+A clever way to do this in one step is to use unix pipes:<br/><br/>
+
+<code>tar czpvf - folder | ssh username@server "tar xzpvf -" </code><br/><br/>
+
+This creates a tarball of the folder, but instead of saving it to a file, it
+buffers it in memory and sends it to the ssh command.  The ssh command logins
+into the server and then copies the tarball into the second tar command, which
+extracts the files into your home directory.</p>
+
+<h2>Graphics</h2>
+<p>By default SSH only provides a text connection, but if you are connecting from
+an X11 session, you can get it to forward graphics to your machine by adding
+the -Y flag:
+
+<code>ssh -Y username@torvalds.cs.longwood.edu</code>
+
+This doesn't typically work if you are "hopping" -- connecting to torvalds or
+gandalf in order to connect to one of the workstations -- but it does if you
+use port forwarding to connect directly to a workstation.</p>
+
+<p>This technique also requires your system to be running an X graphics server.
+This is true of most Linux and Mac systems, but on Windows, you may need to
+install additional software.
+
+X forwarding can be slow and produce weird graphical artifacts like flicker and
+or incorrectly drawn windows.  If you really need graphical access to a lab
+machine, you should consider using <a href="VNC.html">VNC</a> or rdesktop
+instead.</p>
+
+<h2>Tunneling</h2>
+
+<p>When working on a project involving networking or web programming, you
+sometimes need to access ports other than port 22 (the SSH port).  Since the
+host systems sit behind the firewall on torvalds, such ports cannot be directly
+accessed from outside the lab.  Fortunately, the SSH protocol can be used for
+tunneling.  Tunneling means that the SSH client will listen for information on
+another port, then transmit that information to the remote system across the
+already established SSH connection.  When the information reaches the other
+side of the connection, the SSH server will send it to the appropriate port.
+</p>
+
+<p> For example, suppose I am using amdahl as a server and want to run a
+program that will listen for connections on port 5000.  The image below shows
+how SSH can make port 5000 on the server available to the client:<br/><br/>
+<img alt="Tunneling port 5000 through an SSH connection" src="Tunneling.png">
+<br/><br/>
+To forward a port, use the -L flag.  For example:<br/>
+<br/>
+
+<code>ssh -L5000:localhost:5000 amdahl</code><br/>
+<br/>
+
+Would forward amdahl's port 5000 to port 5000 on your local system.  If you
+launch your server, it will run as usual and bind to port 5000.  You can now
+open a web browser on your local system and type:<br/>
+<br/>
+<code>http://localhost:5000</code><br/>
+<br/>
+into the location bar.  This will connect to the server running on amdahl's port 5000.
+</p>
+
+<h3>Tunneling in PuTTY</h2>
+<p>If you are using Putty, you can enable port forwarding by changing settings
+in the configuration menu.  Click on the plus sign in front of "SSH", then
+select "Tunnels".  Put the port number (5000) into the Source Port and put
+"localhost:5000" into the Destination field.  Then click "Add".  </p>
+
+<h2>Some useful tricks</h2>
+
+<p>You can save yourself a lot of typing by creating a file named "config" in
+the ".ssh" folder of your home directory (on your personal computer).  For instance, if you don't want to
+type "torvalds.cs.longwood.edu" every time, you can add the following lines to that file:
+</p>
+
+<p><code>Host torvalds<br/>
+&nbsp;&nbsp;&nbsp;HostName torvalds.cs.longwood.edu<br/>
+&nbsp;&nbsp;&nbsp;User username<br/>
+&nbsp;&nbsp;&nbsp;ForwardX11Trusted yes</code></p>
+
+<p>Replace <code>username</code> with your actual account name on the server.
+This creates an alias so that you can type just <code>ssh torvalds</code> to
+connect to the lab. It also enables X11 forwarding so that you don't need to
+use the -Y flag.</p>
+
+<p>A sample config file can be downloaded <a href="config">here</a> and placed
+in your .ssh folder.  It contains aliases for all the machines in the lab, but
+does not enable X11 forwarding by default.  You can easily download it to your
+home directory by typing:</p>
+
+<p><code>cd ~/.ssh<br/>wget http://torvalds.cs.longwood.edu/config</code></p>
+
+<p>Another trick is called "passwordless SSH", which allows you to connect
+using a cryptographic instead of using a password.  First, on your personal
+computer, generate an RSA keypair:</p>
+
+<p><code>ssh-keygen</code></p>
+
+<p>You will be asked three questions.  Simply press enter on all of them.  This
+command creates two files in your .ssh directory: <code>id_rsa</code> and
+<code>id_rsa.pub</code>.  The first file contains your secret key.  The second
+file, <code>id_rsa.pub</code>, contains your public key.  To enable
+passwordless SSH, you must copy your public key into a file named
+"authorized_keys" on the server.  The easiest way to do this is to open up two
+windows.  In one window, log into a lab machine and type:</p>
+
+<p><code>cd ~/.ssh<br/>vim authorized_keys</code></p>
+
+<p>Then type "i" to put vim in "Insert Mode".</p>
+
+<p>In the other window, open up your <code>id_rsa.pub</code> file.  Then
+copy/paste the entire contents of the public key file into vim.  Be sure to
+remove any extra linebreaks the copy/paste process might add.</p>
+
+<p>You can use this same technique to allow passwordless log in from any lab
+system to any other lab system.  All you have to do is repeat the process, but
+generate the private key on a lab machine (it doesn't matter which one).  Since
+the SSH configuration files are in your home directory and the home directory
+is shared across the lab network, this will automatically give you passwordless
+access to and from every system in the lab.</p>
+
+<h2>Installing on Arch Linux</h2>
+<p>To install openssh on an Arch Linux system, open up a terminal and type:
+<br/><br/><code>sudo pacman -S openssh</code></p>
+
+<p>Arch has excellent <a
+href="https://wiki.archlinux.org/index.php/Secure_Shell">documentation on
+SSH</a> on the Archlinux wiki.</p>
+
+
+<h2>Installing on Ubuntu</h2>
+
+<p>To install openssh on an Ubuntu Linux system, open up a terminal and type:
+<br/><br/> <code>sudo apt-get install openssh-client</code></p>
+
+<p>You will be prompted for a password and then the client will be installed.</p>
+
+<p>For more information, see <a href="https://help.ubuntu.com/community/SSH">this site</a>.</p>
+
+<h2>Installing on OpenSuSE</h2>
+
+<p>To install openssh on an OpenSuSE Linux system, open up a terminal and type: <br/><br/>
+<code>sudo zypper install openssh</code></p>
+
+<p>You will be prompted for a password and then the client will be installed.</p>
+
+<p>For more information, see <a href="https://en.opensuse.org/OpenSSH">this site</a>.</p>
+
+<h2>Installing on Gentoo</h2>
+
+<p>To install openssh on a Gentoo Linux system, open up a terminal, become the root user, and type: <br/><br/>
+
+<code>emerge openssh</code></p>
+
+<p>A version of openssh will be compiled and installed on your system.</p>
+
+<p>For more information, see <a href="https://wiki.gentoo.org/wiki/SSH">the Gentoo wiki</a>.</p>
+
+</body>
+</html>

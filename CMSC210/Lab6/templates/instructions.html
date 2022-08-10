@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Adventure Game Documentation</h1>
+<p>This game will lead you through several different rooms in order to reach an eventual exit. Be warned however, the exits are not given out to you easily. You must either find the proper item or gain enough a singular stat in order to make your way out. Certain rooms will grant you  health and strength, other will diminish them.</p>
+<p>List of rooms in order of what they do for the character</p>
+<ul>
+	<li><a href="/room/1">Encounter a Lantern and take it</a></li>
+	<li><a href="/room/7">Encounter and acquire a pickaxe</a></li>
+	<li><a href="/room/2">Health Diminished and Strength earned</a></li>
+	<li><a href="/room/3">Strength Up and Points up (if pickaxe acquired)</a></li>
+	<li><a href="/room/5">Health Up, Strength Up, Points Up</a></li>
+	<li><a href="/room/6">Strength Test (At least 50 strength needed)</a></li>
+	<li><a href="/room/7">Points Up</a></li>
+	<li><a href="/room/8">Health and Strength completely gone</a></li>
+</ul>
+<ul>
+	<li><a href="/room/1">Play Game</a></li>
+</ul>
+{% endblock %}

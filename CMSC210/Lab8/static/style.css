@@ -1,0 +1,68 @@
+body {
+	background-color: blue;
+}
+
+legend {
+	border: 2px solid green;
+	color: black;
+	background-color: lightgray;
+	font-size:16pt;
+}
+
+fieldset {
+	background-color: gray;
+	font-size: 14pt;
+	margin: 0 auto;
+	width: 80%;
+}
+
+#new_message {
+	width: 100%;
+	position: fixed;
+	bottom: 1em;
+}
+
+#message_box {
+	margin: 0 auto;
+	width: 80%;
+	margin-bottom: 2in;
+}
+
+textarea {
+	width: 100%;
+}
+
+ul {
+	background-color: white;
+}
+
+.username {
+	color: yellow;
+	text-indent: 1em;
+	font-size: 16pt;
+}
+
+.topic {
+	color: lightgreen;
+	text-indent: 1em;
+	font-size: 16pt;
+}
+
+.text {
+	color: white;
+	text-indent: 1em;
+	font-size: 16pt;
+}
+
+h2 {
+	background-color: lightgray;
+	border: 2px solid green;
+	width: fit-content;
+	padding: 2px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+}

@@ -1,0 +1,10 @@
+{% extends "sidebar.html" %}
+{% block room %}
+<h3>{{name}}</h3>
+<p id="room_desc">{{desc}}</p>
+<ul id="exits">
+	{% for room in rooms.keys() %}
+		<li><a href="{{rooms[room]}}">{{room}}</a></li>
+	{% endfor %}
+</ul>
+{% endblock %}

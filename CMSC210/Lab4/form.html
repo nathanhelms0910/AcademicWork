@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang=en>
+
+<head>
+	<title>Scores</title>
+	<meta charset=utf-8 />
+</head>
+
+<body>
+	<form method=POST action=form.cgi enctype=multipart/form-data>
+		<fieldset>
+			<legend>Account Information</legend>
+ 			<label for="firstname">First name</label><br />
+ 			<input type="text" name="firstname" id="firstname" /><br />
+ 			<label for="lastname">Last name</label><br />
+			<input type="text" name="lastname" id="lastname" /><br />
+
+			<label for="admin">Administrator</label>
+			<input name="admin" type="checkbox" value="1" id="admin" /><br />
+		</fieldset>
+
+ 		<fieldset>
+			<legend>Scores</legend>
+			<label for="score1">Score 1:</label>
+			<input type="text" name="score1" value="0" class="score" id="score1" /><br />
+			<label for="score2">Score 2:</label>
+			<input type="text" name="score2" value="0" class="score" id="score2" /><br />
+			<label for="score3">Score 3:</label>
+			<input type="text" name="score3" value="0" class="score" id="score3" /><br />
+			<label for="score4">Score 4:</label>
+			<input type="text" name="score4" value="0" class="score" id="score4" /><br />
+			<label for="score5">Score 5:</label>
+			<input type="text" name="score5" value="0" class="score" id="score5" /><br />
+		 </fieldset>
+		 <p>
+			 <input type="submit" name="action" value="Submit" />
+			 <input type="reset" value="Reset Form" />
+		 </p>
+	 </form>
+</body>
+</html>

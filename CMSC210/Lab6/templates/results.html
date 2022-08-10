@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Favorite Animal Poll Results</h2>
+{% with messages = get_flashed_messages() %}
+	{% for message in messages %}
+		<p class="message">{{message}}</p>
+	{% endfor %}
+{% endwith %}
+<div id="results">
+	<ul>
+		{% for animal in votes.keys() %}
+			<li>{{animal | capitalize }}: {{votes[animal]}} votes</li>
+		{% endfor %}
+	<ul>
+</div>
+{% endblock %}

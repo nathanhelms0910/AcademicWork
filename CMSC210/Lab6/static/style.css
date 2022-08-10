@@ -1,0 +1,40 @@
+h1, h2 {
+	text-align: center;
+	color: green;
+	transform: translate(0, 20px);
+	text-shadow: 3px 3px 10px black;
+}
+
+#question {
+	font-size: 14pt;
+	font-weight: bold;
+	width: 8in;
+}
+
+form {
+	border: 3px solid green;
+	margin: 1in auto;
+	padding: 1in;
+	width: 50%;
+}
+
+label {
+	font-size: 16pt;
+	text-align: right;
+}
+
+#results ul {
+	list-style-type: none;
+	font-size: 20pt;
+	border: 2px solid green;
+	padding: 1em;
+	margin: 5% auto;
+	width: 25%;
+}
+
+.message {
+	color: red;
+	text-align: center;
+	margin: 0 auto;
+	transform: translate(0, 40px);
+}

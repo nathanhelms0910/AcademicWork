@@ -1,0 +1,53 @@
+\documentclass{article}
+\usepackage{amsthm}
+\usepackage[utf8]{inputenc}
+\begin{document}
+Nathan Helms: CMSC208: HW1
+\begin{enumerate}
+\item
+$$\sum_{i=1}^{n} i^3 = \frac{1}{4}n^2\left(n+1\right)^2$$
+\newline
+Base Case:
+$$\sum_{i=1}^{1} i^3 = \frac{1}{4}1^2\left(1+1\right)^2 = \frac{1}{4}*2^2 = \frac{4}{4} = 1$$
+Assume:
+$$\sum_{i=1}^{k} i^3 = \frac{1}{4}k^2\left(k+1\right)^2$$
+What we Want:
+$$\frac{1}{4}\left(k+1\right)^2\left(k+2\right)^2$$
+Inductive Step:
+$$\sum_{i=1}^{k+1} i^3 = \left(\sum_{i=1}^{k} i^3\right)+\left(k+1\right)^3$$
+$$\sum_{i=1}^{k+1} i^3 = \frac{1}{4}k^2\left(k+1\right)^2+\left(k+1\right)^3$$
+$$\sum_{i=1}^{k+1} i^3 = \frac{4\left(k+1\right)^3}{4}+\frac{k^2\left(k+1\right)^2}{4}$$
+$$\sum_{i=1}^{k+1} i^3 = \frac{\left(k+1\right)^2\left(4\left(k+1\right)+k^2\right)}{4}$$
+$$\sum_{i=1}^{k+1} i^3 = \frac{\left(k+1\right)^2\left(4k+4+k^2\right)}{4}$$
+$$\sum_{i=1}^{k+1} i^3 = \frac{\left(k+1\right)^2\left(k+2\right)^2}{4}$$
+$$\sum_{i=1}^{k+1} i^3 = \frac{\left(k+1\right)^2\left(k+1+1\right)^2}{4}$$
+Which is what we wanted to show
+\item
+a) The sum of any three consecutive integers is even\newline
+Disproven by Counterexample:\newline
+$$4+5+6 = 15$$
+which is an odd sum.\newline
+b) The product of any three consecutive integers is even\newline
+Proven by Construction:\newline
+$$4*5*6 = 120$$
+$$1*2*3 = 6$$
+$$2*3*4 = 24$$
+which are all even products.\newline
+\item
+Applying the Pigeonhole principle to this problem leaves us with:
+$$7/2 = 3.5$$
+\item
+Compute the following
+$$\sum_{i=1}^{10} \left(-1\right)^{i}i = 5$$
+$$\sum_{i=1}^{1000} \left(-1\right)^{i}i = 500$$
+\item
+Explain the symbolic expression:\newline
+For all positive integers, n, in set E, there exists two prime numbers, p1 and p2, of set P, that add together to equal n.
+\item
+Proven by Construction:\newline
+if x = 0, and n = 1
+$$\left(1+0\right)^1\geq1+\left(1\right)\left(0\right) = 1 \geq 1 = TRUE$$
+if x = 100, and n = 5
+$$\left(1+100\right)^5\geq1+\left(5\right)\left(100\right) = 10,510,100,501 \geq 500 = TRUE$$
+\end{enumerate}
+\end{document}

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<header><h1>student3's Chat World</h1></header>
+
+<main id=message_box>
+<form action="/add_auth_user" method=POST enctype=multipart/form-data id="user_form">
+<fieldset>
+	<legend>Add Auth User:</legend>
+	<label for=newuser>Username:</label><input name=newuser id=newuser /><br />
+	<input type=submit id=submit value="Add Account"/>
+</fieldset>
+</form>
+<h2>Messages</h2>
+<div id="messages"></div>
+</main>
+
+<footer id="new_message">
+<form action="/add_message" method=POST enctype=multipart/form-data id="post_form">
+<fieldset>
+	<legend>Message:</legend>
+	<label for=username>Username:</label><input name=username id=username /><br />
+	<label for=topic>Topic:</label><input name=topic id=topic /><br />
+	<textarea id=message name=message>
+	</textarea><br />
+	<input type=submit id=submit />
+</fieldset>
+</form>
+</footer>
+{% endblock %}

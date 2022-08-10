@@ -1,0 +1,13 @@
+div {
+	border: solid 1px blue;
+	width: 400px;
+	min-height: 400px;
+
+	display: inline-block;
+	font-size: 48pt;
+	margin: 40px auto;
+
+	text-align: center;
+	vertical-align: middle;
+	line-height: 400px;
+}

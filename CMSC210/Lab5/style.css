@@ -1,0 +1,51 @@
+#style {
+  	font-family: "Times New Roman", Times, serif;
+  	font-size: 24pt;
+  	text-align: center;
+	color: black;
+}
+
+.field {
+	width: 400px;
+	border-collapse: separate;
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	background-color: #BDE8EF;
+}
+
+.background {
+  background-color: #CBC3E3;
+}
+
+.divBack {
+  background-color: #BDE8EF;
+}
+
+.divSpan {
+width: 100%;
+}
+
+.sizeadjust {
+	height: 100px;
+}
+
+label {
+	display: table-cell;
+	width: 1%;
+}
+
+input {
+	display: table-cell;
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+div {
+	display: block;
+}
+
+body {
+  text-align: center;
+}

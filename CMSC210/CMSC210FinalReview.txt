@@ -1,0 +1,136 @@
+CMSC210 Answers
+1) GET /index.html HTTP/1.1
+Host: gandalf.cs.longwood.edu
+
+2) POST requests are never cached
+
+3) Allows to check Content-Length of a file without actually fetching it
+
+4) GET requests can be stored by the web browser in the link, which is harmful because of "shoulder surfers"
+GET requests also have restrictions on length.
+
+5) The HTTP version. Usually depicted (if HTTP 1.1) as HTTP/1.1
+
+6) If a Status Code of 301 is given, the payload will be a redirect to the new location of the file, image, or other
+document
+
+7) A search engine, or a screen reader
+
+8) Hypertext Transport Protocol Secure - It is slower but more encrypted than HTTP
+
+9) <!DOCTYPE html>
+
+10) Elements
+
+11) Element: <a>
+Attribute: href="mypage.html"
+Text Entity: This is a link to my page
+
+12) href | mypage.html
+name | username
+required | true
+
+13) Singleton tag: <br>
+Pair of open/close tags: <a></a>
+
+14) Absolute Path: <img src="http://example.org/images/castle.png" alt="Castle Picture"/>
+Relative URL: <img src="/images/castle.png" alt="Castle Picture"/>
+
+15) Less Than: &lt;
+Non-breaking Space: &nbsp;
+
+16) <head></head> tags, and inside the <title> tag is required and the <meta> tag is required
+
+17) The <br/> tag is a line break, while the <hr/> is the horizontal rule tag
+
+18) The <h2> element is larger by default than the <h4> element
+
+19) Ordered, Unordered, Dictionary. <ol> <ul> and <dl> respectively
+
+20) <table>
+<tr>
+<th>Item</th>
+<th>Price</th>
+</tr>
+<tr>
+<td>Yo-yo</td>
+<td>$1.20</td>
+</tr>
+<tr>
+<td>Granola Bars</td>
+<td>$8.30</td>
+</tr>
+</table>
+
+21) container
+
+22) width, margin
+
+23) this is a class attribute since it begins with a . and not a #
+
+24) .a {}
+
+25) 
+
+26) ol#colors p#purple
+
+27) Green
+
+28) Absolute positioning puts an element adjacent to its parent element. Relative positioning puts an element
+relative to its normal position
+
+29) sidebar {
+    float: right;
+}
+
+30) transform: rotate(45deg);
+
+31) Bitmap images are neat pixel arrays that compress nice but do not scale well. Vector graphics are collections of
+lines and shapes that can scale to different sizes easily, which is good for the web
+
+32) <circle cx=5 cy=15 r=10/>
+
+33) 
+
+34) The one that will be drawn on top, is the last shape declared. For example, if you write code to draw a triangle,
+but then write code afterwards to draw a circle, the circle would overlap the triangle on the image
+
+35) var defines variables in a function scope, while let defines variables in a block scope. Block scope is better 
+because it is good coding practice to define variables only for the block/blocks that they are being used in.
+
+36) alert() for error message in browser
+console.log() for the development console
+
+37)
+
+38) 
+
+39) == is used for comparing two variables, ignoring data type. === is used for comparing variables too, but it also
+takes into account the data type and checks it. So in this example, 3 == "3" is true because of the ignorance of type,
+but 3 === "3" would not be true because "3" is considering a string variable, not an integer
+
+40) accounts = {'adam' : 'secret', 'sarah' : 'passwd', 'henry' : 'ucantguessthis', 'linda' : '1234'}
+
+41) nums += 27
+
+42) 
+
+43) AJAX increases browser performance and offers faster browsing speed, which in turn provides a more responsive
+experience
+
+44) XMLHttpRequest
+
+45) $.get("http://example.org/weather.cgi", process_data()) (look at $.post() for final)
+
+46) SELECT name, value FROM items WHERE value >= 30;
+
+47) SELECT name FROM students, class WHERE class_year = year AND motto = "Cherish Today";
+
+48) HTML: Content; CSS: Presentation; Control: Javascript, JQuery
+
+49) For blind people, add audio options to the web pages for visual elements. For deaf people, add subtitles to videos
+and other multimedia that involves audio. For colorblind users, add alt text or subtitles underneath important colors
+to help distinguish to the user what the colors are meant to be.
+
+50) Python. Definitely Python. It has opened up a lot of potential for me to grow as a programmer and learn skills
+that are very popular in the world of programming
