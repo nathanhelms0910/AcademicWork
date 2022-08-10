@@ -1,0 +1,173 @@
+#1) cd -
+	changes the directory to the last working directory
+
+#2) rm rf bin code conf
+	deletes the entire folder directory of "conf"
+
+#3) What is the difference between the following two commands?
+	A) cp -r bob/ /etc/server/
+	B) cp -r bob /etc/server
+
+	Command A copies recursively the bob directory into the /etc/server directory
+	Command B copies recursively the bob file into the /etc/server file
+
+#4) chown example (group and individual same command)
+	chown nathan:classmates nachos.txt
+
+#5) give example of chmod to set perms to 700
+	chmod 700 clients.txt
+
+#6) find command to delete files by "hacker"
+
+
+#7) What do the -a, -l, and -d flags do to the ls command?
+	-a = prints all files, including hidden ones beginning with .
+	-l = prints in long format
+	-d = do not recurse into directories
+
+#8) Complete example of mkdir command
+	mkdir FinalLab
+
+#9) What does touch command do?
+	Modifies timestamps of files
+
+#10) -s flag to the du command
+	summarize - displays only a total for each argument
+
+#11) Only possible partition numbers for a physical partition on a BIOS
+	4 partitions
+
+#12) flag we pass to mkfs so that it will format a partition as a btrfs partition?
+	-t flag
+
+#13) difference between mkfs and mkswap commands?
+	mkfs builds a linux file system, while mkswap sets up a linux swap area
+
+#14) difference between df and du commands?
+	df reports the file system disk space usage, while du estimates the file space usage
+
+#15) what does lspci command do?
+	lists all PCI devices
+
+#16) how does linux use the file /boot/grub/grub.cfg ?
+
+#17) according to linux filesystem hierarchy standard, what is the purpose of the /lib/ folder on a linux filesystem? what kind of files should it contain?
+
+#18) difference between /usr/local/bin and /usr/bin ?
+
+#19) list 4 important evironment variables
+
+#20) give an example of using the mount command
+	mount /dev/sda1 /mnt
+
+#21) chattr command changes "extended file attributes", which flag to chattr makes files immutable?
+
+#22) What is the /etc/fstab file for?
+	/etc/fstab is a config file that has information on all disks and partitions
+
+#23) Which file in /proc/ gives information on memory usage in linux?
+	/proc/meminfo gives this information
+
+#24) How can I easily check the date and time from the command prompt?
+	the date command shows this information
+
+#25) What is the -m flag to the useradd command for?
+	-m creates the users home directory if it does not exist. Files in the skeleton directory
+       	will be copied to the new home directory. If not specified, no home directory is created
+
+#26) What does the chfn command do?
+	chfn changes real user name and information
+
+#27) What does the -l flag to the passwd command do?
+	Locks the password of the named account
+
+#28) How can I modify the password expiration information of an account?
+	-e - immediately expires an account, -i - disables an account after a password has been expired for a number of days
+	--expiredate - sets the account expiration to a specific date
+
+#29) What does the who command do? How does it differ from the w command?
+	who tells you who is logged in, while w is the "what" command, which tells you what command was last ran
+
+#30) What command gives a list of the last ten users to log in?
+	the last -n10 command gives you the list of the last 10 users on that system
+
+#31) What kinds of files does Linux store in the /var/log directory?
+	Log files
+
+#32) What does the dmesg command do?
+	dmesg prints or controls the kernel ring buffer	
+
+#33) (copy from handout) Write a command for sorting users alphabetically (not by time). Must use single command but can use multiple  filters
+	sort -k2 userlog.txt (prints same list but in username alphabetical order)
+	sort -k2 userlog.txt | tr '\t' ' ' | tr -s ' ' | cut -d ' ' -f2 (prints alphabetical list of JUST usernames)
+
+#34) using problem from 33, give a command that would display only the time and command columns, sorted by command and removing
+duplicate lines
+	cat userlog.txt | tr '\t' ' ' | tr -s ' ' | cut -d ' ' -f 1,3 | sort -k2 | uniq
+
+#35) Show how you would use the sed command to replace the word "ducks" with the word "geese" in a file
+	sed 's/ducks/geese/g' log.txt
+
+#36) Show how to use 
+
+#37) Show how you could use grep to count how many times a word appears in a file
+	cat data.txt | tr ' \t' '\n\n' | grep -c -i yes (searches for word "yes")
+
+#38) 
+
+#39) Explain the difference (in bash) between single quotes, double quotes, and back quotes
+	When you use single quotes on a variable, it does not perform the action to get the value of the variable, it simply prints what is in between the quotes
+	Double quotes expand variables, printing the values stored in them rather than just the declared call
+	Back quotes are another way of using $() to call a command
+
+#40) Write a bash loop that uses the touch command to mark every file in the current directory as "recently modified"
+	for file in $(ls);
+		do
+		touch $file;
+		echo "touched $file"
+		done
+
+#41) What does the following bash command do?
+		alias list = "ls -ald *"
+	this command creates a shortcut under the name "list" that performs the "ls -ald *" command when list is entered in the command line or shell script
+
+#42) What does echo $PATH print? That is, what is the PATH variable for?
+	PATH is an environment variable that lists the paths when used with an echo command of where Unix looks for executables when running a command
+
+#43) What does the test -d filename command check?
+	checks to make sure the filename specified exists and is a directory
+
+#44) In BASH, what notation do we use to perform integer arithmetic?
+	we use the expr command line to perform integer arithmetic
+
+#45) Difference between halt, shutdown, reboot, and poweroff commands?
+	halt - stops all CPU functions
+	shutdown - brings down the system in a secure way
+	reboot - shuts down and restarts the system
+	poweroff - sends a signal instructing the system to shut down 
+
+#46) On a Gentoo Linux system, there are several scripts in /etc/init.d/. What are they used for?
+       These scripts are used to run certain services either provided externally or that come with the Linux distribution
+
+#47) In Fedora/CentOS I use the systemctl command to start processes and to cause them to launch at boot. What are the equivalent commands for Gentoo?
+	systemd is a command for starting processes in Gentoo
+
+#48) What are two signals I can send with the kill command?
+	SIGTERM - "terminate"
+	SIGKILL - "kill"
+
+#49) What commands can I use to:
+	See a list of running processes?
+		ps command
+	Put a suspended job in the background?
+		bg command
+	Bring a suspended job in the foreground?
+		fg command
+	Get a list of jobs running in this shell?
+		ps aux
+
+#50) What does the git add command do? The git commit command?
+	"git add" adds the specified file to the current stage area to be committed with the next commit
+	"git commit" saves the changes of the files in the staging area
+
+

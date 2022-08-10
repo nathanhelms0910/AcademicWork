@@ -1,0 +1,53 @@
+Nathan Helms
+Project 2: CMSC242
+Dr Blaheta
+
+Overview:
+
+Whether ran in a command prompt, or pointed to from a browser, this program takes a HTTP GET request and returns the format of a html file desired, or returns a HTTP/1.1 500 Error back to the user.
+
+NOTE: HEAD REQUESTS DO NOT WORK. THEY WILL MOST LIKELY CRASH WHEN CALLED. DO NOT TRY THEM!
+
+To run:
+
+Compile with: gcc server.c -o server -w
+
+Run on one session with: /server <port number>
+
+Replacing <port number> with your desired port number to launch on
+
+When it is running on one session, either open up another terminal session on the same client, or a browser on the same host connection as the server.
+
+
+
+
+If running through a second terminal session:
+
+Run with: telnet localhost <port number of server>
+
+Once connected, fetch a file with
+
+GET /<filename>.html HTTP/1.1
+
+Replace <filename> with desired filename. Files included for testing include: index.html, testfile.html, and trial.html
+
+To exit the telnet session, use escape character ^] and type "quit"
+
+
+
+NOTE: Browser tests have passed through correctly on the server side, but the browsers have not had success in showing the html content of the fetched file. To see the html code of a file, refer to the telnet terminal session method.
+
+If running through a browser:
+
+Run with: http://localhost:<port number of server>/<filename>.html
+
+Same variable replacement occurs as for running in a second terminal session
+
+To exit, simply exit the browser to terminate the connection
+
+
+
+To cancel running the server, use CTRL-C on the session running it
+
+The server prompt should print out HTTP/1.1 200 OK responses to proper file fetches, as well as print out when a connection is made, and when a connection is terminated.
+

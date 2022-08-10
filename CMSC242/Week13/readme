@@ -1,0 +1,98 @@
+Nathan Helms
+CMSC242 - Project 3 Documentation
+3-Moku Client Program
+
+
+NOTE: Board updating does not work. However, pasting a blank copy of the board for reference is STILL possible with the "board" command
+
+Overview:
+
+This program runs a client-side view of a game server called 3-moku. When you connect to the server, you will await a connection to another client via whatever your game ID is. Once the game is started, both players will be assigned to be "X" or "O" respectively. The player who gets assigned X gets the first move.
+
+During the time in which it is your move, you have a few options in front of you:
+whose - this command will say who's turn it is (if you really need the reminder that it IS in fact, your turn)
+
+stats - this command will return your playerID, your opponents playerID, as well as the number of moves made in the current game
+
+board - (Incomplete for dynamic updating) This command will show you a copy of the 5x5 board structure being used to play the game
+
+place - This command is used to make your move. To use, the syntax goes as follows: 
+
+		place <row> <col>
+
+		row and col representing one byte numbers between 1 and 5.
+
+
+This game plays similarly to tic tac toe. If you can get three of your symbol in a row, you win. When placing your move, if you either attempt to place a move out of the bounds or attempt to place a
+move that is already taken by another move, the game will respond with an error, and ask you to try again.
+
+If you correctly place a move, the game will respond to you correctly, and the other player will receive your move placement. You will then wait for it to be your turn again. It becomes your turn when
+you receive your opponents move back.
+
+When a winner is declared, the server will inform both players of the winning symbol player, and then terminate the program.
+If a player abruptly disconnects, the other player will be informed of the disconnection by the server, and then the program will terminate
+
+
+
+Testing:
+
+To compile this program, use:
+
+gcc 3mokuclient.c -o 3moku
+
+
+To run this program, use:
+
+./3moku <hostname> <portnumber> <OPTIONAL gameID>
+
+
+<hostname> representing the name of the host you are connecting to the server. A good default for the purposes of this program is "turing"
+
+<portnumber> represents the port number of the host of which you are connecting. A good default for the purposes of this program is "9908"
+
+<OPTIONAL gameID> represents your specified gameID. This is not required, as the server will assign you a random gameID if one is not specified
+
+
+
+As mentioned above in the Overview, once a connection is made between players, the player who is assigned "X" starts the game, and has the aforementioned 4 commands available to them. The player that
+is assigned "O" remains waiting for "X" to send a move.
+
+
+Enjoy the game! :)
+
+
+Test Cases (in format of player's moves)
+
+X: place 1 1
+O: place 1 2
+X: place 2 1
+O: place 1 3
+X: place 3 1
+
+Game Over
+X Won
+
+
+X: place 1 1
+O: place 1 1
+Invalid
+O: place 1 2
+X: place 2 1
+O: place 1 3
+X: place 2 2
+O: place 1 4
+
+Game Over
+O Won
+
+X: place 1 1
+O: place 5 3
+X: *forcibly disconnects from client*
+
+O's terminal:
+
+Opponent has terminated the game
+
+
+
+

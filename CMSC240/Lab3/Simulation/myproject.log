@@ -1,0 +1,104 @@
+commit 5317ae33b5c9ccf9a64962a32eedb6a4537f060e
+Author: Nathan Helms <helmsna@amdahl.cs.longwood.edu>
+Date:   Tue Oct 20 12:07:52 2020 -0400
+
+    Rick Astley added a else if to intersection.cpp
+
+commit d1b10e2077c89f1f3ece9ce4840b0210196c7da3
+Author: Nathan Helms <helmsna@amdahl.cs.longwood.edu>
+Date:   Tue Oct 20 12:04:21 2020 -0400
+
+    I added some top tier code in bestcode.cpp
+
+commit caadf319c0ed01bf14ea7569b88070bea53db107
+Author: Nathan Helms <helmsna@amdahl.cs.longwood.edu>
+Date:   Tue Oct 20 11:53:52 2020 -0400
+
+    Rick Astley hates cardinal direction east. How mean
+
+commit e14980b8f89bc3a1d12bda00f8d67f29ca01bec5
+Author: Nathan Helms <helmsna@amdahl.cs.longwood.edu>
+Date:   Tue Oct 20 11:42:03 2020 -0400
+
+    Rick Astley wanted to help with fixing the road.
+
+commit d8e748f76a4d3062cc6c17553889af4dee9bf18a
+Author: Nathan Helms <helmsna@amdahl.cs.longwood.edu>
+Date:   Tue Oct 20 11:36:52 2020 -0400
+
+    source is a fixed boi now
+
+commit 730a72d320a94f3b138626f5e8417b0574ece5ea
+Author: Nathan Helms <helmsna@amdahl.cs.longwood.edu>
+Date:   Tue Oct 20 11:23:25 2020 -0400
+
+    fixed syntax bug in source.cpp
+
+commit 3ccecb328ef0feca7cc9d1157d930e463f365d0e
+Author: Nathan Helms <helmsna@amdahl.cs.longwood.edu>
+Date:   Tue Oct 20 11:15:56 2020 -0400
+
+    Documented my Participation
+
+commit 9613c88bcbc98f9413a28886aaed8fb1ce7102c2
+Author: Dr. Robert Marmorstein <marmorsteinrm@longwood.edu>
+Date:   Sun Oct 9 17:32:21 2016 -0400
+
+    Fix initialization bug
+
+commit 055a725f406d1a80c2822c822c1c062c73178273
+Author: Dr. Robert Marmorstein <marmorsteinrm@longwood.edu>
+Date:   Wed Jan 23 06:15:53 2013 -0500
+
+    Reduce source rate
+    
+    We were generating way too much traffic.  Let's try a smaller value (10%).
+
+commit aba86d5a7256547d21b4b1515e8bd4fac87e8f81
+Author: Dr. Robert Marmorstein <marmorsteinrm@longwood.edu>
+Date:   Wed Jan 23 06:15:29 2013 -0500
+
+    More traffic light tweaking.
+
+commit a3c281a0c5f97ecbf4c901f3456d27d77fc0d6f9
+Author: Dr. Robert Marmorstein <marmorsteinrm@longwood.edu>
+Date:   Wed Jan 23 06:11:55 2013 -0500
+
+    Try to fix traffic lights.
+    
+    We want a car already in an intersection to clear it, but a car not in the
+    intersection to stop on yellow.
+
+commit 7330ad343a2b588f59b76c55c93605b6ec9041ff
+Author: Dr. Robert Marmorstein <marmorsteinrm@longwood.edu>
+Date:   Wed Jan 23 06:10:08 2013 -0500
+
+    Fix overlapping car problem.
+    
+    Make sure that cars can't run over each other.
+
+commit fa7ed10479032c0dc1b8a81af965623b93c43167
+Author: Dr. Robert Marmorstein <robert@narnia.homeunix.com>
+Date:   Wed Jan 23 06:00:47 2013 -0500
+
+    Fix Makefile so it cleans binary executable too.
+    
+    It was deleting .o files, but not the executable.  Ugly.
+
+commit ac346e8b34544b6804a008b7d2421c7067039390
+Author: Dr. Robert Marmorstein <robert@narnia.homeunix.com>
+Date:   Wed Jan 23 06:00:17 2013 -0500
+
+    Add test case
+
+commit 0a4983ab08bff99cd8e9a2ac142e45041bc2db40
+Author: Dr. Robert Marmorstein <robert@narnia.homeunix.com>
+Date:   Wed Jan 23 06:00:08 2013 -0500
+
+    Add Makefile
+
+commit 6ab1b35d2e9282c3cfb060814855e4daabb300a8
+Author: Dr. Robert Marmorstein <robert@narnia.homeunix.com>
+Date:   Wed Jan 23 05:59:50 2013 -0500
+
+    Initial Commit

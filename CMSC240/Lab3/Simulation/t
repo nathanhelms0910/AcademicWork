@@ -1,0 +1,62 @@
+[33mcommit 9613c88bcbc98f9413a28886aaed8fb1ce7102c2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Dr. Robert Marmorstein <marmorsteinrm@longwood.edu>
+Date:   Sun Oct 9 17:32:21 2016 -0400
+
+    Fix initialization bug
+
+[33mcommit 055a725f406d1a80c2822c822c1c062c73178273[m[33m ([m[1;31morigin/bugfix[m[33m)[m
+Author: Dr. Robert Marmorstein <marmorsteinrm@longwood.edu>
+Date:   Wed Jan 23 06:15:53 2013 -0500
+
+    Reduce source rate
+    
+    We were generating way too much traffic.  Let's try a smaller value (10%).
+
+[33mcommit aba86d5a7256547d21b4b1515e8bd4fac87e8f81[m
+Author: Dr. Robert Marmorstein <marmorsteinrm@longwood.edu>
+Date:   Wed Jan 23 06:15:29 2013 -0500
+
+    More traffic light tweaking.
+
+[33mcommit a3c281a0c5f97ecbf4c901f3456d27d77fc0d6f9[m
+Author: Dr. Robert Marmorstein <marmorsteinrm@longwood.edu>
+Date:   Wed Jan 23 06:11:55 2013 -0500
+
+    Try to fix traffic lights.
+    
+    We want a car already in an intersection to clear it, but a car not in the
+    intersection to stop on yellow.
+
+[33mcommit 7330ad343a2b588f59b76c55c93605b6ec9041ff[m
+Author: Dr. Robert Marmorstein <marmorsteinrm@longwood.edu>
+Date:   Wed Jan 23 06:10:08 2013 -0500
+
+    Fix overlapping car problem.
+    
+    Make sure that cars can't run over each other.
+
+[33mcommit fa7ed10479032c0dc1b8a81af965623b93c43167[m
+Author: Dr. Robert Marmorstein <robert@narnia.homeunix.com>
+Date:   Wed Jan 23 06:00:47 2013 -0500
+
+    Fix Makefile so it cleans binary executable too.
+    
+    It was deleting .o files, but not the executable.  Ugly.
+
+[33mcommit ac346e8b34544b6804a008b7d2421c7067039390[m
+Author: Dr. Robert Marmorstein <robert@narnia.homeunix.com>
+Date:   Wed Jan 23 06:00:17 2013 -0500
+
+    Add test case
+
+[33mcommit 0a4983ab08bff99cd8e9a2ac142e45041bc2db40[m
+Author: Dr. Robert Marmorstein <robert@narnia.homeunix.com>
+Date:   Wed Jan 23 06:00:08 2013 -0500
+
+    Add Makefile
+
+[33mcommit 6ab1b35d2e9282c3cfb060814855e4daabb300a8[m
+Author: Dr. Robert Marmorstein <robert@narnia.homeunix.com>
+Date:   Wed Jan 23 05:59:50 2013 -0500
+
+    Initial Commit

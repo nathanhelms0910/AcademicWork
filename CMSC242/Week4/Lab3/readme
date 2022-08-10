@@ -1,0 +1,80 @@
+Nathan Helms
+2/5/21
+CMSC242 - Lab 3
+
+Overview:
+
+This program reads in a test file of integers, and both attempts to create a new output file of the integers doubled, as well as reads in integer inputs from the user, and doubles them after a short delay
+
+On the file interaction side, if the file contains a negative number, the file interaction will interrupt the user interaction and error out the program. If the file contains a 0, the file interaction side ends normally, and waits for the user interaction side to finish.
+
+On the user interaction side, if the user inputs a negative number, the program will error out and send a kill signal to the file interaction, if it is still parsing. If the user inputs a 0, the user interaction ends normally, and waits for the file interaction side to finish if needed.
+
+If both sides return normally, the program ends normally
+
+If one side runs into a negative number, both sides terminate and the respective side will send an error message
+
+To run the program:
+
+type:
+
+gcc fileio.c 
+
+and press enter
+
+then type
+
+./a.out testfile
+OR
+./a.out testfile2
+OR
+./a.out testfile3
+OR
+./a.out testfile4
+OR
+./a.out testfile5
+
+Details on what each testfile is meant to test detailed below
+
+After running the program and it terminates, you can view the .out file contents by typing
+
+cat <testfile chosen>.out
+
+ex: cat testfile3.out
+
+
+
+Test Cases and Examples
+
+testfile:
+
+This file contains a list of integers, terminated successfully with a 0.
+
+This test is to show that both processes can end successfully. As the user, enter in some positive integers, and then type 0 when you are done
+
+The program will respond to you saying that both interactions ended successfully
+
+
+testfile2:
+
+This file contains a list of integers, however it contains a negative number in the middle.
+
+This test is to show that when the file process encounters the negative number, it terminates both processes with an error, printing error into the .out
+file and responds to the user in the prompt telling them about the file interaction error.
+
+
+testfile3:
+
+This file contains a list of integers, terminated successfully with a 0.
+
+This test is to show that if the user inputs a negative integer, the program will terminate both processes and sends and error character string into the .out file and responds to the user in the prompt telling them about the user interaction error
+
+
+testfile4:
+
+This is another test similar in nature to testfile2
+
+
+testfile5:
+
+this is another test that can mimic testfile or testfile3 depending on the user interaction.

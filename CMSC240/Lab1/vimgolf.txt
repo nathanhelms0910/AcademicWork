@@ -1,0 +1,8 @@
+A : % s / recognize / identify / g
+B ESC Shift-G d d 
+C /' ENTER x
+D { } i SPACE SPACE Thank you.
+E /narcotic y i w / SPACE consumer p 
+F d G
+G : % s / who / that / g 
+H y } { } 2 o ESC p
