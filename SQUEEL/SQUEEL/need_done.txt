@@ -1,0 +1,8 @@
+When submitting same book, ++totalcount
+When withdrawing a book, --count
+When returning a book, ++count
+Use proper input information
+
+We need to output the correct information within message boxes (update, submit, etc.)
+Primary search will sometimes teleport to the end after we open loans?
+Sometimes table views will start at the end of the table data base?
