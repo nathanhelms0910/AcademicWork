@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<title>Ingredients List</title>
+		<meta charset=utf-8>
+	</head>
+	<body>
+		
+		<table border = 1>
+			<thead>
+				<td>Recipe ID</td>
+				<td>Ingredient ID</td>
+				<td>Ingredient Type</td>
+				<td>Ingredient Name</td>
+				<td>Amount</td>
+			</thead>
+
+			
+				<tr>
+					<td>1</td>
+					<td>1</td>
+					<td>integral</td>
+					<td>Butter, softened</td>
+					<td>1 cup</td>
+				</tr>
+			
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>integral</td>
+					<td>White Sugar</td>
+					<td>1 cup</td>
+				</tr>
+			
+				<tr>
+					<td>1</td>
+					<td>3</td>
+					<td>integral</td>
+					<td>Packed Brown Sugar</td>
+					<td>1 cup</td>
+				</tr>
+			
+				<tr>
+					<td>1</td>
+					<td>4</td>
+					<td>integral</td>
+					<td>Eggs</td>
+					<td>2</td>
+				</tr>
+			
+				<tr>
+					<td>1</td>
+					<td>5</td>
+					<td>integral</td>
+					<td>Vanilla Extract</td>
+					<td>2 teaspoons</td>
+				</tr>
+			
+				<tr>
+					<td>1</td>
+					<td>6</td>
+					<td>integral</td>
+					<td>Baking Soda</td>
+					<td>1 teaspoon</td>
+				</tr>
+			
+				<tr>
+					<td>1</td>
+					<td>7</td>
+					<td>integral</td>
+					<td>Hot Water</td>
+					<td>2 teaspoons</td>
+				</tr>
+			
+				<tr>
+					<td>1</td>
+					<td>8</td>
+					<td>integral</td>
+					<td>Salt</td>
+					<td>1/2 teaspoon</td>
+				</tr>
+			
+				<tr>
+					<td>1</td>
+					<td>9</td>
+					<td>integral</td>
+					<td>All-Purpose Flour</td>
+					<td>3 cups</td>
+				</tr>
+			
+				<tr>
+					<td>1</td>
+					<td>10</td>
+					<td>integral</td>
+					<td>Semisweet Chocolate Chips</td>
+					<td>2 cups</td>
+				</tr>
+			
+				<tr>
+					<td>1</td>
+					<td>11</td>
+					<td>optional</td>
+					<td>Chopped Walnuts</td>
+					<td>1 cup</td>
+				</tr>
+			
+		</table>
+
+		<a href="/">Go back</a>
+
+	</body>
+</html>

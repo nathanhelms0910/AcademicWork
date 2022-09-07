@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Lunch Recipes{% endblock title %}
+{% block content %}
+		<h1>Select a Recipe</h1>
+		<table border = 1>
+			<thead>
+				<td>Recipe Name</td>
+			</thead>
+
+			{% for row in rows %}
+				<tr>
+					<td><a href="http://localhost:6003/{{row["recipeID"]}}">{{row["recipeName"]}}</a></td>
+				</tr>
+			{% endfor %}
+		</table>
+
+		<a href="/">Go back</a>
+{% endblock %}

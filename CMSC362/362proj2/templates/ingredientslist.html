@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Ingredients List{% endblock title %}
+{% block content %}
+		<table border = 1>
+			<thead>
+				<td>Recipe ID</td>
+				<td>Ingredient ID</td>
+				<td>Ingredient Type</td>
+				<td>Ingredient Name</td>
+				<td>Amount</td>
+			</thead>
+
+			{% for row in rows %}
+				<tr>
+					<td>{{row["recipeID"]}}</td>
+					<td>{{row["ingredientID"]}}</td>
+					<td>{{row["ingredientType"]}}</td>
+					<td>{{row["ingredientName"]}}</td>
+					<td>{{row["amount"]}}</td>
+				</tr>
+			{% endfor %}
+		</table>
+
+		<a href="/">Go back</a>
+{% endblock %}
+

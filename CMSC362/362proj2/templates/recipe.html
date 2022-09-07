@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}{{rows.0["recipeName"]}}{% endblock title %}
+{% block content %}
+		<h1>{{rows.0["recipeName"]}}</h1>
+		<h4>Overview: {{rows.0["recipeDesc"]}}</h4>
+		<h5>Prep Time: {{rows.0["prepTime"]}} minutes</h5>
+		<h5>Bake Time: {{rows.0["cookTime"]}} minutes</h5>
+		<br>
+		<table border = 1>
+			<thead>
+				<td>Ingredient Name</td>
+				<td>Amount</td>
+			</thead>
+
+			{% for row in ing %}
+				<tr>
+					<td>{{row["ingredientName"]}}</td>
+					<td>{{row["amount"]}}</td>
+				</tr>
+			{% endfor %}
+			
+		</table>
+		<br>
+		<table border = 1>
+			<thead>
+				<td>Equipment</td>
+			</thead>
+			{% for e in equip %}
+				<tr>
+					<td>{{e["equipmentName"]}}</td>
+				</tr>
+			{% endfor %}
+		</table>
+		<br>
+		<table border = 1>
+			<thead>
+				<td>Step Number</td>
+				<td>Procedure</td>
+			</thead>
+
+			{% for row in inst %}
+				<tr>
+					<td>{{row["stepNumber"]}}</td>
+					<td>{{row["stepProcedure"]}}</td>
+				</tr>
+			{% endfor %}
+
+		</table>
+{% endblock %}

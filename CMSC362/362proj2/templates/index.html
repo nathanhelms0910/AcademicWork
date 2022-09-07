@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Home Page{% endblock title %}
+{% block content %}
+		<h1>Recipe Database</h1>
+		<table border=1>
+			<thead>
+				<td>Select A Query</td>
+			</thead>
+			<tr>
+				<td><a href="http://localhost:6003/recipelist">List all Recipes</a></td>
+			</tr>
+			<tr>
+				<td><a href="http://localhost:6003/ingredientslist">Ingredients Used Throughout</a></td>
+			</tr>
+			<tr>
+				<td><a href="http://localhost:6003/breakfastrecipes">Sort by Breakfast Recipes</a></td>
+			</tr>
+			<tr>
+				<td><a href="http://localhost:6003/lunchrecipes">Sort by Lunch Recipes</a></td>
+			</tr>
+			<tr>
+				<td><a href="http://localhost:6003/dinnerrecipes">Sort by Dinner Recipes</a></td>
+			</tr>
+			<tr>
+				<td><a href="http://localhost:6003/snackrecipes">Sort by Snack Recipes</a><td>
+			</tr>
+			<tr>
+				<td><a href="http://localhost:6003/dessertrecipes">Sort by Dessert Recipes</a></td>
+			<tr>
+		</table>
+		<br>
+{% endblock %}

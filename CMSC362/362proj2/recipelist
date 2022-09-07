@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<title>Recipes Return</title>
+		<meta charset=utf-8>
+	</head>
+	<body>
+		<table border = 1>
+			<thead>
+				<td>Recipe ID</td>
+				<td>Recipe Name</td>
+			</thead>
+
+			
+				<tr>
+					<td>1</td>
+					<td>Chocolate Chip Cookies</td>
+				</tr>
+			
+				<tr>
+					<td>2</td>
+					<td>Scrambled Eggs</td>
+				</tr>
+			
+		</table>
+
+		<a href="/">Go back</a>
+
+	</body>
+</html>
