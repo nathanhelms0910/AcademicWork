@@ -1,0 +1,36 @@
+Starting Nmap 7.92 ( https://nmap.org ) at 2021-09-23 13:05 EDT
+Initiating Ping Scan at 13:05
+Scanning torvalds (192.168.50.1) [2 ports]
+Completed Ping Scan at 13:05, 0.00s elapsed (1 total hosts)
+Initiating Connect Scan at 13:05
+Scanning torvalds (192.168.50.1) [1000 ports]
+Discovered open port 111/tcp on 192.168.50.1
+Discovered open port 25/tcp on 192.168.50.1
+Discovered open port 80/tcp on 192.168.50.1
+Discovered open port 22/tcp on 192.168.50.1
+Discovered open port 443/tcp on 192.168.50.1
+Discovered open port 53/tcp on 192.168.50.1
+Discovered open port 3128/tcp on 192.168.50.1
+Discovered open port 5666/tcp on 192.168.50.1
+Discovered open port 79/tcp on 192.168.50.1
+Completed Connect Scan at 13:05, 1.20s elapsed (1000 total ports)
+Nmap scan report for torvalds (192.168.50.1)
+Host is up (0.00024s latency).
+rDNS record for 192.168.50.1: torvalds.cs.longwood.edu
+Not shown: 988 closed tcp ports (conn-refused)
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+25/tcp   open     smtp
+53/tcp   open     domain
+79/tcp   open     finger
+80/tcp   open     http
+111/tcp  open     rpcbind
+222/tcp  filtered rsh-spx
+443/tcp  open     https
+808/tcp  filtered ccproxy-http
+880/tcp  filtered unknown
+3128/tcp open     squid-http
+5666/tcp open     nrpe
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 1.25 seconds

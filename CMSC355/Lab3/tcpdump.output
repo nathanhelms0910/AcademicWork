@@ -1,0 +1,1231 @@
+01:14:24.892607 IP (tos 0x0, ttl 64, id 686, offset 0, flags [DF], proto TCP (6), length 60)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [S], cksum 0xf1ae (correct), seq 3358941432, win 5840, options [mss 1460,sackOK,TS val 10642006 ecr 0,nop,wscale 6], length 0
+E..<..@.@.0B..2.H....?.P.5`....................
+..bV........
+01:14:24.922282 IP (tos 0x0, ttl 53, id 52698, offset 0, flags [none], proto TCP (6), length 60)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [S.], cksum 0x1958 (correct), seq 197894958, ack 3358941433, win 5672, options [mss 1430,sackOK,TS val 3742386945 ecr 10642006,nop,wscale 6], length 0
+E..<....5...H.....2..P.?.....5`....(.X.........
+..K...bV....
+01:14:24.922369 IP (tos 0x0, ttl 64, id 687, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x5dc8 (correct), seq 1, ack 1, win 92, options [nop,nop,TS val 10642015 ecr 3742386945], length 0
+E..4..@.@.0I..2.H....?.P.5`..../...\]......
+..b_..K.
+01:14:24.922745 IP (tos 0x0, ttl 64, id 688, offset 0, flags [DF], proto TCP (6), length 648)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [P.], cksum 0xffd5 (correct), seq 1:597, ack 1, win 92, options [nop,nop,TS val 10642015 ecr 3742386945], length 596: HTTP, length: 596
+	GET / HTTP/1.1
+	Host: www.google.com
+	User-Agent: Links (2.2; Linux 2.6.35-ARCH i686; 182x46)
+	Accept: */*
+	Accept-Encoding: gzip, deflate, bzip2
+	Accept-Charset: us-ascii, ISO-8859-1, ISO-8859-2, ISO-8859-3, ISO-8859-4, ISO-8859-5, ISO-8859-6, ISO-8859-7, ISO-8859-8, ISO-8859-9, ISO-8859-10, ISO-8859-13, ISO-8859-14, ISO-8859-15, ISO-8859-16, windows-1250, windows-1251, windows-1252, windows-1256, windows-1257, cp437, cp737, cp850, cp852, cp866, x-cp866-u, x-mac, x-mac-ce, x-kam-cs, koi8-r, koi8-u, koi8-ru, TCVN-5712, VISCII, utf-8
+	Accept-Language: en, *;q=0.1
+	Connection: Keep-Alive
+	
+E.....@.@.-...2.H....?.P.5`..../...\.......
+..b_..K.GET / HTTP/1.1
+Host: www.google.com
+User-Agent: Links (2.2; Linux 2.6.35-ARCH i686; 182x46)
+Accept: */*
+Accept-Encoding: gzip, deflate, bzip2
+Accept-Charset: us-ascii, ISO-8859-1, ISO-8859-2, ISO-8859-3, ISO-8859-4, ISO-8859-5, ISO-8859-6, ISO-8859-7, ISO-8859-8, ISO-8859-9, ISO-8859-10, ISO-8859-13, ISO-8859-14, ISO-8859-15, ISO-8859-16, windows-1250, windows-1251, windows-1252, windows-1256, windows-1257, cp437, cp737, cp850, cp852, cp866, x-cp866-u, x-mac, x-mac-ce, x-kam-cs, koi8-r, koi8-u, koi8-ru, TCVN-5712, VISCII, utf-8
+Accept-Language: en, *;q=0.1
+Connection: Keep-Alive
+
+
+01:14:24.952472 IP (tos 0x0, ttl 53, id 52699, offset 0, flags [none], proto TCP (6), length 52)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x5b45 (correct), seq 1, ack 597, win 108, options [nop,nop,TS val 3742386976 ecr 10642015], length 0
+E..4....5...H.....2..P.?.../.5cM...l[E.....
+..K ..b_
+01:14:24.961583 IP (tos 0x0, ttl 53, id 52700, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x500d (correct), seq 1:1419, ack 597, win 108, options [nop,nop,TS val 3742386984 ecr 10642015], length 1418: HTTP, length: 1418
+	HTTP/1.1 200 OK
+	Date: Fri, 24 Sep 2010 05:14:24 GMT
+	Expires: -1
+	Cache-Control: private, max-age=0
+	Content-Type: text/html; charset=ISO-8859-1
+	Set-Cookie: PREF=ID=50e72731cac86475:TM=1285305264:LM=1285305264:S=j5NRpwgE6z5mYnSR; expires=Sun, 23-Sep-2012 05:14:24 GMT; path=/; domain=.google.com
+	Set-Cookie: NID=39=J5euuaDCqepc3b5iuCFNeicN2464zfNESqFHhJrK_nrdyYN6D53J5tFDdhyAkKiVKn8QbVvoAoVLr8RbSg71T4rxN28wxMhKxgLsS3sAk3SKRQA-jbS8YxYOYi3HO4zG; expires=Sat, 26-Mar-2011 05:14:24 GMT; path=/; domain=.google.com; HttpOnly
+	Server: gws
+	X-XSS-Protection: 1; mode=block
+	Transfer-Encoding: chunked
+	
+	3b0
+	<!doctype html><html><head><meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"><title>Google</title><script>window.google={kEI:"sDOcTMS5OaGMeLS8_PcM",kEXPI:"25941,26578,26751,26758",kCSI:{e:"25941,26578,26751,26758",ei:"sDOcTMS5OaGMeLS8_PcM",expi:"25941,26578,26751,26758"},ml:function(){},kHL:"en",time:function(){return(new Date).getTime()},log:function(b,d,c){var a=new Image,e=google,g=e.lc,f=e.li;a.onerror=(a.onload=(a.onabort=function(){delete g[f]}));g[f]=a;c=c||"/gen_204?atyp=i&ct="+b+"&cad="+d+"&zx="+google.time();a.src=c;e.li=f+1},lc:[],li:0,Toolbelt:{}};
+	window.google.sn="webhp";window.google.timers={load:{t:{start:(new Date).getTime()}}};try{}catch(u){}window.google.jsrt_kill=1;
+	var _gjwl=location;function _gjuc(){var e=_gjwl.href.indexOf("#");if(e>=0){var a=_gjwl.href.sub[!http]
+E.......5...H.....2..P.?.../.5cM...lP......
+..K(..b_HTTP/1.1 200 OK
+Date: Fri, 24 Sep 2010 05:14:24 GMT
+Expires: -1
+Cache-Control: private, max-age=0
+Content-Type: text/html; charset=ISO-8859-1
+Set-Cookie: PREF=ID=50e72731cac86475:TM=1285305264:LM=1285305264:S=j5NRpwgE6z5mYnSR; expires=Sun, 23-Sep-2012 05:14:24 GMT; path=/; domain=.google.com
+Set-Cookie: NID=39=J5euuaDCqepc3b5iuCFNeicN2464zfNESqFHhJrK_nrdyYN6D53J5tFDdhyAkKiVKn8QbVvoAoVLr8RbSg71T4rxN28wxMhKxgLsS3sAk3SKRQA-jbS8YxYOYi3HO4zG; expires=Sat, 26-Mar-2011 05:14:24 GMT; path=/; domain=.google.com; HttpOnly
+Server: gws
+X-XSS-Protection: 1; mode=block
+Transfer-Encoding: chunked
+
+3b0
+<!doctype html><html><head><meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"><title>Google</title><script>window.google={kEI:"sDOcTMS5OaGMeLS8_PcM",kEXPI:"25941,26578,26751,26758",kCSI:{e:"25941,26578,26751,26758",ei:"sDOcTMS5OaGMeLS8_PcM",expi:"25941,26578,26751,26758"},ml:function(){},kHL:"en",time:function(){return(new Date).getTime()},log:function(b,d,c){var a=new Image,e=google,g=e.lc,f=e.li;a.onerror=(a.onload=(a.onabort=function(){delete g[f]}));g[f]=a;c=c||"/gen_204?atyp=i&ct="+b+"&cad="+d+"&zx="+google.time();a.src=c;e.li=f+1},lc:[],li:0,Toolbelt:{}};
+window.google.sn="webhp";window.google.timers={load:{t:{start:(new Date).getTime()}}};try{}catch(u){}window.google.jsrt_kill=1;
+var _gjwl=location;function _gjuc(){var e=_gjwl.href.indexOf("#");if(e>=0){var a=_gjwl.href.sub
+01:14:24.961597 IP (tos 0x0, ttl 64, id 689, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x558b (correct), seq 597, ack 1419, win 137, options [nop,nop,TS val 10642026 ecr 3742386984], length 0
+E..4..@.@.0G..2.H....?.P.5cM........U......
+..bj..K(
+01:14:24.961604 IP (tos 0x0, ttl 53, id 52701, offset 0, flags [none], proto TCP (6), length 186)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [P.], cksum 0x7c10 (correct), seq 1419:1553, ack 597, win 108, options [nop,nop,TS val 3742386984 ecr 10642015], length 134: HTTP
+E.......5...H.....2..P.?.....5cM...l|......
+..K(..b_string(e);if(a.indexOf("&q=")>0||a.indexOf("#q=")>=0){a=a.substring(1);if(a.indexOf("#")==-1){for(var c=0;c<a.length;){var d=c;if(a.
+
+01:14:24.961610 IP (tos 0x0, ttl 64, id 690, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x54d9 (correct), seq 597, ack 1553, win 181, options [nop,nop,TS val 10642026 ecr 3742386984], length 0
+E..4..@.@.0F..2.H....?.P.5cM...?....T......
+..bj..K(
+01:14:24.961832 IP (tos 0x0, ttl 53, id 52702, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x0914 (correct), seq 1553:2971, ack 597, win 108, options [nop,nop,TS val 3742386984 ecr 10642015], length 1418: HTTP
+E.......5...H.....2..P.?...?.5cM...l	......
+..K(..b_1000
+charAt(d)=="&")++d;var b=a.indexOf("&",d);if(b==-1)b=a.length;var f=a.substring(d,b);if(f.indexOf("fp=")==0){a=a.substring(0,c)+a.substring(b,a.length);b=c}else if(f=="cad=h")return 0;c=b}_gjwl.href="/search?"+a+"&cad=h";return 1}}}return 0}function _gjp(){!(window._gjwl.hash&&
+window._gjuc())&&setTimeout(_gjp,500)};
+window._gjp && _gjp()</script><style id=gstyle>body{margin:0}#gog{padding:3px 8px 0}td{line-height:.8em}.gac_m td{line-height:17px}form{margin-bottom:20px}body,td,a,p,.h{font-family:arial,sans-serif}.h{color:#36c;font-size:20px}.q{color:#00c}.ts td{padding:0}.ts{border-collapse:collapse}em{font-weight:bold;font-style:normal}.lst{width:496px}.tiah{width:458px}input{font-family:inherit}a.gb1,a.gb2,a.gb3,a.gb4{color:#11c !important}#gbar,#guser{font-size:13px;padding-top:1px !important}#gbar{height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{color:#00c !important}body{background:#fff;color:black}input{-moz-box-sizing:content-box}a{color:#11c;text-decoration:none}a:hover,a:active{text-decoration:underline}.fl a{color:#4272db}a:visited{color:#551a8b}a.gb1,a.gb4{text-decoration:underline}a.gb3:hover{text-decoration:none}#ghead a.gb2:hover{color:#fff!important}.ds{display:
+01:14:24.961849 IP (tos 0x0, ttl 64, id 691, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x4f20 (correct), seq 597, ack 2971, win 227, options [nop,nop,TS val 10642027 ecr 3742386984], length 0
+E..4..@.@.0E..2.H....?.P.5cM........O .....
+..bk..K(
+01:14:24.961952 IP (tos 0x0, ttl 53, id 52703, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x8104 (correct), seq 2971:4389, ack 597, win 108, options [nop,nop,TS val 3742386984 ecr 10642015], length 1418: HTTP
+E.......5...H.....2..P.?.....5cM...l.......
+..K(..b_-moz-inline-box}.ds{border-bottom:solid 1px #e7e7e7;border-right:solid 1px #e7e7e7;display:inline-block;margin:3px 0 4px;margin-left:4px}.sblc{padding-top:5px}.sblc a{display:block;margin:2px 0;margin-left:13px;font-size:11px;}.lsbb{background:#eee;border:solid 1px;border-color:#ccc #999 #999 #ccc;height:30px;display:block}.lsb{background:url(/images/srpr/nav_logo14.png) bottom;font:15px arial,sans-serif;border:none;color:#000;cursor:pointer;height:30px;margin:0;outline:0;vertical-align:top}.lsb:active{background:#ccc}.lst:focus{outline:none}.ftl,#fll a{margin:0 12px}#addlang a{padding:0 3px}.gac_v div{display:none}.gac_v .gac_v2,.gac_bt{display:block!important}</style><script>google.y={};google.x=function(e,g){google.y[e.id]=[e,g];return false};</script></head><body bgcolor=#ffffff text=#000000 link=#0000cc vlink=#551a8b alink=#ff0000 onload="document.f.q.focus();if(document.images)new Image().src='/images/srpr/nav_logo14.png'" ><textarea id=csi style=display:none></textarea><iframe name=wgjf style=display:none></iframe><div id=ghead><div id=gbar><nobr><b class=gb1>Web</b> <a onclick=gbar.qs(this) href="http://www.google.com/imghp?hl=en&tab=wi" class=gb1>Images</a> <a onclick=gbar.qs(this) href="http://video.google.com/?hl=en&tab=wv" class=gb1>Videos</a> <a onclick=gbar.qs(this) href="http://maps.google.com/maps?hl=en&tab=wl" class=gb1>Maps</a> <a onclick=gbar.qs(this) href="http://news.google.
+01:14:24.961964 IP (tos 0x0, ttl 64, id 692, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x4969 (correct), seq 597, ack 4389, win 272, options [nop,nop,TS val 10642027 ecr 3742386984], length 0
+E..4..@.@.0D..2.H....?.P.5cM...S....Ii.....
+..bk..K(
+01:14:24.962064 IP (tos 0x0, ttl 53, id 52704, offset 0, flags [none], proto TCP (6), length 1320)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [P.], cksum 0x82ac (correct), seq 4389:5657, ack 597, win 108, options [nop,nop,TS val 3742386984 ecr 10642015], length 1268: HTTP
+E..(....5..#H.....2..P.?...S.5cM...l.......
+..K(..b_com/nwshp?hl=en&tab=wn" class=gb1>News</a> <a onclick=gbar.qs(this) href="http://www.google.com/prdhp?hl=en&tab=wf" class=gb1>Shopping</a> <a href="http://mail.google.com/mail/?hl=en&tab=wm" class=gb1>Gmail</a> <a href="http://www.google.com/intl/en/options/" class=gb1 style="text-decoration:none"><u>more</u> &raquo;</a></nobr></div><div id=guser width=100%><nobr><span id=gbn class=gbi></span><span id=gbf class=gbf></span><span id=gbe><a href="/url?sa=p&pref=ig&pval=3&q=http://www.google.com/ig%3Fhl%3Den%26source%3Diglk&usg=AFQjCNFA18XPfgb7dKnXfKz7x7g1GDH1tg" class=gb4>iGoogle</a> | </span><a href="/preferences?hl=en" class=gb4>Settings</a> | <a href="https://www.google.com/accounts/Login?hl=en&continue=http://www.google.com/" class=gb4>Sign in</a></nobr></div><div class=gbh style=left:0></div><div class=gbh style=right:0></div></div> <center><br clear=all id=lgpd><div id=lga><img alt="Google" height=95 src="/intl/en_ALL/images/srpr/logo1w.png" width=275 id=logo style="padding:28px 0 14px" onload="window.lol&&lol()"><br><br></div><form action="/search" name=f><table cellpadding=0 cellspacing=0><tr valign=top><td width=25%>&nbsp;</td><td align=center nowrap><input name=hl type=hidden value=en><input name=source type=hidden value=hp><input type=hid
+
+01:14:24.962085 IP (tos 0x0, ttl 64, id 693, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x4449 (correct), seq 597, ack 5657, win 316, options [nop,nop,TS val 10642027 ecr 3742386984], length 0
+E..4..@.@.0C..2.H....?.P.5cM...G...<DI.....
+..bk..K(
+01:14:24.992078 IP (tos 0x0, ttl 53, id 52705, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x9b16 (correct), seq 5657:7075, ack 597, win 108, options [nop,nop,TS val 3742387015 ecr 10642027], length 1418: HTTP
+E.......5...H.....2..P.?...G.5cM...l.......
+..KG..bkd43
+den name=ie value="ISO-8859-1"><div class=ds style="height:32px;margin:4px 0"><input autocomplete="off" maxlength=2048 name=q class="lst" title="Google Search" value="" size=57 style="background:#fff;border:1px solid #ccc;border-bottom-color:#999;border-right-color:#999;color:#000;font:18px arial,sans-serif bold;height:25px;margin:0;padding:5px 8px 0 6px;vertical-align:top"></div><br style="line-height:0"><span class=ds ><span class=lsbb><input name=btnG type=submit value="Google Search" class=lsb></span></span><span class=ds><span class=lsbb><input name=btnI type=submit value="I&#39;m Feeling Lucky" class=lsb></span></span></td><td nowrap width=25% align=left class=sblc><a href="/advanced_search?hl=en">Advanced Search</a><a href="/language_tools?hl=en">Language Tools</a></td></tr></table></form><div style="font-size:83%;min-height:3.5em"><br></div><div id=res></div><span id=footer><center id=fctr><div style="font-size:10pt"><div id=fll style="margin:19px auto 19px auto;text-align:center"><a href="/intl/en/ads/">Advertising&nbsp;Programs</a><a href="/services/">Business Solutions</a><a href="/intl/en/about.html">About Google</a></div></div><p style="color:#767676;font-size:8pt">&copy; 2010 - <a href="/intl/en/privacy.html">Privacy</a></p></center></span> <div id=xjsd></div><div id=xjsi><script>if(google.y)google.y.first=[];if(google.y)google.y.first=[];google.dstr=[];google.rein=[];window.s
+01:14:24.992143 IP (tos 0x0, ttl 64, id 694, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x3e6a (correct), seq 597, ack 7075, win 361, options [nop,nop,TS val 10642036 ecr 3742387015], length 0
+E..4..@.@.0B..2.H....?.P.5cM.......i>j.....
+..bt..KG
+01:14:24.992315 IP (tos 0x0, ttl 53, id 52706, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0xb3c8 (correct), seq 7075:8493, ack 597, win 108, options [nop,nop,TS val 3742387015 ecr 10642027], length 1418: HTTP
+E.......5...H.....2..P.?.....5cM...l.......
+..KG..bketTimeout(function(){var a=document.createElement("script");a.src="/extern_js/f/CgJlbhICdXMgACswRTgBLCswWjgALCswDjgALCswFzgALCswJzgALCswPDgALCswCjhzQC8sKzAWOAAsKzAlOM-IASwrMEA4ACwrMEE4ACwrMFQ4ACwrMBg4ACwrMCY4ACyAAheQAh0/WUUiqREv-Nk.js";(document.getElementById("xjsd")||document.body).appendChild(a);if(google.timers&&google.timers.load.t)google.timers.load.t.xjsls=(new Date).getTime();},0);
+google.neegg=1;google.y.first.push(function(){var form=document.f||document.f||document.gs;google.ac.i(form,form.q,'','','',{o:1,sw:1,l:1,r:0});google.mc = [[14,{}],[84,{}],[22,{"m_error":"\u003Cfont color=red\u003EError:\u003C/font\u003E The server could not complete your request.  Try again in 30 seconds.","m_tip":"Click for more information"}],[64,{}]];google.med('init');google.History&&google.History.initialize('/')});if(google.j&&google.j.en&&google.j.xi){window.setTimeout(google.j.xi,0);google.fade=null;}</script></div><script>(function(){
+var b,d,e,f;function g(a,c){if(a.removeEventListener){a.removeEventListener("load",c,false);a.removeEventListener("error",c,false)}else{a.detachEvent("onload",c);a.detachEvent("onerror",c)}}function h(a){f=(new Date).getTime();++d;a=a||window.event;var c=a.target||a.srcElement;g(c,h)}var i=document.getElementsByTagName("img");b=i.length;d=0;for(var j=0,k;j<b;++j){k=i[j];if(k.complete||typeof k.src!="string"||!k.src)++d;else if(k.addEventListener){k.addEventListener("lo
+01:14:24.992330 IP (tos 0x0, ttl 64, id 695, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x38b2 (correct), seq 597, ack 8493, win 407, options [nop,nop,TS val 10642036 ecr 3742387015], length 0
+E..4..@.@.0A..2.H....?.P.5cM...[....8......
+..bt..KG
+01:14:24.992368 IP (tos 0x0, ttl 53, id 52707, offset 0, flags [none], proto TCP (6), length 623)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [P.], cksum 0x201c (correct), seq 8493:9064, ack 597, win 108, options [nop,nop,TS val 3742387015 ecr 10642027], length 571: HTTP
+E..o....5...H.....2..P.?...[.5cM...l ......
+..KG..bkad",h,false);k.addEventListener("error",
+h,false)}else{k.attachEvent("onload",h);k.attachEvent("onerror",h)}}e=b-d;function l(){if(!google.timers.load.t)return;google.timers.load.t.ol=(new Date).getTime();google.timers.load.t.iml=f;google.kCSI.imc=d;google.kCSI.imn=b;google.kCSI.imp=e;google.timers.load.t.xjs&&google.report&&google.report(google.timers.load,google.kCSI)}if(window.addEventListener)window.addEventListener("load",l,false);else if(window.attachEvent)window.attachEvent("onload",l);google.timers.load.t.prt=(f=(new Date).getTime());
+})();
+</script>
+0
+
+
+01:14:24.992381 IP (tos 0x0, ttl 64, id 696, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x364b (correct), seq 597, ack 9064, win 451, options [nop,nop,TS val 10642036 ecr 3742387015], length 0
+E..4..@.@.0@..2.H....?.P.5cM........6K.....
+..bt..KG
+01:14:29.435329 IP (tos 0x0, ttl 64, id 697, offset 0, flags [DF], proto TCP (6), length 930)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [P.], cksum 0x54c7 (correct), seq 597:1475, ack 9064, win 451, options [nop,nop,TS val 10643369 ecr 3742387015], length 878: HTTP, length: 878
+	GET /search?hl=en&source=hp&ie=ISO-8859-1&q=pandas&btnG=Google+Search HTTP/1.1
+	Host: www.google.com
+	User-Agent: Links (2.2; Linux 2.6.35-ARCH i686; 182x46)
+	Accept: */*
+	Accept-Encoding: gzip, deflate, bzip2
+	Accept-Charset: us-ascii, ISO-8859-1, ISO-8859-2, ISO-8859-3, ISO-8859-4, ISO-8859-5, ISO-8859-6, ISO-8859-7, ISO-8859-8, ISO-8859-9, ISO-8859-10, ISO-8859-13, ISO-8859-14, ISO-8859-15, ISO-8859-16, windows-1250, windows-1251, windows-1252, windows-1256, windows-1257, cp437, cp737, cp850, cp852, cp866, x-cp866-u, x-mac, x-mac-ce, x-kam-cs, koi8-r, koi8-u, koi8-ru, TCVN-5712, VISCII, utf-8
+	Accept-Language: en, *;q=0.1
+	Connection: Keep-Alive
+	Cookie: NID=39=J5euuaDCqepc3b5iuCFNeicN2464zfNESqFHhJrK_nrdyYN6D53J5tFDdhyAkKiVKn8QbVvoAoVLr8RbSg71T4rxN28wxMhKxgLsS3sAk3SKRQA-jbS8YxYOYi3HO4zG; PREF=ID=50e72731cac86475:TM=1285305264:LM=1285305264:S=j5NRpwgE6z5mYnSR
+	
+E.....@.@.,...2.H....?.P.5cM........T......
+..g...KGGET /search?hl=en&source=hp&ie=ISO-8859-1&q=pandas&btnG=Google+Search HTTP/1.1
+Host: www.google.com
+User-Agent: Links (2.2; Linux 2.6.35-ARCH i686; 182x46)
+Accept: */*
+Accept-Encoding: gzip, deflate, bzip2
+Accept-Charset: us-ascii, ISO-8859-1, ISO-8859-2, ISO-8859-3, ISO-8859-4, ISO-8859-5, ISO-8859-6, ISO-8859-7, ISO-8859-8, ISO-8859-9, ISO-8859-10, ISO-8859-13, ISO-8859-14, ISO-8859-15, ISO-8859-16, windows-1250, windows-1251, windows-1252, windows-1256, windows-1257, cp437, cp737, cp850, cp852, cp866, x-cp866-u, x-mac, x-mac-ce, x-kam-cs, koi8-r, koi8-u, koi8-ru, TCVN-5712, VISCII, utf-8
+Accept-Language: en, *;q=0.1
+Connection: Keep-Alive
+Cookie: NID=39=J5euuaDCqepc3b5iuCFNeicN2464zfNESqFHhJrK_nrdyYN6D53J5tFDdhyAkKiVKn8QbVvoAoVLr8RbSg71T4rxN28wxMhKxgLsS3sAk3SKRQA-jbS8YxYOYi3HO4zG; PREF=ID=50e72731cac86475:TM=1285305264:LM=1285305264:S=j5NRpwgE6z5mYnSR
+
+
+01:14:29.484177 IP (tos 0x0, ttl 53, id 52708, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0xa291 (correct), seq 9064:10482, ack 1475, win 135, options [nop,nop,TS val 3742391507 ecr 10643369], length 1418: HTTP, length: 1418
+	HTTP/1.1 200 OK
+	Cache-Control: private, max-age=0
+	Date: Fri, 24 Sep 2010 05:14:29 GMT
+	Expires: -1
+	Content-Type: text/html; charset=ISO-8859-1
+	Set-Cookie: PREF=ID=50e72731cac86475:U=37a93d16623010d9:TM=1285305264:LM=1285305269:S=WF39dVreUzPD3etO; expires=Sun, 23-Sep-2012 05:14:29 GMT; path=/; domain=.google.com
+	Server: gws
+	X-XSS-Protection: 1; mode=block
+	Transfer-Encoding: chunked
+	
+	1000
+	<!doctype html><head><title>pandas - Google Search</title><script>window.google={kEI:"tTOcTPj-G4KdlgfN86XZCQ",kEXPI:"17259,20782,25567,25941,26579,26654,26736,26751",kCSI:{e:"17259,20782,25567,25941,26579,26654,26736,26751",ei:"tTOcTPj-G4KdlgfN86XZCQ",expi:"17259,20782,25567,25941,26579,26654,26736,26751"},ml:function(){},kHL:"en",time:function(){return(new Date).getTime()},log:function(b,d,c){var a=new Image,e=google,g=e.lc,f=e.li;a.onerror=(a.onload=(a.onabort=function(){delete g[f]}));g[f]=a;c=c||"/gen_204?atyp=i&ct="+b+"&cad="+d+"&zx="+google.time();a.src=c;e.li=f+1},lc:[],li:0,Toolbelt:{}};
+	window.google.sn="web";window.google.timers={load:{t:{start:(new Date).getTime()}}};try{}catch(u){}window.google.jsrt_kill=1;
+	var _gjwl=location;function _gjuc(){var e=_gjwl.href.indexOf("#");if(e>=0){var a=_gjwl.href.substring(e);if(a.indexOf("&q=")>0||a.indexOf("#q=")>=0){a=a.substring(1);if(a.indexOf("#")==-1){for(var c=0;c<a.length;){var d=c;if(a.charAt(d)=="&")++d;var b=a.indexOf("&",d);if(b==-1)b=a.length;[!http]
+E.......5...H.....2..P.?.....5f............
+..\...g.HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Date: Fri, 24 Sep 2010 05:14:29 GMT
+Expires: -1
+Content-Type: text/html; charset=ISO-8859-1
+Set-Cookie: PREF=ID=50e72731cac86475:U=37a93d16623010d9:TM=1285305264:LM=1285305269:S=WF39dVreUzPD3etO; expires=Sun, 23-Sep-2012 05:14:29 GMT; path=/; domain=.google.com
+Server: gws
+X-XSS-Protection: 1; mode=block
+Transfer-Encoding: chunked
+
+1000
+<!doctype html><head><title>pandas - Google Search</title><script>window.google={kEI:"tTOcTPj-G4KdlgfN86XZCQ",kEXPI:"17259,20782,25567,25941,26579,26654,26736,26751",kCSI:{e:"17259,20782,25567,25941,26579,26654,26736,26751",ei:"tTOcTPj-G4KdlgfN86XZCQ",expi:"17259,20782,25567,25941,26579,26654,26736,26751"},ml:function(){},kHL:"en",time:function(){return(new Date).getTime()},log:function(b,d,c){var a=new Image,e=google,g=e.lc,f=e.li;a.onerror=(a.onload=(a.onabort=function(){delete g[f]}));g[f]=a;c=c||"/gen_204?atyp=i&ct="+b+"&cad="+d+"&zx="+google.time();a.src=c;e.li=f+1},lc:[],li:0,Toolbelt:{}};
+window.google.sn="web";window.google.timers={load:{t:{start:(new Date).getTime()}}};try{}catch(u){}window.google.jsrt_kill=1;
+var _gjwl=location;function _gjuc(){var e=_gjwl.href.indexOf("#");if(e>=0){var a=_gjwl.href.substring(e);if(a.indexOf("&q=")>0||a.indexOf("#q=")>=0){a=a.substring(1);if(a.indexOf("#")==-1){for(var c=0;c<a.length;){var d=c;if(a.charAt(d)=="&")++d;var b=a.indexOf("&",d);if(b==-1)b=a.length;
+01:14:29.484218 IP (tos 0x0, ttl 64, id 698, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x1657 (correct), seq 1475, ack 10482, win 496, options [nop,nop,TS val 10643383 ecr 3742391507], length 0
+E..4..@.@.0>..2.H....?.P.5f.... .....W.....
+..g...\.
+01:14:29.484295 IP (tos 0x0, ttl 53, id 52709, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x88df (correct), seq 10482:11900, ack 1475, win 135, options [nop,nop,TS val 3742391507 ecr 10643369], length 1418: HTTP
+E.......5...H.....2..P.?... .5f............
+..\...g.var f=a.substring(d,b);if(f.indexOf("fp=")==0){a=a.substring(0,c)+a.substring(b,a.length);b=c}else if(f=="cad=h")return 0;c=b}_gjwl.href="/search?"+a+"&cad=h";return 1}}}return 0}function _gjp(){!(window._gjwl.hash&&
+window._gjuc())&&setTimeout(_gjp,500)};
+window._gjp && _gjp()</script><style id=gstyle>body{color:#000;margin:3px 0}body,#leftnav,#tbd,#atd,#tsf,#hidden_modes,#hmp{background:#fff}#gbar,#guser{font-size:13px;padding-top:1px !important}#gbar{height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{color:#00c !important}a.gb1,a.gb2,a.gb3,.link{color:#11c!important}.ts{border-collapse:collapse}.ts td{padding:0}.ti,.bl,form,#res h3{display:inline}.ti{display:inline-table}#tads a.mblink,#tads a.mblink b,#rhs a.mblink,#rhs a.mblink b{color:#1111CC!important}a:link,.w,#prs a:visited,#prs a:active,.q:active,.q:visited{color:#11c}.mblink:visited,a:visited{color:#551a8b}.vst:link{color:#551a8b}.cur,.b{font-weight:bold}.j{width:42em;font-size:82%}.s{max-width:42em}.sl{font-size:82%}#gb{text-align:right;padding:1px 0 7px;margin:0}.hd{position:absolute;width:1px;height:1px;top:-1000em;overflow:hidden}.gl,.f,.m,.c h2,#mbEnd h2,#tads h2,.descbox{color:#767676}.a,cite,cite a:link,cite a:visite
+01:14:29.484311 IP (tos 0x0, ttl 64, id 699, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x10a0 (correct), seq 1475, ack 11900, win 541, options [nop,nop,TS val 10643383 ecr 3742391507], length 0
+E..4..@.@.0=..2.H....?.P.5f................
+..g...\.
+01:14:29.484448 IP (tos 0x0, ttl 53, id 52711, offset 0, flags [none], proto TCP (6), length 296)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [P.], cksum 0xf9d2 (correct), seq 13318:13562, ack 1475, win 135, options [nop,nop,TS val 3742391507 ecr 10643369], length 244: HTTP
+E..(....5...H.....2..P.?...4.5f............
+..\...g.round:#fbf0fa;margin:0 8px}.c li{padding:0 3px 0 8px;margin:0}#mbEnd li{margin:1em 0;padding:0}.xsm{font-size:x-small}ol li{list-style:none}#ncm ul li{list-style-type:disc}.sm li{margin:0}.gl,#foot a,.nobr{white-space:nowrap}#mbEnd .med{white
+
+01:14:29.484460 IP (tos 0x0, ttl 64, id 700, offset 0, flags [DF], proto TCP (6), length 64)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x1395 (correct), seq 1475, ack 11900, win 541, options [nop,nop,TS val 10643383 ecr 3742391507,nop,nop,sack 1 {13318:13562}], length 0
+E..@..@.@.00..2.H....?.P.5f................
+..g...\....
+...4...(
+01:14:29.484690 IP (tos 0x0, ttl 53, id 52713, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0xd783 (correct), seq 14980:16398, ack 1475, win 135, options [nop,nop,TS val 3742391507 ecr 10643369], length 1418: HTTP
+E.......5...H.....2..P.?.....5f............
+..\...g.e;padding-right:0px}.lst-b{border-right:none}.lst{-moz-box-sizing:content-box;background:#fff;color:#000;font:18px arial,sans-serif;float:left;padding-left:6px;padding-right:10px;vertical-align:top;width:100%}.lst-td{border-bottom:1px solid #999;padding-right:16px}.ds{border-right:1px solid #e7e7e7;position:relative;height:32px;z-index:100}.lsbb{background:#eee;border:1px solid #999;border-top-color:#ccc;border-left-color:#ccc;height:30px}.lsb{font:15px arial,sans-serif;background-position:bottom;border:none;color:#000;cursor:pointer;height:30px;margin:0;vertical-align:top}.lsb:active{background:#ccc}.lst:focus{outline:none}.lsd{font-size:11px;position:absolute;top:3px;left:16px;width:256px}.tsf-p{margin-right:272px;margin-left:168px;max-width:711px}.mbi{margin-bottom:-1px}.uc{margin-left:159px}#center_col,#foot{margin-left:159px;margin-right:264px;padding:0 8px}#subform_ctrl{font-size:11px;margin-left:176px;margin-right:272px;max-width:695px;min-height:26px;padding-top:3px;}#center_col{border-left:1px solid #d3e1f9;clear:both}#brs p{margin:0;padding-top:5px}.brs_col{display:inline-block;float:left;font-size:small;white-space:nowrap;padding-right:16px;margin-top:-1px;padding-bottom:1px}#tads,#tadsb{margin-bottom:8px!important}#tads li,#tadsb li{padding:1px 0}#tads li.taf,#tadsb li.taf{padding:1px 0 0}#tads li.tam,#tadsb li.tam{padding:14px 0 0}#tads li.tal,#tadsb li.tal{padding:14px 0 1px}#res{b
+01:14:29.484709 IP (tos 0x0, ttl 64, id 701, offset 0, flags [DF], proto TCP (6), length 72)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x1aff (correct), seq 1475, ack 11900, win 541, options [nop,nop,TS val 10643383 ecr 3742391507,nop,nop,sack 2 {14980:16398}{13318:13562}], length 0
+E..H..@.@.0'..2.H....?.P.5f................
+..g...\............<...4...(
+01:14:29.484797 IP (tos 0x0, ttl 53, id 52714, offset 0, flags [none], proto TCP (6), length 1320)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [P.], cksum 0x9c21 (correct), seq 16398:17666, ack 1475, win 135, options [nop,nop,TS val 3742391507 ecr 10643369], length 1268: HTTP
+E..(....5...H.....2..P.?...<.5f......!.....
+..\...g.order:0;margin:0;padding:4px 8px 0}#ires{padding-top:1px}.mbl{margin-top:5px}.play_icon{background-position:;height:px;margin-left:64px;margin-top:44px;width:px}#leftnav li{display:block}.micon,.licon,.close_btn{border:0}#leftnav h2{font-size:small;color:#767676;font-weight:normal;margin:8px 0 0;padding-left:8px;width:143px}#tbbc dfn{padding:4px}.close_btn{background-position:-138px -84px;float:right;height:14px;width:14px}.videobox{padding-bottom:3px}#leftnav a{text-decoration:none}#leftnav a:hover{text-decoration:underline}.mitem,#showmodes{font-size:15px;line-height:24px;padding-left:8px}.mitem{margin-bottom:2px}.mitem .q{display:block}.msel{height:22px;padding-bottom:2px;margin-bottom:0;font-weight:bold}.micon{float:left;height:19px;margin-top:2px;margin-right:5px;outline:none;padding-right:1px;width:19px}#showmodes .micon{background-position:-150px -114px;height:17px;margin-left:1px;margin-right:5px;width:17px}.licon{background-position:-153px -99px;float:left;height:14px;margin-right:3px;width:14px}.open #showmodes .micon{background-position:-132px -114px}.open .msm,.msl{display:none}.open .msl{display:inline}.open #hidden_modes,.open #hmp{display:block}#swr li{border:0;font-size:13px;line-height:1.2;margin:0 0 4px;margin-right:8px;padding-
+
+01:14:29.484811 IP (tos 0x0, ttl 64, id 702, offset 0, flags [DF], proto TCP (6), length 72)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x160b (correct), seq 1475, ack 11900, win 541, options [nop,nop,TS val 10643383 ecr 3742391507,nop,nop,sack 2 {14980:17666}{13318:13562}], length 0
+E..H..@.@.0&..2.H....?.P.5f................
+..g...\............0...4...(
+01:14:29.484946 IP (tos 0x0, ttl 53, id 52715, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0xb49a (correct), seq 17666:19084, ack 1475, win 135, options [nop,nop,TS val 3742391507 ecr 10643369], length 1418: HTTP
+E.......5...H.....2..P.?...0.5f............
+..\...g.83c
+left:1px}#tbd,#atd{display:block;margin-top:8px;min-height:1px}.tbt{font-size:13px;line-height:1.2}.tbou,.tbos,.tbots,.tbotu{margin-right:8px;padding-left:16px;padding-bottom:3px;text-indent:-8px}.tbos,.tbots{font-weight:bold}#leftnav .tbots a{color:#000!important;cursor:default;text-decoration:none}.tbfo .tbt,.tbpd{margin-bottom:8px}#season_{margin-top:8px}#iszlt_sel.tbcontrol_vis{margin-left:0}.tbpc,.tbpo,.lcsc,.lcso{font-size:13px}.tbpc,.tbo .tbpo,.lco .lcsc{display:inline}.tbo .tbpc,.tbpo,.lco .lcso,.lcsc,#set_location_section{display:none}.lco #set_location_section{display:block}.tbo #tbp,.lco .licon{background-position:-138px -99px!important}#prc_opt label,#prc_ttl{display:block;font-weight:normal;margin-right:2px;white-space:nowrap}#cdr_opt,#loc_opt,#prc_opt{padding-left:8px;text-indent:0}.tbou #cdr_frm,.tbou #cloc_frm {display:none}#cdr_frm,#cdr_min,#cdr_max{width:88%}#cdr_opt label{display:block;font-weight:normal;margin-right:2px;white-space:nowrap}.bksg {font-size:82%;line-height:130%;padding:2px;vertical-align:top;}.bkst div {background-color:#f9f9f9;border:1px solid #e0e0e0;color: #666;font-size:small;text-align:center;}#mbEnd,.rhss{margin:0 0 32px;margin-left:8px}#mbEnd h2{color:#767676}#mbEnd li{margin:12px 0 0}a:link,.w,.q:active,.q:visited,.tbotu{color:#11c;cursor:pointer}a.fl:link,.fl a,.flt,a.flt,.gl a:link,a.mblink,.mblink b{color:#4272db}.osl a,.gl a,#tsf a,a.mblink,a.g
+01:14:29.484965 IP (tos 0x0, ttl 64, id 703, offset 0, flags [DF], proto TCP (6), length 72)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x1080 (correct), seq 1475, ack 11900, win 541, options [nop,nop,TS val 10643384 ecr 3742391507,nop,nop,sack 2 {14980:19084}{13318:13562}], length 0
+E..H..@.@.0%..2.H....?.P.5f................
+..g...\................4...(
+01:14:29.485183 IP (tos 0x0, ttl 53, id 52717, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x8298 (correct), seq 20502:21920, ack 1475, win 135, options [nop,nop,TS val 3742391507 ecr 10643369], length 1418: HTTP
+E.......5...H.....2..P.?...D.5f............
+..\...g. style=display:none></textarea><textarea id=wwcache style=display:none></textarea><div id=gbar><nobr><b class=gb1>Web</b> <a onclick=gbar.qs(this) href="http://www.google.com/images?hl=en&q=pandas&um=1&ie=UTF-8&source=og&sa=N&tab=wi" class=gb1>Images</a> <a onclick=gbar.qs(this) href="http://www.google.com/search?hl=en&q=pandas&um=1&ie=UTF-8&tbo=u&tbs=vid:1&source=og&sa=N&tab=wv" class=gb1>Videos</a> <a onclick=gbar.qs(this) href="http://maps.google.com/maps?hl=en&q=pandas&um=1&ie=UTF-8&sa=N&tab=wl" class=gb1>Maps</a> <a onclick=gbar.qs(this) href="http://www.google.com/search?hl=en&q=pandas&um=1&ie=UTF-8&tbo=u&tbs=nws:1&source=og&sa=N&tab=wn" class=gb1>News</a> <a onclick=gbar.qs(this) href="http://www.google.com/products?hl=en&q=pandas&um=1&ie=UTF-8&sa=N&tab=wf" class=gb1>Shopping</a> <a href="http://mail.google.com/mail/?hl=en&tab=wm" class=gb1>Gmail</a> <a href="http://www.google.com/intl/en/options/" class=gb1 style="text-decoration:none"><u>more</u> &raquo;</a></nobr></div><div id=guser width=100%><nobr><span id=gbn class=gbi></span><span id=gbf class=gbf></span><span id=gbe><a href="/history/optout?hl=en" class=gb4>Web History</a> | </span><a href="/preferences?hl=en" class=gb4>Settings</a> | <a href="https://www.google.com/accounts/Login?hl=en&continue=http://www.google.com/search%3Fhl%3Den%26source%3Dhp%26ie%3DISO-8859-1%26q%3Dpandas%26btnG%3DGoogle%2BSearch" class=gb4>Sign in</a></nobr
+01:14:29.485211 IP (tos 0x0, ttl 64, id 704, offset 0, flags [DF], proto TCP (6), length 80)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0xecc5 (correct), seq 1475, ack 11900, win 541, options [nop,nop,TS val 10643384 ecr 3742391507,nop,nop,sack 3 {20502:21920}{14980:19084}{13318:13562}], length 0
+E..P..@.@.0...2.H....?.P.5f................
+..g...\........D...............4...(
+01:14:29.515090 IP (tos 0x0, ttl 53, id 52718, offset 0, flags [none], proto TCP (6), length 1229)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [P.], cksum 0x7626 (correct), seq 21920:23097, ack 1475, win 135, options [nop,nop,TS val 3742391538 ecr 10643383], length 1177: HTTP
+E.......5..pH.....2..P.?.....5f.....v&.....
+..\...g.></div><div class=gbh style=left:0></div><div class=gbh style=right:0></div><div id=cnt><div id=sfcnt><form action="/search" id=tsf method=GET name=gs onsubmit="return q.value!=''" role=search style="display:block;margin:0;background:none"><input type=hidden name=hl value="en"><input type=hidden name=ie value="ISO-8859-1"><div><div style="float:left;margin-top:-7px;padding:0 18px 0 12px"><h1><a id=logo href="http://www.google.com/webhp?hl=en" title="Go to Google Home">Google<img width=167 height=222 src="/images/srpr/nav_logo14.png" alt=""></a></h1></div><div class=tsf-p style=padding-bottom:2px><table border=0 cellpadding=0 cellspacing=0 style="border-bottom:1px solid #e7e7e7;padding:8px 0 0;position:relative;z-index:2"><tr><td class="lst-td" width=100%><div style=position:relative;zoom:1><input autocomplete="off" class=lst type=text name=q maxlength=2048 value="pandas" title="Search"><span id=tsf-oq style="display:none">pandas</span></div> <td><div class=ds><div class=lsbb><input type=submit name="btnG" class=lsb value="Search"></div></div><td><div style="position:relative;height:30px;z-index:2"><div class=lsd></div></div></table></div></div></form></div>
+
+01:14:29.515107 IP (tos 0x0, ttl 64, id 705, offset 0, flags [DF], proto TCP (6), length 80)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0xe823 (correct), seq 1475, ack 11900, win 541, options [nop,nop,TS val 10643393 ecr 3742391507,nop,nop,sack 3 {20502:23097}{14980:19084}{13318:13562}], length 0
+E..P..@.@.0...2.H....?.P.5f..........#.....
+..g...\........D...g...........4...(
+01:14:29.515403 IP (tos 0x0, ttl 53, id 52720, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x3592 (correct), seq 13562:14980, ack 1475, win 135, options [nop,nop,TS val 3742391538 ecr 10643383], length 1418: HTTP
+E.......5..}H.....2..P.?...(.5f.....5......
+..\...g.1000
+-space:normal}.sl,.r{display:inline;font-weight:normal;margin:0}.r{font-size:medium}h4.r{font-size:small}.mr{margin-top:6px}h3.tbpr{margin-top:.4em;margin-bottom:1.2em}img.tbpr{border:0px;width:15px;height:15px;margin-right:3px}.jsb{display:block}.nojsb{display:none}.nwd{font-size:10px;padding:16px;text-align:center}.rt1{background:transparent url(/images/bubble1.png) no-repeat}.rt2{background:transparent url(/images/bubble2.png) repeat 0 0 scroll}.sb{background:url(/images/scrollbar.png) repeat scroll 0 0;cursor:pointer;width:14px}.rtdm:hover{text-decoration:underline}#rtr .g{margin:1em 0}.ri_cb{left:0;margin:6px;position:absolute;top:0;z-index:1}.ri_sp{display:-moz-inline-box;display:inline-block;text-align:center;vertical-align:top;margin-bottom:6px}.ri_sp img{vertical-align:bottom}.mbl{margin:1em 0 0}em{font-weight:bold;font-style:normal}li.w0 .ws,td.w0 .ws{opacity:0.5}li.w0:hover .ws,td.w0:hover .ws{opacity:1}ol,ul,li{border:0;margin:0;padding:0}li{line-height:1.2}li.g{margin-top:0;margin-bottom:14px}.ibk,#productbox .fmg{display:-moz-inline-box;display:inline-block;*display:inline;vertical-align:top;zoom:1}.tsw{width:595px}#cnt{min-width:780px;max-width:1144px;padding-top:17px;}.gbh{top:24px}#gbar{margin-left:8px;height:20px}#guser{margin-right:8px;padding-bottom:5px!important}.lst-b,.lst{border:1px solid #ccc;border-bottom:none;height:26px;padding:4px 0 0}.tia input{border-right:non
+01:14:29.515420 IP (tos 0x0, ttl 64, id 706, offset 0, flags [DF], proto TCP (6), length 72)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0xd5a5 (correct), seq 1475, ack 11900, win 541, options [nop,nop,TS val 10643393 ecr 3742391507,nop,nop,sack 2 {13318:19084}{20502:23097}], length 0
+E..H..@.@.0"..2.H....?.P.5f................
+..g...\........4.......D...g
+01:14:29.515653 IP (tos 0x0, ttl 53, id 52721, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x7fc9 (correct), seq 19084:20502, ack 1475, win 135, options [nop,nop,TS val 3742391538 ecr 10643384], length 1418: HTTP
+E.......5..|H.....2..P.?.....5f............
+..\...g.l,a.fl,.slk a,.bc a,.flt,a.flt u,.oslk a{text-decoration:none}.osl a:hover,.gl a:hover,#tsf a:hover,a.mblink:hover,a.gl:hover,a.fl:hover,.slk a:hover,.bc a:hover,.flt:hover,a.flt:hover u,.oslk a:hover,.tbotu:hover{text-decoration:underline}#ss-box a:hover{text-decoration:none}#tads .mblink,#rhs .mblink{text-decoration:underline}.hpn,.osl{color:#767676}div#gbi,div#gbg{border-color:#a2bff0 #558be3 #558be3 #a2bff0}div#gbi a.gb2:hover,div#gbg a.gb2:hover,.mi:hover{background-color:#558be3}#guser a.gb2:hover,.mi:hover,.mi:hover *{color:#fff!important}#guser{color:#000}#imagebox_big img{padding:2px!important}#productbox table.ts{color:#767676}#productbox table.ts a{text-decoration:underline}#
+ced
+productbox .fmg{margin-top:7px;padding-right:8px;text-align:left}#foot .ftl{margin-right:12px}#foot a.slink{text-decoration:none;color:#4272db}#fll a,#bfl a{color:#4272db;margin:0 12px;text-decoration:none}#foot a:hover{text-decoration:underline}#foot a.slink:visited{color:#551a8b}#blurbbox_bottom{color:#767676}.nvs a{text-decoration:underline}.stp{margin:7px 0 17px}.ssp{margin:.33em 0 17px}#gsr a:active,a.fl:active,.fl a:active,.gl a:active{color:#c11}</style><noscript><style>.jsb{display:none}.nojsb{display:block}.nojsv{visibility:visible}</style></noscript><script>google.y={};google.x=function(e,g){google.y[e.id]=[e,g];return false};</script></head><body id=gsr topmargin=3 marginheight=3><textarea id=csi
+01:14:29.515664 IP (tos 0x0, ttl 64, id 707, offset 0, flags [DF], proto TCP (6), length 64)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0xee4b (correct), seq 1475, ack 11900, win 541, options [nop,nop,TS val 10643393 ecr 3742391507,nop,nop,sack 1 {13318:23097}], length 0
+E..@..@.@.0)..2.H....?.P.5f..........K.....
+..g...\....
+...4...g
+01:14:29.608348 IP (tos 0x0, ttl 53, id 52722, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0xca18 (correct), seq 23097:24515, ack 1475, win 135, options [nop,nop,TS val 3742391631 ecr 10643393], length 1418: HTTP
+E.......5..{H.....2..P.?...g.5f............
+..]O..g.c9d
+<noscript><style>.bl{display:none !important}</style></noscript><div id=subform_ctrl><div style="float:right"><a href="/advanced_search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb" class="gl nobr" style="color:#4373db">Advanced search</a></div><div><div id=resultStats>About 5,650,000 results<nobr>  (0.12 seconds)&nbsp;</nobr></div></div></div><div id=nr_container style="position:relative;zoom:1"><div id=center_col><div class=c id=tads style="margin:0 0 14px;padding:2px 7px 1px 8px;min-height:0"><h2 style="float:right;font-weight:normal;padding:1px 0 1px 1px;font-size:11px;margin:3px 0 0">Sponsored links</h2><ol onmouseover="return true" style="padding:3px 0"><li class=taf><h3><a id=pa1 href="/aclk?sa=l&amp;ai=CLMWPtTOcTMbJHcOXlQfK8NjnD6GBi1HlgLSEBavmhQYIABABKAJQjsfEpvj_____AWDJ7p6N7KSAEKAB0P6O_wPIAQGqBBZP0IdiXPKYtmfjIUyodqXYfiFzgDHO&amp;sig=AGiWqtxb-xyfoz9hNvCq65qcLdT6qlsQPw&amp;adurl=http://www.conservation.org/pandas" ><b>Pandas</b> in the Wild</a></h3><cite>www.Conservation.org/<b>Pandas</b></cite>&nbsp; &nbsp; &nbsp; Less than 1,600 Wild <b>Pandas</b> Exist. Learn More &amp; Help Save <b>Pandas</b> Now!<li class=tal><h3><a id=pa2 href="/aclk?sa=l&amp;ai=CXHZdtTOcTMbJHcOXlQfK8NjnD7ux5NgB_4634wur5oUGCAAQAigCUKKQ3akHYMnuno3spIAQoAHxvpD_A8gBAaoEFk_Q12pU8pu2Z-MhTKh2pdh-IXOAMc4&amp;sig=AGiWqtwSiFi0sm4UzGAWMXjpJp3GAZvoYQ&amp;adurl=http://www.worldwildlife.org/species/finder/giantpanda/panda.
+01:14:29.608363 IP (tos 0x0, ttl 64, id 708, offset 0, flags [DF], proto TCP (6), length 64)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0xe8a5 (correct), seq 1475, ack 11900, win 541, options [nop,nop,TS val 10643421 ecr 3742391507,nop,nop,sack 1 {13318:24515}], length 0
+E..@..@.@.0(..2.H....?.P.5f................
+..g...\....
+...4....
+01:14:29.638323 IP (tos 0x0, ttl 53, id 52723, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0xfea5 (correct), seq 11900:13318, ack 1475, win 135, options [nop,nop,TS val 3742391661 ecr 10643421], length 1418: HTTP
+E.......5..zH.....2..P.?.....5f............
+..]m..g.d,.cite,.cite:link,#mbEnd cite b,#tads cite b{color:#0e774a;font-style:normal}.ng{color:#c11}h1,ol,ul,li{margin:0;padding:0}li.g,body,html,.std,.c h2,#mbEnd h2,h1{font-size:small;font-family:arial,sans-serif}.c h2,#mbEnd h2,h1{font-weight:normal}.clr{clear:both;margin:0 8px}.blk a{color:#000}#nav a{display:block}#nav .i{color:#a90a08;font-weight:bold}.csb,.ss,#logo span,.play_icon,.mini_play_icon,.micon,.licon,.close_btn,#tbp,.lsb,.mbi{background:url(/images/srpr/nav_logo14.png) no-repeat;overflow:hidden}.csb,.ss{background-position:0 0;height:40px;display:block}.ss{background-position:0 -91px;position:absolute;left:0;top:0}.cps{height:18px;overflow:hidden;width:114px}.mbi{background-position:-153px -70px;display:inline-block;float:left;height:13px;margin-right:3px;margin-top:1px;width:13px}#nav td{padding:0;text-align:center}#logo{display:block;overflow:hidden;position:relative;width:137px;height:49px;margin:9px 0 0}#logo img{border:none;position:absolute;left:-0px;top:-41px}#logo span,.ch{cursor:pointer}h3,.med{font-size:medium;font-weight:normal;padding:0;margin:0}.e{margin:2px 0 .75em}.slk div{padding-left:12px;text-indent:-10px}.fc{margin-top:.5em;padding-left:16px}#mbEnd cite{display:block;text-align:left}#rhs_block{margin-bottom:-20px}#bsf,.blk{border-top:1px solid #6b90da;background:#f0f7f9}#bsf{border-bottom:1px solid #6b90da}#cnt{clear:both}#res{padding-right:1em;margin:0 16px}.c{backg
+01:14:29.638342 IP (tos 0x0, ttl 64, id 709, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0xde61 (correct), seq 1475, ack 24515, win 587, options [nop,nop,TS val 10643430 ecr 3742391661], length 0
+E..4..@.@.03..2.H....?.P.5f........K.a.....
+..g...]m
+01:14:29.668308 IP (tos 0x0, ttl 53, id 52724, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x2545 (correct), seq 24515:25933, ack 1475, win 135, options [nop,nop,TS val 3742391691 ecr 10643430], length 1418: HTTP
+E.......5..yH.....2..P.?.....5f.....%E.....
+..]...g.html%3Fsc%3DAWY1000WCGG0%26searcen%3Dgoogle" >Endangered Giant <b>Pandas</b></a></h3><cite>www.worldwildlife.org/</cite>&nbsp; &nbsp; &nbsp; Giant <b>Pandas</b> need your help! Learn more about what WWF is doing</ol></div><div id=res class=med role=main><h2 class=hd>Search Results</h2><div id=ires><ol><li class=g id=imagebox><h3 class=r><a href="http://www.google.com/images?hl=en&amp;q=pandas&amp;um=1&amp;ie=UTF-8&amp;source=univ&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;sa=X&amp;oi=image_result_group&amp;ct=title&amp;resnum=1&amp;ved=0CDIQsAQwAA">Images for <em>pandas</em></a></h3><div id=iur style="margin:4px -3px -3px -4px;overflow:hidden;height:104px"><div><a href="/imgres?imgurl=http://www.pandagirls.zoomshare.com/files/Pandas_are_people_too/pandas4pandagirls.gif&amp;imgrefurl=http://www.sodahead.com/fun/which-animal-u-think-is-better-pandas-or-bunnies/question-857647/&amp;h=640&amp;w=640&amp;sz=49&amp;tbnid=hzyF5mbxpKrBgM:&amp;tbnh=137&amp;tbnw=137&amp;prev=/images%3Fq%3Dpandas&amp;zoom=1&amp;q=pandas&amp;hl=en&amp;usg=__uTFG3ny4xIle2mclva_xCTURc7E=&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CCkQ9QEwAA"><img src="/images?q=tbn:hzyF5mbxpKrBgM::www.pandagirls.zoomshare.com/files/Pandas_are_people_too/pandas4pandagirls.gif&amp;t=1&amp;h=94&amp;w=94&amp;usg=__tgzM5b7l_X4GUktSZGIrclKhgyw=" alt="" align=middle border=1 height=94 title="http://www.sodahead.com/fun/which-animal-u-think-is-better-pand
+01:14:29.668337 IP (tos 0x0, ttl 64, id 710, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0xd883 (correct), seq 1475, ack 25933, win 632, options [nop,nop,TS val 10643439 ecr 3742391691], length 0
+E..4..@.@.02..2.H....?.P.5f....{...x.......
+..g...].
+01:14:29.698289 IP (tos 0x0, ttl 53, id 52725, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x0ee1 (correct), seq 25933:27351, ack 1475, win 135, options [nop,nop,TS val 3742391721 ecr 10643439], length 1418: HTTP
+E.......5..xH.....2..P.?...{.5f............
+..]...g.as-or-bunnies/question-857647/" style="margin:3px;padding:1px 1px" width=94></a><a href="/imgres?imgurl=http://pandas-syndrome.webs.com/xin_38080227094228151227.jpg&amp;imgrefurl=http://www.pandas-syndrome.webs.com/&amp;h=281&amp;w=400&amp;sz=17&amp;tbnid=hgCRu89Ipvx_DM:&amp;tbnh=87&amp;tbnw=124&amp;prev=/images%3Fq%3Dpandas&amp;zoom=1&amp;q=pandas&amp;hl=en&amp;usg=__z0V0vErvVGDhE-fC6dFS-Otmmh4
+1000
+=&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CCsQ9QEwAQ"><img src="/images?q=tbn:hgCRu89Ipvx_DM::pandas-syndrome.webs.com/xin_38080227094228151227.jpg&amp;t=1&amp;h=88&amp;w=125&amp;usg=__6-qk529i-zBaiPqnBJhvm_ORHaQ=" alt="" align=middle border=1 height=88 title="http://www.pandas-syndrome.webs.com/" style="margin:3px;padding:4px 2px" width=125></a><a href="/imgres?imgurl=http://johnfenzel.typepad.com/john_fenzels_blog/images/pandas.jpg&amp;imgrefurl=http://johnfenzel.typepad.com/john_fenzels_blog/2007/02/baby_panda_debu.html&amp;h=350&amp;w=450&amp;sz=67&amp;tbnid=bPaA5QWxF9j_eM:&amp;tbnh=99&amp;tbnw=127&amp;prev=/images%3Fq%3Dpandas&amp;zoom=1&amp;q=pandas&amp;hl=en&amp;usg=__7_dCFWBwxcvP4lc3nuRvETs9Azg=&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CC0Q9QEwAg"><img src="/images?q=tbn:bPaA5QWxF9j_eM::johnfenzel.typepad.com/john_fenzels_blog/images/pandas.jpg&amp;t=1&amp;h=94&amp;w=120&amp;usg=__JqTr-3umzX7JovUObwOPqIaXBKc=" alt="" align=middle border=1 height=94 title="http://johnfenzel.t
+01:14:29.698305 IP (tos 0x0, ttl 64, id 711, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0xd2a5 (correct), seq 1475, ack 27351, win 677, options [nop,nop,TS val 10643448 ecr 3742391721], length 0
+E..4..@.@.01..2.H....?.P.5f................
+..g...].
+01:14:29.698535 IP (tos 0x0, ttl 53, id 52726, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x6fe5 (correct), seq 27351:28769, ack 1475, win 135, options [nop,nop,TS val 3742391721 ecr 10643439], length 1418: HTTP
+E.......5..wH.....2..P.?.....5f.....o......
+..]...g.ypepad.com/john_fenzels_blog/2007/02/baby_panda_debu.html" style="margin:3px;padding:1px 1px" width=120></a><a href="/imgres?imgurl=http://c2.api.ning.com/files/EKrj6wlCNzqUbDu4IMYAt3-OqcLlD0YaOOwt-VjURtH2fX0eEIMKFqVp4LHAOxG0shdK2NS080A-N8BTNHBQ4sCIzuV84auM/pandas.jpg&amp;imgrefurl=http://nerdfighters.ning.com/forum/topic/listForContributor%3Fuser%3D1wehoubh4wsf8&amp;h=350&amp;w=350&amp;sz=26&amp;tbnid=-6Ty7dM1B0bcOM:&amp;tbnh=120&amp;tbnw=120&amp;prev=/images%3Fq%3Dpandas&amp;zoom=1&amp;q=pandas&amp;hl=en&amp;usg=__maZ70bCdIzM31CreojZbjOWNwPs=&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CC8Q9QEwAw"><img src="/images?q=tbn:-6Ty7dM1B0bcOM::c2.api.ning.com/files/EKrj6wlCNzqUbDu4IMYAt3-OqcLlD0YaOOwt-VjURtH2fX0eEIMKFqVp4LHAOxG0shdK2NS080A-N8BTNHBQ4sCIzuV84auM/pandas.jpg&amp;t=1&amp;h=94&amp;w=94&amp;usg=__MAGY-NaoRevADMaQEnuuEPslLF0=" alt="" align=middle border=1 height=94 title="http://nerdfighters.ning.com/forum/topic/listForContributor?user=1wehoubh4wsf8" style="margin:3px;padding:1px 1px" width=94></a></div></div><li class=g><h3 class="r"><a href="http://en.wikipedia.org/wiki/Giant_Panda" class=l>Giant <em>Panda</em> - Wikipedia, the free encyclopedia</a></h3><div class="s">The Giant <em>Panda</em> (Ailuropoda melanoleuca, literally meaning &quot;black and white cat- foot&quot;) is a bear native to central-western and south western China. <b>...</b><br><div class=osl><a href="http://en.wikip
+01:14:29.698549 IP (tos 0x0, ttl 64, id 712, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0xccee (correct), seq 1475, ack 28769, win 722, options [nop,nop,TS val 10643448 ecr 3742391721], length 0
+E..4..@.@.00..2.H....?.P.5f................
+..g...].
+01:14:29.728518 IP (tos 0x0, ttl 53, id 52727, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0xf827 (correct), seq 28769:30187, ack 1475, win 135, options [nop,nop,TS val 3742391751 ecr 10643448], length 1418: HTTP
+E.......5..vH.....2..P.?.....5f......'.....
+..]...g.edia.org/wiki/Giant_Panda#Description" >Description</a> - <a href="http://en.wikipedia.org/wiki/Giant_Panda#Behavior" >Behavior</a> - <a href="http://en.wikipedia.org/wiki/Giant_Panda#Genomics" >Genomics</a> - <a href="http://en.wikipedia.org/wiki/Giant_Panda#Classification" >Classification</a></div><span class=f><cite>en.wikipedia.org/wiki/Giant_<b>Panda</b></cite> - <span class=gl><a href="http://webcache.googleusercontent.com/search?q=cache:XQJjz3NHnCgJ:en.wikipedia.org/wiki/Giant_Panda+pandas&amp;cd=5&amp;hl=en&amp;ct=clnk&amp;gl=us&amp;ie=UTF-8">Cached</a> - <a href="/search?hl=en&amp;ie=UTF-8&amp;q=related:en.wikipedia.org/wiki/Giant_Panda+pandas&amp;tbo=1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CDYQHzAE">Similar</a></span></span></div><li class=g><h3 class="r"><a href="http://intramural.nimh.nih.gov/pdn/web.htm" class=l>NIMH Pediatrics Developmental Neuroscience Branch</a></h3><div class="s">Jul 22, 2010 <b>...</b> One part of the brain that is affected in <em>PANDAS</em> is the Basal Ganglia, which is <b>...</b> The diagnosis of <em>PANDAS</em> is a clinical diagnosis, <b>...</b><br><span class=f><cite>intramural.nimh.nih.gov/pdn/web.htm</cite> - <span class=gl><a href="http://webcache.googleusercontent.com/search?q=cache:LU4EYNue7hMJ:intramural.nimh.nih.gov/pdn/web.htm+pandas&amp;cd=6&amp;hl=en&amp;ct=clnk&amp;gl=us&amp;ie=UTF-8">Cached</a> - <a href="/search?hl=en&amp;ie=UTF-8&
+01:14:29.728531 IP (tos 0x0, ttl 64, id 713, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0xc70f (correct), seq 1475, ack 30187, win 768, options [nop,nop,TS val 10643457 ecr 3742391751], length 0
+E..4..@.@.0/..2.H....?.P.5f................
+..h...].
+01:14:29.728765 IP (tos 0x0, ttl 53, id 52728, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0xb908 (correct), seq 30187:31605, ack 1475, win 135, options [nop,nop,TS val 3742391751 ecr 10643448], length 1418: HTTP
+E.......5..uH.....2..P.?.....5f............
+..]...g.amp;q=related:intramural.nimh.nih.gov/pdn/web.htm+pandas&amp;tbo=1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CD8QHzAF">Similar</a></span></span></div><li class=g><h3 class="r"><a href="http://www.adhd.com.au/PANDAS.htm" class=l><em>PANDAS</em
+1000
+></a></h3><div class="s">Your child may have developed what  the medical community has named <em>PANDAS</em>. Although rare, <em>PANDAS</em> stands for Paediatric Autoimmune Neuropsychiatric Disorders <b>...</b><br><span class=f><cite>www.adhd.com.au/<b>PANDAS</b>.htm</cite> - <span class=gl><a href="http://webcache.googleusercontent.com/search?q=cache:M1b6pNjTmWcJ:www.adhd.com.au/PANDAS.htm+pandas&amp;cd=7&amp;hl=en&amp;ct=clnk&amp;gl=us&amp;ie=UTF-8">Cached</a> - <a href="/search?hl=en&amp;ie=UTF-8&amp;q=related:www.adhd.com.au/PANDAS.htm+pandas&amp;tbo=1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CEMQHzAG">Similar</a></span></span></div><li class=g><h3 class="r"><a href="http://nationalzoo.si.edu/Animals/GiantPandas/default.cfm" class=l>Giant <em>Pandas</em> at the National  Zoo - National Zoo| FONZ</a></h3><div class="s">Read all about the Zoo&#39;s giant <em>pandas</em>, Mei Xiang and Tian Tian. Brought to you by the National Zoo | FONZ.<br><span class=f><cite>nationalzoo.si.edu/Animals/Giant<b>Pandas</b>/default.cfm</cite> - <span class=gl><a href="http://webcache.googleusercontent.com/search?q=cache:L32COV3UF4EJ:nationalzoo.si.edu/A
+01:14:29.728778 IP (tos 0x0, ttl 64, id 714, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0xc158 (correct), seq 1475, ack 31605, win 813, options [nop,nop,TS val 10643457 ecr 3742391751], length 0
+E..4..@.@.0...2.H....?.P.5f........-.X.....
+..h...].
+01:14:29.728889 IP (tos 0x0, ttl 53, id 52729, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x96a3 (correct), seq 31605:33023, ack 1475, win 135, options [nop,nop,TS val 3742391751 ecr 10643448], length 1418: HTTP
+E.......5..tH.....2..P.?.....5f............
+..]...g.nimals/GiantPandas/default.cfm+pandas&amp;cd=8&amp;hl=en&amp;ct=clnk&amp;gl=us&amp;ie=UTF-8">Cached</a> - <a href="/search?hl=en&amp;ie=UTF-8&amp;q=related:nationalzoo.si.edu/Animals/GiantPandas/default.cfm+pandas&amp;tbo=1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CEcQHzAH">Similar</a></span></span></div><li class=g style="margin-left:16px"><h3 class="r hcw"><a href="http://nationalzoo.si.edu/Animals/GiantPandas/PandaFacts/default.cfm" class=l>Giant <em>Panda</em> Facts - National Zoo| FONZ</a></h3><div class="s hc">Giant <em>pandas</em> live in broadleaf and coniferous forests with a dense understory of bamboo, at elevations between 5000 and 10000 feet. Brought to you by the <b>...</b><br><span class=f><cite>nationalzoo.si.edu/.../Giant<b>Pandas</b>/<b>Panda</b>Facts/default.cfm</cite> - <span class=gl><a href="http://webcache.googleusercontent.com/search?q=cache:yBonIM0UWhMJ:nationalzoo.si.edu/Animals/GiantPandas/PandaFacts/default.cfm+pandas&amp;cd=9&amp;hl=en&amp;ct=clnk&amp;gl=us&amp;ie=UTF-8">Cached</a> - <a href="/search?hl=en&amp;ie=UTF-8&amp;q=related:nationalzoo.si.edu/Animals/GiantPandas/PandaFacts/default.cfm+pandas&amp;tbo=1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CEsQHzAI">Similar</a></span></span></div><li class=g><h3 class="r"><a href="http://kids.nationalgeographic.com/kids/animals/creaturefeature/panda/" class=l><em>Panda</em>: Photos, Video, Facts, E-card, Map -
+01:14:29.728902 IP (tos 0x0, ttl 64, id 715, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0xbba1 (correct), seq 1475, ack 33023, win 858, options [nop,nop,TS val 10643457 ecr 3742391751], length 0
+E..4..@.@.0-..2.H....?.P.5f...$-...Z.......
+..h...].
+01:14:29.758748 IP (tos 0x0, ttl 53, id 52730, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x8331 (correct), seq 33023:34441, ack 1475, win 135, options [nop,nop,TS val 3742391781 ecr 10643457], length 1418: HTTP
+E.......5..sH.....2..P.?..$-.5f......1.....
+..]...h.- National Geographic Kids</a></h3><div class="s">Kids&#39; feature about giant <em>pandas</em>, with photographs, video, audio, fun facts, an e-mail postcard, and links to other animals.<br><span class=f><cite>kids.nationalgeographic.com/kids/animals/creaturefeature/<b>panda</b>/</cite> - <span class=gl><a href="http://webcache.googleusercontent.com/search?q=cache:nVN02xeUEaoJ:kids.nationalgeographic.com/kids/animals/creaturefeature/panda/+pandas&amp;cd=10&amp;hl=en&amp;ct=clnk&amp;gl=us&amp;ie=UTF-8">Cached</a></span></span></div><li class=g><h3 class="r"><a href="http://www.sandiegozoo.org/pandacam/" class=l><em>Panda</em> Cam at the San Diego Zoo</a></h3><div class="s">Shows the giant <em>panda</em> exhibit. Camera position varies according to what the <em>panda</em> keepers and researchers are monitoring.<br><span class=f><cite>www.sandiegozoo.org/<b>panda</b>cam/</cite> - <span class=gl><a href="http://webcache.googleusercontent.com/search?q=cache:JYNU8kBvJlYJ:www.sandiegozoo.org/pandacam/+pandas&amp;cd=11&amp;hl=en&amp;ct=clnk&amp;gl=us&amp;ie=UTF-8">Cached</a> - <a href="/search?hl=en&amp;ie=UTF-8&amp;q=related:www.sandiegozoo.org/pandacam/+pandas&amp;tbo=1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CFIQHzAK">Similar</a></span></span></div><li class=g><h3 class="r"><a href="http://www.worldwildlife.org/species/finder/giantpanda/panda.html" class=l>WWF - Giant <em>Panda</em> - Overvi
+01:14:29.758761 IP (tos 0x0, ttl 64, id 716, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0xb5c3 (correct), seq 1475, ack 34441, win 903, options [nop,nop,TS val 10643466 ecr 3742391781], length 0
+E..4..@.@.0,..2.H....?.P.5f...)............
+..h
+..].
+01:14:29.758995 IP (tos 0x0, ttl 53, id 52731, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x885f (correct), seq 34441:35859, ack 1475, win 135, options [nop,nop,TS val 3742391781 ecr 10643457], length 1418: HTTP
+E.......5..rH.....2..P.?..)..5f......_.....
+..]...h.ew</a></h3><div class="s">The giant <em>panda</em> is the rarest member of the bear family and amo
+1000
+ng the world&#39;s most threatened animals. Learn about WWF&#39;s giant <em>panda</em> conservation efforts.<br><span class=f><cite>www.worldwildlife.org/species/finder/giant<b>panda</b>/<b>panda</b>.html</cite> - <span class=gl><a href="http://webcache.googleusercontent.com/search?q=cache:kDYvD4LG3aYJ:www.worldwildlife.org/species/finder/giantpanda/panda.html+pandas&amp;cd=12&amp;hl=en&amp;ct=clnk&amp;gl=us&amp;ie=UTF-8">Cached</a> - <a href="/search?hl=en&amp;ie=UTF-8&amp;q=related:www.worldwildlife.org/species/finder/giantpanda/panda.html+pandas&amp;tbo=1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CFYQHzAL">Similar</a></span></span></div><li class="g videobox"><h3 class=r><a href="/search?q=pandas&amp;hl=en&amp;sa=G&amp;ie=UTF-8&amp;prmd=ivnb&amp;source=univ&amp;tbs=vid:1&amp;tbo=u&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;oi=video_result_group&amp;ct=title&amp;resnum=13&amp;ved=0CF4QqwQwDA">Videos for <em>pandas</em></a></h3><table class=ts style="margin-top:-1px"><tr><td colspan=1 valign=top width=290><div><table class=ts style="width:auto"><tr><td valign=top style="padding:7px 8px 0 0"><a href="/url?q=http://www.youtube.com/watch%3Fv%3DFzRH3iTQPrk&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CFgQuAIwDA&amp;usg=AFQjCNGXHs6qsRZjLwGz5GHWdBNs9Sog1A"><div style="height:33px;position:absolut
+01:14:29.759018 IP (tos 0x0, ttl 64, id 717, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0xb00b (correct), seq 1475, ack 35859, win 949, options [nop,nop,TS val 10643466 ecr 3742391781], length 0
+E..4..@.@.0+..2.H....?.P.5f.../A...........
+..h
+..].
+01:14:29.759119 IP (tos 0x0, ttl 53, id 52732, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x417f (correct), seq 35859:37277, ack 1475, win 135, options [nop,nop,TS val 3742391781 ecr 10643457], length 1418: HTTP
+E.......5..qH.....2..P.?../A.5f.....A......
+..]...h.e;width:44px"><div class=play_icon></div></div><img src="http://img.youtube.com/vi/FzRH3iTQPrk/default.jpg?h=60&amp;w=80&amp;sigh=__9VpzeIc_qGWH1Tru_KtFs85cP6Q=" alt="" align=middle border=1 height=60 id=vidthumb13 style=";padding:1px 1px" width=80><div style="margin-top:-23px;margin-right:4px;text-align:right"><img src="/images/icons/sectionized_ui/play_c.gif" alt="" border=0 height=20 style="-moz-opacity:.88;filter:alpha(opacity=88);opacity:.88" width=20></div></a><td valign=top style="padding:5px 10px 0 0"><a href="http://www.youtube.com/watch?v=FzRH3iTQPrk" class=l>The Sneezing Baby <em>Panda</em></a><br><span style="color:#666666">16 sec - Nov 6, 2006<br>Uploaded by jimvwmoss</span><br><span id=vudu><cite>youtube.com</cite></span></table></div><td colspan=1 valign=top width=290><div><table class=ts style="width:auto"><tr><td valign=top style="padding:7px 8px 0 0"><a href="/url?q=http://www.youtube.com/watch%3Fv%3DufFT2BWh3BQ&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CFsQuAIwDQ&amp;usg=AFQjCNHpp7wV3vo9x7-eGQvlnzTGNEfh3w"><div style="height:33px;position:absolute;width:44px"><div class=play_icon></div></div><img src="http://img.youtube.com/vi/ufFT2BWh3BQ/default.jpg?h=60&amp;w=80&amp;sigh=__Lp_y3AznakXFNV3sfuMx_b0g74Y=" alt="" align=middle border=1 height=60 id=vidthumb14 style=";padding:1px 1px" width=80><div style="margin-top:-23px;margin-right:4px;text-align:right"><img src="/images/
+01:14:29.759135 IP (tos 0x0, ttl 64, id 718, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0xaa60 (correct), seq 1475, ack 37277, win 982, options [nop,nop,TS val 10643466 ecr 3742391781], length 0
+E..4..@.@.0*..2.H....?.P.5f...4......`.....
+..h
+..].
+01:14:29.759249 IP (tos 0x0, ttl 53, id 52733, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x3e15 (correct), seq 37277:38695, ack 1475, win 135, options [nop,nop,TS val 3742391782 ecr 10643457], length 1418: HTTP
+E.......5..pH.....2..P.?..4..5f.....>......
+..]...h.icons/sectionized_ui/play_c.gif" alt="" border=0 height=20 style="-moz-opacity:.88;filter:alpha(opacity=88);opacity:.88" width=20></div></a><td valign=top style="padding:5px 10px 0 0"><a href="http://www.youtube.com/watch?v=ufFT2BWh3BQ" class=l>Baby Twin <em>Panda</em></a><br><span style="color:#666666">4 min - May 16, 2007<br>Uploaded by yoosee</span><br><span id=vudu><cite>youtube.com</cite></span></table></div></table><li class=g><h3 class="r"><a href="http://www.panda.org/" class=l>WWF - WWF</a></h3><div class="s">Sep 22, 2010 <b>...</b> Because we only have the one planet Earth... WWF believes that, together, we must save endangered species,  conserve natural environments and <b>...</b><br><span class=f><cite>www.<b>panda</b>.org/</cite> - <span class=gl><a href="http://webcache.googleusercontent.com/search?q=cache:cL8bkjwWINIJ:www.panda.org/+pandas&amp;cd=15&amp;hl=en&amp;ct=clnk&amp;gl=us&amp;ie=UTF-8">Cached</a> - <a href="/search?hl=en&amp;ie=UTF-8&amp;q=related:www.panda.org/+pandas&amp;tbo=1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CGIQHzAO">Similar</a></span></span></div><li class=g><h3 class="r"><a href="http://animals.nationalgeographic.com/animals/mammals/giant-panda.html" class=l>Giant <em>Pandas</em>, Giant <em>Panda</em> Pictures, Giant <em>Panda</em> Facts - National <b>...</b></a></h3><div class="s">Learn all you want
+1000
+ed to know about giant <em>pandas</em> with 
+01:14:29.759267 IP (tos 0x0, ttl 64, id 719, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0xa4ea (correct), seq 1475, ack 38695, win 961, options [nop,nop,TS val 10643466 ecr 3742391782], length 0
+E..4..@.@.0)..2.H....?.P.5f...:U...........
+..h
+..].
+01:14:29.759375 IP (tos 0x0, ttl 53, id 52734, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x8cc9 (correct), seq 38695:40113, ack 1475, win 135, options [nop,nop,TS val 3742391782 ecr 10643457], length 1418: HTTP
+E.......5..oH.....2..P.?..:U.5f............
+..]...h.pictures, videos, photos, facts, and news from National Geographic.<br><span class=f><cite>animals.nationalgeographic.com/animals/.../giant-<b>panda</b>.html</cite> - <span class=gl><a href="http://webcache.googleusercontent.com/search?q=cache:GFJEz1KxnPgJ:animals.nationalgeographic.com/animals/mammals/giant-panda.html+pandas&amp;cd=16&amp;hl=en&amp;ct=clnk&amp;gl=us&amp;ie=UTF-8">Cached</a> - <a href="/search?hl=en&amp;ie=UTF-8&amp;q=related:animals.nationalgeographic.com/animals/mammals/giant-panda.html+pandas&amp;tbo=1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CGYQHzAP">Similar</a></span></span></div><li class=g><h3 class=r><a href="/search?q=pandas&amp;hl=en&amp;sa=G&amp;ie=UTF-8&amp;prmd=ivnb&amp;source=univ&amp;tbs=nws:1&amp;tbo=u&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;oi=news_group&amp;ct=title&amp;resnum=17&amp;ved=0CHIQqAIwEA">News for <em>pandas</em></a></h3><table class=ts><tr><td valign=top style="padding:7px 8px 0 0;font-size:78%;line-height:normal;width:80px;text-align:center"><a href="/url?q=http://www.google.com/hostednews/afp/article/ALeqM5iHpXD5tLtMrVM50ZucmXLATPhgBQ&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CHAQpwIwEA&amp;usg=AFQjCNHnROWslZyYFn5hQkZtxsBELFwGMg" style="text-decoration:none" ><img src="http://news.google.com/news/tbn/5kcguGVs0eEJ" alt="" border=1 height=54 style=";padding:1px 1px" width=80><br></a><cite style="font-size:11px"></cite><td class=tsw style="p
+01:14:29.759390 IP (tos 0x0, ttl 64, id 720, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x9f75 (correct), seq 1475, ack 40113, win 940, options [nop,nop,TS val 10643466 ecr 3742391782], length 0
+E..4..@.@.0(..2.H....?.P.5f...?......u.....
+..h
+..].
+01:14:29.789232 IP (tos 0x0, ttl 53, id 52735, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0xeb96 (correct), seq 40113:41531, ack 1475, win 135, options [nop,nop,TS val 3742391812 ecr 10643466], length 1418: HTTP
+E.......5..nH.....2..P.?..?..5f............
+..^...h
+adding-top:5px;max-width:509px" style="padding-top:5px" valign=top><li class=w0 style=list-style-position:outside><a href="http://www.google.com/hostednews/afp/article/ALeqM5iHpXD5tLtMrVM50ZucmXLATPhgBQ" class=l>Baby <em>panda</em> born at Schoenbrunn zoo is a male</a>&#8206; - <nobr><span class=f>1 day ago</span></nobr><br><div>VIENNA . The baby <em>panda</em> born last month at Vienna&#39;s Schoenbrunn Zoo, the second only in Europe to be conceived naturally in captivity, is a male, <b>...</b></div><span class=gl><cite>AFP</cite> - <a href="http://news.google.com/news/story?hl=en&amp;q=pandas&amp;um=1&amp;ie=UTF-8&amp;ncl=dueQAsf6DehM9xM&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;sa=X&amp;oi=news_result&amp;ct=more-results&amp;resnum=17&amp;ved=0CGgQqgIwEA">11 related articles</a></span><br></li><li class=w0 style=list-style-position:outside><div><a href="http://www.google.com/hostednews/ap/article/ALeqM5jbPf8ryKZW2FLy-3v0WVMXvRHv3gD9IAOKS80" class=l>US-born <em>panda</em> gives birth to her 8th cub in China</a>&#8206; - <span class=gl><cite>The Associated Press</cite> - <a href="http://news.google.com/news/story?hl=en&amp;q=pandas&amp;um=1&amp;ie=UTF-8&amp;ncl=dErPHpdDNZDxh5M&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;sa=X&amp;oi=news_result&amp;ct=more-results&amp;resnum=18&amp;ved=0CGsQqgIwEQ" >237 related articles</a></span></div></li><li class=w0 style=list-style-position:outside><div><a href="http://www.a
+01:14:29.789280 IP (tos 0x0, ttl 64, id 721, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x9986 (correct), seq 1475, ack 41531, win 1002, options [nop,nop,TS val 10643475 ecr 3742391812], length 0
+E..4..@.@.0'..2.H....?.P.5f...Ei...........
+..h...^.
+01:14:29.789483 IP (tos 0x0, ttl 53, id 52736, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0xfaa2 (correct), seq 41531:42949, ack 1475, win 135, options [nop,nop,TS val 3742391812 ecr 10643466], length 1418: HTTP
+E.......5..mH.....2..P.?..Ei.5f............
+..^...h
+jc.com/news/atlanta/zoo-atlanta-celebrates-pandas-616495.html" class=l>Zoo Atlanta celebrates <em>pandas</em>&#39; birthdays</a>&#8206; - <span class=gl><cite>Atlanta Journal Constitution</cite> - <a href="http://news.google.com/news/story?hl=en&amp;q=pandas&amp;um=1&amp;ie=UTF-8&amp;ncl=dM2C5lgTTb1vhfM&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;sa=X&amp;oi=news_result&amp;ct=more-results&amp;resnum=19&amp;ved=0CG4QqgIwEg" >10 related articles</a></span></div></li></table><li class="g booksbox"><h3 class=r><a href="/search?q=pandas&amp;hl=en&amp;sa=G&amp;ie=UTF-8&amp;prmd=ivnb&amp;source=univ&amp;tbs=bks:1&amp;tbo=u&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;oi=book_group&amp;ct=title&amp;cad=bottom-3results&amp;resnum=20&amp;ved=0CHMQsAMwEw">Books for <em>pandas</em></a></h3><div style="height:5px"></div><div><a href="http://books.google.com/books?id=6CiygYFekmQC&amp;printsec=frontcover&amp;dq=pandas&amp;source=bll&amp;ots=B0WLLPjyID&amp;sig=0LMwiVjap1BGtclfD42z4C82N4Y&amp;hl=en&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=20&amp;ved=0CHQQ6AEwEw"><em>Pandas</em></a> - <span class=gl><a href="/search?hl=en&amp;sa=G&amp;ie=UTF-8&amp;q=inauthor:&quot;Heather+Angel&quot;&amp;ei=tT
+1000
+OcTPj-G4KdlgfN86XZCQ&amp;ved=0CHUQ9Ag">Heather Angel</a> <span class=hpn>-</span> 1998 <span class=hpn>-</span> 72 pages</span><br>An introduction to the panda examines its general behavior, fee
+01:14:29.789515 IP (tos 0x0, ttl 64, id 722, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x93fc (correct), seq 1475, ack 42949, win 1002, options [nop,nop,TS val 10643475 ecr 3742391812], length 0
+E..4..@.@.0&..2.H....?.P.5f...J............
+..h...^.
+01:14:29.789604 IP (tos 0x0, ttl 53, id 52737, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x2857 (correct), seq 42949:44367, ack 1475, win 135, options [nop,nop,TS val 3742391812 ecr 10643466], length 1418: HTTP
+E.......5..lH.....2..P.?..J..5f.....(W.....
+..^...h
+ding habits, and ...<br></div><div><a href="http://books.google.com/books?id=0Q54UVuSnSEC&amp;printsec=frontcover&amp;dq=pandas&amp;source=bll&amp;ots=1fDLN2pfka&amp;sig=_5UcFgqEcNYX2lZ0hkzs8dGensg&amp;hl=en&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=21&amp;ved=0CHcQ6AEwFA"><em>Pandas</em></a> - <span class=gl><a href="/search?hl=en&amp;sa=G&amp;ie=UTF-8&amp;q=inauthor:&quot;Susan+Kueffner&quot;&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CHgQ9Ag">Susan Kueffner</a> <span class=hpn>-</span> 2008 <span class=hpn>-</span> 48 pages</span><br>Describes the physical characteristics, habitat, and behavior of pandas.<br></div><span class=a>books.google.com</span></ol></div><div id=brs style="clear:both;margin-bottom:17px;overflow:hidden"><div class="med" style="text-align:left">Searches related to <em>pandas</em></div><div class=brs_col><p><a href="/search?hl=en&amp;ie=UTF-8&amp;q=giant+panda&amp;revid=-1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CHwQ1QIoAA"><b>giant panda</b></a></p><p><a href="/search?hl=en&amp;ie=UTF-8&amp;q=pictures+of+pandas&amp;revid=-1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CH0Q1QIoAQ"><b>pictures of</b> pandas</a></p><p><a href="/search?hl=en&amp;ie=UTF-8&amp;q=baby+pandas&amp;revid=-1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CH4Q1QIoAg"><b>baby</b> pandas</a></p><p><a href="/search?hl=en&amp;ie=UTF-8&amp;q=panda+facts&am
+01:14:29.789620 IP (tos 0x0, ttl 64, id 723, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x8e72 (correct), seq 1475, ack 44367, win 1002, options [nop,nop,TS val 10643475 ecr 3742391812], length 0
+E..4..@.@.0%..2.H....?.P.5f...P}.....r.....
+..h...^.
+01:14:29.789849 IP (tos 0x0, ttl 53, id 52739, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x51c3 (correct), seq 45785:47203, ack 1475, win 135, options [nop,nop,TS val 3742391812 ecr 10643466], length 1418: HTTP
+E.......5..jH.....2..P.?..V..5f.....Q......
+..^...h
+0-U2HFfMSA&amp;adurl=http://www.WCS.org/Tigers" >Facts about Tigers</a></h3>Find out where the last tigers<br>live and how you can help them.<br><cite>WCS.org/Tigers</cite><li><h3><a id=an2 href="/aclk?sa=L&amp;ai=CrOKhtTOcTMbJHcOXlQfK8NjnD-XjuqcBgf3E8hL1t6IOEAIoA1CO5uf7BmDJ7p6N7KSAEMgBAaoEE0_Qp1hV8p22Z7ogtM9mhwZa384&amp;num=4&amp;sig=AGiWqtyBu2R_Rps14T9B4Cg-YheGkjz-5Q&amp;adurl=http://pandasinternational.org" >How to Save a <b>Panda</b> Bear</a></h3>Cub Formula &amp; Bamboo Planting thru<br>Adoptions, Sponsorships, Membership<br><cite>www.<b>pandas</b>international.org</cite><li><h3><a id=an3 href="/aclk?sa=L&amp;ai=C16M5tTOcTMbJHcOXlQfK8NjnD_btqs0B8uaU6QOr5oUGEAMoA1DZnbK3-v____8BYMnuno3spIAQyAEBqgQTT9C3WmvynLZnuiC0z2aHBlrfzg&amp;num=5&amp;ggladgrp=507544778&amp;gglcreat=939371498&amp;sig=AGiWqtz7ZsQyuBe_YLF8XFeOS9NsVU86TA&amp;adurl=http://www.jdoqocy.com/click-2118118-10473284%3Furl%3Dhttp%253A%252F%252Fshopping.yahoo.com%252Fsearch%253Fp%253DPandas%2526view%253Dg%2526affiliate%253Drw%26sid%3Dys6k362821-27514" ><b>Pandas</b></a></h3>Looking for <b>
+1000
+Pandas</b>?<br>Find exactly what you want today.<br><cite>Yahoo.com</cite></ol><p style="margin:17px 0 0;text-align:left"><a href="https://adwords.google.com/select/Login?sourceid=awo&subid=us-en-et-symh&medium=link&hl=en" class=fl style="font-size:11px">See your ad here&nbsp;&raquo;</a><tr><td id=rhspad></table></div></div><div id=leftnav ro
+01:14:29.789868 IP (tos 0x0, ttl 64, id 724, offset 0, flags [DF], proto TCP (6), length 64)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x8f2a (correct), seq 1475, ack 44367, win 1002, options [nop,nop,TS val 10643475 ecr 3742391812,nop,nop,sack 1 {45785:47203}], length 0
+E..@..@.@.0...2.H....?.P.5f...P}.....*.....
+..h...^....
+..V...[.
+01:14:29.820209 IP (tos 0x0, ttl 53, id 52743, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x765c (correct), seq 51457:52875, ack 1475, win 135, options [nop,nop,TS val 3742391843 ecr 10643475], length 1418: HTTP
+E.......5..fH.....2..P.?..l/.5f.....v\.....
+..^#..h.&amp;ved=0CBUQpwU" class="q qs">Sites with images</a></ul></ul><a href="/search?q=pandas&amp;hl=en&amp;sa=G&amp;ie=UTF-8&amp;prmd=ivnb&amp;tbo=1" class="nj q" id=tbpi style="clear:both;display:block;margin:8px"><span id=tbp style="background-position:-153px -99px;border:0;display:block;float:left;height:14px;margin-right:3px;width:14px"></span><nobr class=tbpo>Fewer search tools</nobr><nobr class=tbpc>More search tools</nobr></a></div><h2 style="font-size:small;border-top:1px solid #c9d7f1;padding-top:8px">Something different</h2><ul id=swr style="float:left;margin-top:4px;padding-left:8px;white-space:nowrap"><li><a href="/search?hl=en&amp;ie=UTF-8&amp;q=elephants&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CCEQtAYoAA" title="elephants">elephants</a><li><a href="/search?hl=en&amp;ie=UTF-8&amp;q=panda+bears&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CCIQtAYoAQ" title="panda bears">panda bears</a><li><a href="/search?hl=en&amp;ie=UTF-8&amp;q=polar+bears&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CCMQtAYoAg" title="polar bears">polar bears</a><li><a href="/search?hl=en&amp;ie=UTF-8&amp;q=giraffes&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CCQQtAYoAw" title="giraffes">giraffes</a><li><a href="/search?hl=en&amp;ie=UTF-8&amp;q=zebras&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CCUQtAYoBA" title="zebras">zebras</a></ul></div></div> <div id=foot class=tsf-p role=contentinfo><div i
+01:14:29.820223 IP (tos 0x0, ttl 64, id 725, offset 0, flags [DF], proto TCP (6), length 72)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x7990 (correct), seq 1475, ack 44367, win 1002, options [nop,nop,TS val 10643484 ecr 3742391812,nop,nop,sack 2 {51457:52875}{45785:47203}], length 0
+E..H..@.@.0...2.H....?.P.5f...P}....y......
+..h...^.......l/..q...V...[.
+01:14:29.820456 IP (tos 0x0, ttl 53, id 52744, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x128a (correct), seq 52875:54293, ack 1475, win 135, options [nop,nop,TS val 3742391843 ecr 10643475], length 1418: HTTP
+E.......5..eH.....2..P.?..q..5f............
+..^#..h.d=navcnt><table id=nav style="border-collapse:collapse;text-align:left;direction:ltr;margin:17px auto 0"><tr valign=top><td class=b><span class="csb" style="background-position:-24px 0;width:28px"></span><td class=cur><span class="csb" style="background-position:-53px 0;width:20px"></span>1<td><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;start=10&amp;sa=N" class=fl><span class="csb ch" style="background-position:-74px 0;width:20px"></span>2</a><td><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;start=20&amp;sa=N" class=fl><span class="csb ch" style="background-position:-74px 0;width:20px"></span>3</a><td><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;start=30&amp;sa=N" class=fl><span class="csb ch" style="background-position:-74px 0;width:20px"></span>4</a><td><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;start=40&amp;sa=N" class=fl><span class="csb ch" style="background-position:-74px 0;width:20px"></span>5</a><td><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;start=50&amp;sa=N" class=fl><span class="csb ch" style="background-position:-74px 0;width:20px"></span>6</a><td><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;ei=tTOcTPj-
+01:14:29.820468 IP (tos 0x0, ttl 64, id 726, offset 0, flags [DF], proto TCP (6), length 72)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x7406 (correct), seq 1475, ack 44367, win 1002, options [nop,nop,TS val 10643484 ecr 3742391812,nop,nop,sack 2 {51457:54293}{45785:47203}], length 0
+E..H..@.@.0...2.H....?.P.5f...P}....t......
+..h...^.......l/..wC..V...[.
+01:14:29.820578 IP (tos 0x0, ttl 53, id 52745, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0xa270 (correct), seq 54293:55711, ack 1475, win 135, options [nop,nop,TS val 3742391843 ecr 10643475], length 1418: HTTP
+E....	..5..dH.....2..P.?..wC.5f......p.....
+..^#..h.G4KdlgfN86XZCQ&amp;start=60&amp;sa=N" class=fl><span class="csb ch" style="background-position:-74px 0;width:20px"></span>7</a><td><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;start=70&amp;sa=N" class=fl><span class="csb ch" style="background-position:-74px 0;width:20px"></span>8</a><td><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;start=80&amp;sa=N" class=fl><span class="csb ch" style="background-position:-74px 0;width:20px"></span>9</a><td><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;start=90&amp;sa=N" class=fl><span class="csb ch" style="background-position:-74px 0;width:20px"></span>10</a><td class=b
+1000
+><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;start=10&amp;sa=N" class=pn style="text-align:left"><span class="csb ch" style="background-position:-96px 0;width:71px"></span><span style="display:block;margin-left:53px">Next</span></a></table></div><div style="height:1px;line-height:0"></div><div><div id=sftr style="margin-top:22px"><form method=get action="/search"><table border=0 cellpadding=0 cellspacing=0><tr><td class=lst-td width=100%><input class=lst type=text name=q maxlength=2048 value="pandas" title="Search"><span id=tsf-oq style="display:none">pandas</span><td><div class=ds><d
+01:14:29.820592 IP (tos 0x0, ttl 64, id 727, offset 0, flags [DF], proto TCP (6), length 72)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x6e7c (correct), seq 1475, ack 44367, win 1002, options [nop,nop,TS val 10643484 ecr 3742391812,nop,nop,sack 2 {51457:55711}{45785:47203}], length 0
+E..H..@.@.0...2.H....?.P.5f...P}....n|.....
+..h...^.......l/..|...V...[.
+01:14:29.820829 IP (tos 0x0, ttl 53, id 52747, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0xbc31 (correct), seq 57129:58547, ack 1475, win 135, options [nop,nop,TS val 3742391843 ecr 10643475], length 1418: HTTP
+E.......5..bH.....2..P.?...W.5f......1.....
+..^#..h.f/CgJlbhICdXMgACswRTgBLCswWjgALCswDjgALCswFzgALCswJzgALCswPDgALCswCjhzQC8sKzAWOAAsKzAlOM-IASwrMEA4ACwrMEE4ACwrMFQ4ACwrMBg4ACwrMCY4ACyAAheQAh0/WUUiqREv-Nk.js";(document.getElementById("xjsd")||document.body).appendChild(a);if(google.timers&&google.timers.load.t)google.timers.load.t.xjsls=(new Date).getTime();},0);
+google.drhs=1;var oldElement=document.getElementById('tbt3');if(oldElement){oldElement.parentNode.removeChild(oldElement);}delete google.ww;google.y.first.push(function(){;var form=document.gs||document.f||document.gs;google.ac.i(form,form.q,'','pandas','',{o:1,sw:1,l:1,r:0});google.riu={render:function(){window.setTimeout(function(){var a=document.createElement("script");a.src="/extern_js/f/CgJlbhICdXMgACswPzgDLIACF5ACHQ/fpJ2E8bIc2s.js";(document.getElementById("xjsd")||document.body).appendChild(a);},0);
+}};;google.mc = [[14,{}],[84,{}],[22,{"m_error":"\u003Cfont color=red\u003EError:\u003C/font\u003E The server could not complete your request.  Try again in 30 seconds.","m_tip":"Click for more information"}],[64,{}]];google.med('init');google.History&&google.History.initialize('/search?hl\x3den\x26amp;source\x3dhp\x26amp;ie\x3dISO-8859-1\x26amp;q\x3dpandas\x26amp;btnG\x3dGoogle+Search')});if(google.j&&google.j.en&&google.j.xi){window.setTimeout(google.j.xi,0);google.fade=null;}</script></div><script>(function(){
+var b,d,e,f;function g(a,c){if(a.removeEventListener){a.removeEventListe
+01:14:29.820847 IP (tos 0x0, ttl 64, id 728, offset 0, flags [DF], proto TCP (6), length 80)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x2c9b (correct), seq 1475, ack 44367, win 1002, options [nop,nop,TS val 10643484 ecr 3742391812,nop,nop,sack 3 {57129:58547}{51457:55711}{45785:47203}], length 0
+E..P..@.@.0...2.H....?.P.5f...P}....,......
+..h...^........W......l/..|...V...[.
+01:14:29.852188 IP (tos 0x0, ttl 53, id 52748, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0xbc40 (correct), seq 44367:45785, ack 1475, win 135, options [nop,nop,TS val 3742391873 ecr 10643484], length 1418: HTTP
+E.......5..aH.....2..P.?..P}.5f......@.....
+..^A..h.p;revid=-1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CH8Q1QIoAw"><b>panda facts</b></a></p></div><div class=brs_col><p><a href="/search?hl=en&amp;ie=UTF-8&amp;q=red+pandas&amp;revid=-1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CIABENUCKAQ"><b>red</b> pandas</a></p><p><a href="/search?hl=en&amp;ie=UTF-8&amp;q=endangered+pandas&amp;revid=-1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CIEBENUCKAU"><b>endangered</b> pandas</a></p><p><a href="/search?hl=en&amp;ie=UTF-8&amp;q=panda+bears&amp;revid=-1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CIIBENUCKAY"><b>panda bears</b></a></p><p><a href="/search?hl=en&amp;ie=UTF-8&amp;q=panda+antivirus&amp;revid=-1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CIMBENUCKAc"><b>panda antivirus</b></a></p></div></div></div> </div> <div id=rhs style="display:block;border-left:1px solid #d3e1f9;position:absolute;right:0px;top:0;width:264px"><div id=rhs_block style="padding-top:5px"><table cellpadding=0 cellspacing=0 id=mbEnd style="padding:0;white-space:nowrap"><tr><td class=std><h2 style="font-size:11px;padding:1px 0 4px;margin:0;text-align:left">Sponsored links</h2><ol onmouseover="return true" class=nobr style="margin-top:-11px"><li><h3><a id=an1 href="/aclk?sa=l&amp;ai=C0WratTOcTMbJHcOXlQfK8NjnD5qRvskB2or3yBb-qf30AhABKANQmYb6yfr_____AWDJ7p6N7KSAEKABvsH__QPIAQGqBBtP0OcHXfKavmZbIs1zdIVllEQAbHQk99y0iPc&amp;num=3&amp;sig=AGiWqtyGfOeyckXzhCgQZhEs
+01:14:29.852208 IP (tos 0x0, ttl 64, id 729, offset 0, flags [DF], proto TCP (6), length 72)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x0aad (correct), seq 1475, ack 47203, win 958, options [nop,nop,TS val 10643494 ecr 3742391873,nop,nop,sack 2 {57129:58547}{51457:55711}], length 0
+E..H..@.@.0...2.H....?.P.5f...[.....
+......
+..h&..^A.......W......l/..|.
+01:14:29.852434 IP (tos 0x0, ttl 53, id 52749, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x018c (correct), seq 47203:48621, ack 1475, win 135, options [nop,nop,TS val 3742391873 ecr 10643484], length 1418: HTTP
+E.......5..`H.....2..P.?..[..5f............
+..^A..h.le=navigation style="padding-top:3px;padding-left:4px;position:absolute;top:0;width:151px" onclick="google.srp&&google.srp.qs(event)"><div id=ms><ul><li class="mitem msel"><span class=micon style="background-position:-20px -132px"></span>Everything<li class="mitem"><a href="/images?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;source=lnms&amp;tbs=isch:1&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;ved=0CBgQ_AU" class="q qs"><span class=micon style="background-position:-40px -132px"></span>Images</a><li class="mitem"><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;source=lnms&amp;tbs=vid:1&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;ved=0CBkQ_AU" class="q qs"><span class=micon style="background-position:-80px -132px"></span>Videos</a><li class="mitem"><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;source=lnms&amp;tbs=nws:1&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;ved=0CBoQ_AU" class="q qs"><span class=micon style="background-position:-120px -132px"></span>News</a><li class="mitem"><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;source=lnms&amp;tbs=bks:1&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;ved=0CBsQ_AU" class="q qs"><span class=micon style="background-position:-40px -152px"></span>Books</a></ul><ul class=nojsb  id="h
+01:14:29.852448 IP (tos 0x0, ttl 64, id 730, offset 0, flags [DF], proto TCP (6), length 72)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x0539 (correct), seq 1475, ack 48621, win 936, options [nop,nop,TS val 10643494 ecr 3742391873,nop,nop,sack 2 {57129:58547}{51457:55711}], length 0
+E..H..@.@.0
+..2.H....?.P.5f...a......9.....
+..h&..^A.......W......l/..|.
+01:14:29.883168 IP (tos 0x0, ttl 53, id 52750, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x8a6c (correct), seq 48621:50039, ack 1475, win 135, options [nop,nop,TS val 3742391905 ecr 10643494], length 1418: HTTP
+E.......5.._H.....2..P.?..a..5f......l.....
+..^a..h&idden_modes"><li class="mitem"><a href="http://maps.google.com/maps?hl=en&amp;q=pandas&amp;um=1&amp;ie=UTF-8&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;ved=0CBwQ_AU" class="q qs"><span class=micon style="background-position:-80px -152px"></span>Maps</a><li class="mitem"><a href="http://www.google.com/products?hl=en&amp;q=pandas&amp;um=1&amp;ie=UTF-8&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;ved=0CB0Q_AU" class="q qs"><span class=micon style="background-position:-120px -152px"></span>Shopping</a><li class="mitem"><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;source=lnms&amp;tbs=blg:1&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;ved=0CB4Q_AU" class="q qs"><span class=micon style="background-position:0 -152px"></span>Blogs</a><li class="mitem"><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;source=lnms&amp;tbs=mbl:1&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;ved=0CB8Q_AU" class="q qs"><span class=micon style="background-position:-40px -172px"></span>Updates</a><li class="mitem"><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;source=lnms&amp;tbs=dsc:1&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;ved=0CCAQ_AU" class="q qs"><span class=micon style="background-position:0 -172px"></span>Discussions</a></ul
+01:14:29.883183 IP (tos 0x0, ttl 64, id 731, offset 0, flags [DF], proto TCP (6), length 72)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0xff96 (correct), seq 1475, ack 50039, win 919, options [nop,nop,TS val 10643503 ecr 3742391905,nop,nop,sack 2 {57129:58547}{51457:55711}], length 0
+E..H..@.@.0	..2.H....?.P.5f...f............
+..h/..^a.......W......l/..|.
+01:14:29.913150 IP (tos 0x0, ttl 53, id 52751, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x760e (correct), seq 50039:51457, ack 1475, win 135, options [nop,nop,TS val 3742391936 ecr 10643503], length 1418: HTTP
+E.......5..^H.....2..P.?..f..5f.....v......
+..^...h/><a id=showmodes class="jsb q nj" href="#" onclick="google.x(this.id,google.srp.toggleModes);return false" style="border-bottom:1px solid #c9d7f1;padding-bottom:9px"><span class="micon"></span><span class="msm">More</span><span class="msl">Fewer</span></a></div><div style="clear:both;overflow:hidden"><h2 class=hd>Search Options</h2><ul id=tbd class="med"><li><ul class="tbt tbpd"><li class="tbos" id=qdr_ onclick="return google.Toolbelt.tbosClk(event)">Any time<li class="tbou" id=rltm_1><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;source=lnt&amp;tbs=rltm:1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CA4QpwU" class="q qs">Latest</a><li class="tbou" id=qdr_d2><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;source=lnt&amp;tbs=qdr:d2&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CA8QpwU" class="q qs">Past 2 days</a></ul><li class=jsb><ul class="tbt"><li class="tb
+1000
+os" id=frim_ onclick="return google.Toolbelt.tbosClk(event)">All results</ul><li class=jsb><ul class="tbt"><li class="jsb tbou" id=ww_1><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;source=lnt&amp;tbs=ww:1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ&amp;ved=0CBMQpwU" class="q qs">Wonder wheel</a></ul><li><ul class="tbt"><li class="tbou" id=img_1><a href="/search?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;source=lnt&amp;tbs=img:1&amp;sa=X&amp;ei=tTOcTPj-G4KdlgfN86XZCQ
+01:14:29.913172 IP (tos 0x0, ttl 64, id 732, offset 0, flags [DF], proto TCP (6), length 64)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x09ec (correct), seq 1475, ack 55711, win 919, options [nop,nop,TS val 10643512 ecr 3742391936,nop,nop,sack 1 {57129:58547}], length 0
+E..@..@.@.0...2.H....?.P.5f...|.....	......
+..h8..^....
+...W....
+01:14:29.943016 IP (tos 0x0, ttl 53, id 52752, offset 0, flags [none], proto TCP (6), length 1031)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [P.], cksum 0x568d (correct), seq 58547:59526, ack 1475, win 135, options [nop,nop,TS val 3742391966 ecr 10643512], length 979: HTTP
+E.......5...H.....2..P.?.....5f.....V......
+..^...h8ner("load",c,false);a.removeEventListener("error",c,false)}else{a.detachEvent("onload",c);a.detachEvent("onerror",c)}}function h(a){f=(new Date).getTime();++d;a=a||window.event;var c=a.target||a.srcElement;g(c,h)}var i=document.getElementsByTagName("img");b=i.length;d=0;for(var j=0,k;j<b;++j){k=i[j];if(k.complete||typeof k.src!="string"||!k.src)++d;else if(k.addEventListener){k.addEventListener("load",h,false);k.addEventListener("error",
+h,false)}else{k.attachEvent("onload",h);k.attachEvent("onerror",h)}}e=b-d;function l(){if(!google.timers.load.t)return;google.timers.load.t.ol=(new Date).getTime();google.tim
+15d
+ers.load.t.iml=f;google.kCSI.imc=d;google.kCSI.imn=b;google.kCSI.imp=e;google.timers.load.t.xjs&&google.report&&google.report(google.timers.load,google.kCSI)}if(window.addEventListener)window.addEventListener("load",l,false);else if(window.attachEvent)window.attachEvent("onload",l);google.timers.load.t.prt=(f=(new Date).getTime());
+})();
+</script>
+0
+
+
+01:14:29.943029 IP (tos 0x0, ttl 64, id 733, offset 0, flags [DF], proto TCP (6), length 64)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x05d1 (correct), seq 1475, ack 55711, win 982, options [nop,nop,TS val 10643521 ecr 3742391936,nop,nop,sack 1 {57129:59526}], length 0
+E..@..@.@.0...2.H....?.P.5f...|............
+..hA..^....
+...W....
+01:14:29.973609 IP (tos 0x0, ttl 53, id 52753, offset 0, flags [none], proto TCP (6), length 1470)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [.], cksum 0x1f45 (correct), seq 55711:57129, ack 1475, win 135, options [nop,nop,TS val 3742391996 ecr 10643521], length 1418: HTTP
+E.......5..\H.....2..P.?..|..5f......E.....
+..^...hAiv class=lsbb><input type=submit name="btnG" class=lsb value="Search"></div></div></table><input type=hidden name=hl value="en"><input type=hidden name=ie value="ISO-8859-1"><input type=hidden name=sa value="2"></form></div><p id=bfl style="margin:6px 0 0;text-align:center"><a href="/swr?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb&amp;swrnum=5650000" class=fl>Search&nbsp;within&nbsp;results</a> <a href="/support/websearch/bin/answer.py?answer=134479&amp;hl=en" class=fl>Search Help</a> <a href="/quality_form?q=pandas&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnb" target=_blank class=fl>Give us feedback</a> </div><div id=fll style="margin:19px auto 19px auto;text-align:center"><a href="/">Google&nbsp;Home</a><a href="/intl/en/ads/">Advertising&nbsp;Programs</a><a href="/services/">Business Solutions</a><a href="/intl/en/privacy.html">Privacy</a><a href="/intl/en/about.html">About Google</a></div></div><script type="text/javascript">(new Image()).src="http://id.google.com/verify/EAAAAFyajG86SGq2oZJ-HyrYYxQ.gif";</script><noscript><img src="http://id.google.com/verify/EAAAAFyajG86SGq2oZJ-HyrYYxQ.gif" height=1 width=1 alt=""></noscript></div>  <textarea style="display:none" id=hcache></textarea><div id=xjsd></div><div id=xjsi><script>if(google.y)google.y.first=[];if(google.y)google.y.first=[];google.dstr=[];google.rein=[];window.setTimeout(function(){var a=document.createElement("script");a.src="/extern_js/
+01:14:29.973626 IP (tos 0x0, ttl 64, id 734, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x5275 (correct), seq 1475, ack 59526, win 961, options [nop,nop,TS val 10643530 ecr 3742391996], length 0
+E..4..@.@.0...2.H....?.P.5f.........Ru.....
+..hJ..^.
+01:14:32.923374 IP (tos 0x0, ttl 64, id 49304, offset 0, flags [DF], proto TCP (6), length 60)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [S], cksum 0x3b55 (correct), seq 3476925223, win 5840, options [mss 1460,sackOK,TS val 10644415 ecr 0,nop,wscale 6], length 0
+E..<..@.@.....2..P...G.P.=.'........;U.........
+..k.........
+01:14:32.977071 IP (tos 0x0, ttl 50, id 0, offset 0, flags [DF], proto TCP (6), length 60)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [S.], cksum 0x1f7f (correct), seq 4066341121, ack 3476925224, win 5792, options [mss 1460,sackOK,TS val 66040993 ecr 10644415,nop,wscale 9], length 0
+E..<..@.2..>.P....2..P.G._q..=.(...............
+......k....	
+01:14:32.977123 IP (tos 0x0, ttl 64, id 49305, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x6481 (correct), seq 1, ack 1, win 92, options [nop,nop,TS val 10644431 ecr 66040993], length 0
+E..4..@.@.....2..P...G.P.=.(._q....\d......
+..k.....
+01:14:32.977490 IP (tos 0x0, ttl 64, id 49306, offset 0, flags [DF], proto TCP (6), length 666)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [P.], cksum 0xefc2 (correct), seq 1:615, ack 1, win 92, options [nop,nop,TS val 10644431 ecr 66040993], length 614: HTTP, length: 614
+	GET /wiki/Giant_Panda HTTP/1.1
+	Host: en.wikipedia.org
+	User-Agent: Links (2.2; Linux 2.6.35-ARCH i686; 182x46)
+	Accept: */*
+	Accept-Encoding: gzip, deflate, bzip2
+	Accept-Charset: us-ascii, ISO-8859-1, ISO-8859-2, ISO-8859-3, ISO-8859-4, ISO-8859-5, ISO-8859-6, ISO-8859-7, ISO-8859-8, ISO-8859-9, ISO-8859-10, ISO-8859-13, ISO-8859-14, ISO-8859-15, ISO-8859-16, windows-1250, windows-1251, windows-1252, windows-1256, windows-1257, cp437, cp737, cp850, cp852, cp866, x-cp866-u, x-mac, x-mac-ce, x-kam-cs, koi8-r, koi8-u, koi8-ru, TCVN-5712, VISCII, utf-8
+	Accept-Language: en, *;q=0.1
+	Connection: Keep-Alive
+	
+E.....@.@..F..2..P...G.P.=.(._q....\.......
+..k.....GET /wiki/Giant_Panda HTTP/1.1
+Host: en.wikipedia.org
+User-Agent: Links (2.2; Linux 2.6.35-ARCH i686; 182x46)
+Accept: */*
+Accept-Encoding: gzip, deflate, bzip2
+Accept-Charset: us-ascii, ISO-8859-1, ISO-8859-2, ISO-8859-3, ISO-8859-4, ISO-8859-5, ISO-8859-6, ISO-8859-7, ISO-8859-8, ISO-8859-9, ISO-8859-10, ISO-8859-13, ISO-8859-14, ISO-8859-15, ISO-8859-16, windows-1250, windows-1251, windows-1252, windows-1256, windows-1257, cp437, cp737, cp850, cp852, cp866, x-cp866-u, x-mac, x-mac-ce, x-kam-cs, koi8-r, koi8-u, koi8-ru, TCVN-5712, VISCII, utf-8
+Accept-Language: en, *;q=0.1
+Connection: Keep-Alive
+
+
+01:14:33.032531 IP (tos 0x0, ttl 50, id 50596, offset 0, flags [DF], proto TCP (6), length 52)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x6264 (correct), seq 1, ack 615, win 14, options [nop,nop,TS val 66040998 ecr 10644431], length 0
+E..4..@.2.'..P....2..P.G._q..=......bd.....
+......k.
+01:14:33.032909 IP (tos 0x0, ttl 50, id 50597, offset 0, flags [DF], proto TCP (6), length 585)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [P.], cksum 0x7cdd (correct), seq 1:534, ack 615, win 14, options [nop,nop,TS val 66040999 ecr 10644431], length 533: HTTP, length: 533
+	HTTP/1.0 200 OK
+	Date: Fri, 24 Sep 2010 00:00:17 GMT
+	Server: Apache
+	Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+	Content-Language: en
+	Vary: Accept-Encoding,Cookie
+	Last-Modified: Tue, 21 Sep 2010 13:42:43 GMT
+	Content-Encoding: gzip
+	Content-Length: 58835
+	Content-Type: text/html; charset=UTF-8
+	Age: 18856
+	X-Cache: HIT from sq40.wikimedia.org
+	X-Cache-Lookup: HIT from sq40.wikimedia.org:3128
+	X-Cache: MISS from sq73.wikimedia.org
+	X-Cache-Lookup: MISS from sq73.wikimedia.org:80
+	Connection: keep-alive
+	
+E..I..@.2.%..P....2..P.G._q..=......|......
+......k.HTTP/1.0 200 OK
+Date: Fri, 24 Sep 2010 00:00:17 GMT
+Server: Apache
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+Content-Language: en
+Vary: Accept-Encoding,Cookie
+Last-Modified: Tue, 21 Sep 2010 13:42:43 GMT
+Content-Encoding: gzip
+Content-Length: 58835
+Content-Type: text/html; charset=UTF-8
+Age: 18856
+X-Cache: HIT from sq40.wikimedia.org
+X-Cache-Lookup: HIT from sq40.wikimedia.org:3128
+X-Cache: MISS from sq73.wikimedia.org
+X-Cache-Lookup: MISS from sq73.wikimedia.org:80
+Connection: keep-alive
+
+
+01:14:33.032929 IP (tos 0x0, ttl 64, id 49307, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x5fdf (correct), seq 615, ack 534, win 108, options [nop,nop,TS val 10644448 ecr 66040999], length 0
+E..4..@.@.....2..P...G.P.=..._s....l_......
+..k.....
+01:14:33.033183 IP (tos 0x0, ttl 50, id 50598, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x9a58 (correct), seq 534:1982, ack 615, win 14, options [nop,nop,TS val 66040999 ecr 10644431], length 1448: HTTP
+E.....@.2.!..P....2..P.G._s..=.......X.....
+......k.............k..K...~..+..E.4.....&....s..f.......@".$+...G...6kI...cfV.Y3...lgF6c.5....v5../.................B.(..S.t..2#"3#<.=<<....?~s....'l.N.v.....'l.Z..o.....=f.x...K..5.;........z.....3	...z....v..y....m.#......jh<Y......~J..8u..Q.k..nW>........w..m........C.	....g6wCv..!gU..>.gbh.].N...B0.Zs.....u...~:.!g....Md_<.9..P.a..|&v.%.....cX..<d......}..i......r...Q..+..g]>..v...>.=.h.
+.....h.\NG{.1.v../.G;|6.o.^dM.6<..&...0.n.R.. .m_....;....V.2........O...}k..B....mq..:@...C.X.=...G.W..K.M...f...
+...N<...p.g.ky..o.'af../......S..h..%.LP......k.z..N(|...h$03S..\..............C..l~6.....o.t#<..R..o...!>.....*.O0.";....4..xZ.s.....~.F.8T.r.......~...C=....i..@..k......@$bx#..?....W........:...
+.$.................]....cj...f...K.q>{...|.M$.y5..~.....^...............!...i0..5.... ,.8~.N..n.L.G>..Z....F.........t.n....c.M.aI.]8...ZN.3..qLT..9.o	...8U...T...#..U..k............3d..v$......s...Rl......;...z..(....~.._...... ...u.o%7co6.~r.
+..ar......../.|I..pN....q.%~....n\M.=.C.r.)...C...&...Dt.Q.D..G;$.$5.	..o.......w.A..I.......^#.....f....z....k.	...`...J.8...6...'^G..|...q.....$#...I)...w.n.~........f.......*|...}..@...7r.]....Y.*z	bO....<.KJ...c.....8.d.'..V\.8;..v........}+|9i....O\>p.........o...3....i.3...;l..W.|.......=.....@.Bp+..-.{..Sx.......X.Sm.<`R...T.x.&...x..T..;.xC.!4...oX....$.N.d?U.7<....#..P.....o.(.tS%q.&u.........i.$.....3....K.P.O......d.,1>I.<.}..T..L
+.f4.c.S.]}+..6E7/.8'...Y..O.j.......5...}..$.ix.Z.....p.
+01:14:33.033199 IP (tos 0x0, ttl 64, id 49308, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x5a09 (correct), seq 615, ack 1982, win 154, options [nop,nop,TS val 10644448 ecr 66040999], length 0
+E..4..@.@.....2..P...G.P.=..._x.....Z	.....
+..k.....
+01:14:33.033396 IP (tos 0x0, ttl 50, id 50599, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x4629 (correct), seq 1982:3430, ack 615, win 14, options [nop,nop,TS val 66040999 ecr 10644431], length 1448: HTTP
+E.....@.2.!..P....2..P.G._x..=......F).....
+......k..7......>.........U.pO.....c..F]...:t.a..6M...!..-u.Wb7-.m..3..F....4~....-......o:.&...^.4.B5t{..!.N...%.......eb..?...W.R..oWg.*..&.l...p._|s......v.2.l.6^.9a4....f....	..]U...lj[.7"........\j5X0..`5d...Ll.....gO.Y...u."........n.........=....{FM^.1......'...I...t.3.....}.....wm...3.b.k..@........M..*.y5;.]....Ec.h.I.\.pY.3.$.%.$.._.l...G.&..	......x....R....4.....D.D..s......F...D. 2........	G.z..z.-..6u.....I.....l..0...w.KA0....|.px..V.....)2......?......t..p..K~.q..)v.2>..E
+i....$B\t.%....ZR{..nO.pf..4;?.p'...Y`.._....:.0.Ah,......h!..J.7...)..@W.\...Q._.P...8.....?.%....j...L(.R..j.v.w.1.'K.....~...FNq_h.gf9.5H*.}...gH...[....=.:>P.w..Q.......Du....S.~..............k..7..Y.Cd.Rj...M.k.>."......w.=.g.|k%M.VS...Z.s........=.
+.5>......V...\cL.~fz..x..J!K.=........B...>..K.u.Dc.F.C?'..z".E]k........Z.?]...^....].....Su.........N>pW.......TU......(-..; ..M..Y.DR6.".z.....s<.@.3.O..6......#*..]../..v....S<W~A}.e.<`.....P.k aA+"
+"...f..PKFar....Q....U".A...V........#.9..f....>w\...x..53].
+...Z..=bN.^<a..
+...+Y.Mo....6..}...D.s.U.9.>...d..&..s....|[..?......O...p.U0.6.C.+#}..$.-9...y......ut........>.>|...U,yx...#...a. ..i.....R......*.U.v....\.^@...3......A..M..z@3....f..HRD=HRA4...n;..,.FH.HV. .....c..R..k..3....Y=.@=0.u......w."..z.^(.......:..Z.....>..#P....&....w...5..C...Y5..US..3--...=...Kv.+....n8.p.O6.<l...........j...../...Md[.!P....c.;(,ml.=n\...$.).2."]y.G#!%....u..4A.._I..4Q-..U	.LI.G.h:p..H..q3.<3.u....ph7.M...x
+01:14:33.033407 IP (tos 0x0, ttl 64, id 49309, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x5434 (correct), seq 615, ack 3430, win 199, options [nop,nop,TS val 10644448 ecr 66040999], length 0
+E..4..@.@.....2..P...G.P.=..._~g....T4.....
+..k.....
+01:14:33.086866 IP (tos 0x0, ttl 50, id 50600, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0xe048 (correct), seq 3430:4878, ack 615, win 14, options [nop,nop,TS val 66041004 ecr 10644448], length 1448: HTTP
+E.....@.2.!..P....2..P.G._~g.=.......H.....
+......k..@.....H*.........~....I.k......GJ.D.`.YEE8.8.xQ(..T.;..A@..KS..^..i......A.....7.......V@..8......l..3...g..g....&H.....?.....R'..!~...l........xr1.`...Mm...S.Q.$l..C.\	?p..).y.nv./.......2.n.(~T....f2.2......O..?......C..}d?.,....d...,..!..p.o...y.>`..a..$...>	.3a...(^'..F..[f9<..%J4X.}..m.........NUCQNg%UuT......O........*5..
+.....<..OC.l{....A......w......'?.T...<.e....Au*EMX....p.......?4......6..d.....X%..;.+.g.....&..#v..} O+...v..w.....[...L=..]5.. |..D.T.t....u1.S.....H..d....1.$5+	h.:95......&}O..,......t	[.x.d.s.....$......>.{W.1....C4..7....aq..BE=.....}.~....O......=&.'...| i7S{.......'..g..W.$ &.{..<p6.r..LZ4..b].2.*..F.E...g..bx|...<.....U0...X.5.	j.cC.w.rp..ap.VU....t...>....L...[.d......t.G.......Y..$...7.]4....z.1.X-...a....S...........Q..SRKjh....x....B..5......7..h....g..Py.].N...7..C6....G1.w...b.xp..l........J.'....
+........!..g...y..........c.cN.1..zcT.}.....+....}c.....|........m.s'.[.C.....;..]...s........A`	..^|Y...N.....i....R^w1uV..z.....q.
+..-..M .a..Q?.^...r..f..kI.D..ui27.|.Kx3...$..'.9Z_.`i.=.....2.W0.....?i.4........o..x^..4u....[.....Oa.*.:XY...*....6b...P.......!.=......~."	.6....[9..-.K.../OU..b.....p.. }..=R..1...,..wf.f..2Uex...d..7}.F	..,....:.Ky..wI.../.5.L.+!X.k..N.NT......z..	i..HY....._?...}<..=..}_..._W.=...........[...........%..r..?.S...}.D...|....'p....vY....NOU...g..Jgb...Bs(h;....a.....\.N.KtD.....(.r.,.J.....].|&;6....T8.ewDd...K}........E....`../.."kY......Xf.[....39P/'.%...
+01:14:33.086893 IP (tos 0x0, ttl 64, id 49310, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x4e4a (correct), seq 615, ack 4878, win 244, options [nop,nop,TS val 10644464 ecr 66041004], length 0
+E..4..@.@.....2..P...G.P.=..._......NJ.....
+..k.....
+01:14:33.086991 IP (tos 0x0, ttl 50, id 50601, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x9e9f (correct), seq 4878:6326, ack 615, win 14, options [nop,nop,TS val 66041004 ecr 10644448], length 1448: HTTP
+E.....@.2.!..P....2..P.G._...=.............
+......k.\.4..Z.$?..%G.....c.|....B&.{.C{..v..../:..=...FQ/.^..(r...9d.......J.i...J...K.8~n..9.++C=.U........E.R..F.....Z,...3..]^....V?...Z.....>.P.......B.o.u.H.ku:.{+....zy.v.J.V.D;
+....[c...x*...>b..ZW.;5..z>..@H...=...;P.L#b.~.._"0.WN...x3..<+|......f......u..B..R...p._S.......G$.%.To.V.....Zj....s...y.c..r.].."....C..s....<.!_.%..LYE............8r-....K........*..	..p=..J.;..!...I..O#...Z......v.].AW....S'..K..+..4...0]B.}.|.//G.~{.>b.j;....>......@..d8o........a.......	..k..EB...a...qE$..sDv<.....[.).P.A...Q.Wc.&^4.@1...s..B
+.$A8;....R.j..... h.......)y^.4..7._IZ.Y.[v:..3._:.o...pM..Dh.^......y...21..XGv0.es>.rz......y..z...../....D,]........\.r^p.A.^0..e.....A..{..-..:.l......%....q.\..BQ...].....P...mM".l..}O]`_.........X...xz....s..m@X........]`..D..Bw=.I}?(....P?.B.....G..F.....a.c1.|..0S.......x.r...	.7....A.	..@...}.e..t.8.....!......@....	%..2.)Z.R.@e..Sm-4..Y..4.....&.%.F...........F..",.x..k..&h..........;DB.....'..:.n...R%.............k..._..#....;..|o;C6.f.#..m..<..r...C@-......N.*....I.....m..A......'P.q^.wv..r.)\c. ....q..@...sva....p.......|:......f.."M...G0.....]........#.0..`...@..5.~[..F.9P./
+......8.6.....#~.....[
+.3o*.....#..H.\r.C...	c...x...........9}u.t..}.l..XF......S.f^[^..g..K...n."...........'6..Q........pIJ....?..9.D.6.........e#<}7.-..6r0.G.@....&.....Z.....P.=E .C....V.3U.....	.Q.z>..................f..).a..$.rR.=7] .E..(..,.....p5.d......d.e......i.4."..r.a.....}...u-b
+B+.A.....{.ri.A.%....h..7..
+01:14:33.087005 IP (tos 0x0, ttl 64, id 49311, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x4875 (correct), seq 615, ack 6326, win 289, options [nop,nop,TS val 10644464 ecr 66041004], length 0
+E..4..@.@.....2..P...G.P.=..._.....!Hu.....
+..k.....
+01:14:33.087114 IP (tos 0x0, ttl 50, id 50602, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0xb363 (correct), seq 6326:7774, ack 615, win 14, options [nop,nop,TS val 66041004 ecr 10644448], length 1448: HTTP
+E.....@.2.!..P....2..P.G._...=.......c.....
+......k.."..B.r. .J...4.,..].4b.....]..a.;.I4.am.M..Q@...[l..C%.pZ..u..pH..h'..o..O..T...r.t.\..V....W=Sm......o.....
+.Y.L...g.....8i. M...sxm......@...E j.....kp.#.YQJV.e..Um..X.@....H.'.qv2.L.%Q}.x....6@.....;RcU....1...r.,....Z.......Pi..h......}.]..x<.	.S^
+*{fo....m..=j/..~....o..$s.[.....I.f..:.)9A(..U.e.r\g....}.....@...6j..7DyO...._IK	....\.....O.........^.Kz.K^....z.5{....~........9\/....B..\9..vV.!..q...|h..o.....]A.R...t=dl....@(.....k.du^.L...b.{..
+.8\.!.%kt(......#...yM..+w .._..O.........e........G.._......_..RL.(
+Pk...W.y..5:...O.8j.ft..j..5..b..a.?..M............{...v.S.t.H...:....j.F...x....}a...).........3....X.,Wa..F.*.b..[.#mQJ.............Sl.L.>.k...*.G.......?.Zxh^A.oW....I1s.w.Q.....zt....0zO)....\.KZ.....:y|...W?"....z.5T....w.x.....P...<.rt3x.0H...C]...
+]3.k.I.............3..`....r.@..........h.i.V..	...O..v].yl.FF..V.....eN&...#..........1........).......4..3H9r........+...*x..Gyc..`.J.5.wHy...j....PW=.bL.........;z:R..G)%...j.(d..8z....Fi./.....B=W.~.....K...6.w..]...M.j......p@j.h....U.....>........K.X.<..[.
+...v@....>C;..uYs...f...Yz...z.~......v.U(.*c.....!.5...6......C.g.P....Mjv.Z....e.P.....N.....D.P..X.o.J..^...q.+N..`vi.Y4...o......p..n0gp....)=tOF.F.i6@>h5.02..
+OjV`..v8..M5......s.......R....Z....:rx.....t.Zv|....Z.	.	M..a^..I. .I.)..Ng..._Gk.i.#.B....i.......F%..J..F.....X.....cw.B.T..1..8......!@......thF.4.`......zL...3.]....*.".gP...<...=..].b..#.h$.m...^4r.p...G..`.EuH..ah..9}...s....-...,/.GC
+01:14:33.087129 IP (tos 0x0, ttl 64, id 49312, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x429f (correct), seq 615, ack 7774, win 335, options [nop,nop,TS val 10644464 ecr 66041004], length 0
+E..4..@.@.....2..P...G.P.=..._._...OB......
+..k.....
+01:14:33.087240 IP (tos 0x0, ttl 50, id 50603, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x5b94 (correct), seq 7774:9222, ack 615, win 14, options [nop,nop,TS val 66041004 ecr 10644448], length 1448: HTTP
+E.....@.2.!..P....2..P.G._._.=......[......
+......k.G...~.`y.....W.i..2......m...K...#x..1CC*..2.....3i..[.M...$.....^...a.<...Vx.....'....1UVtv8M...'.+E..._.j..t...,?
+&.H.PT.v.-3.K/3...f..|	....N..a.z......./..E..n.....JK..2...d.Pm....q&%......E....xH..[.-..F..9...#[.L.R.(.l`..#E sk.0de.0..< ..IRv....X0.,=c9..f.E@v....L.......5&c.5.j.....h
+...#.@.#..GH.x.!5.j...N1"-...1E5...]xN...JJzB_.Y.I...?.}o /......q.a...a........N....5VS....r5............cHB..@!....w%.....	..Y)....=,<H.LbO.......;^8..V]*br.M.KL.2...lw].......EK.J%...lNK.i...#e..Q.3.U.`.{R,H.!.bqU/...bJ......h..'.u^..
+.b.a.LK..UnIC..r......Bi.>C%Tl
+Vd|...z'|.".r.....F...vza.,&....>.q.......c.@~.8.xJ./...YS\....T{..R6.R*T..C.o(.Yv..V........
+fH.^....Vn..l<.m	."..QpX]8n..P=.#....zv...%(...EP.SC.v28[..i..[.....=.i.0..G.q$......Dv....!..Lg`f....M....".$....."J0...K".m...v%..e.ZdMK..)L10t.L...DR`B.Z.<.AK9=
+..A......hH..v......	.	....Eh.#}t.{h....J..............Y........9lX.d.)9..&....K.%)k.K....!.?.>..C8B...p.(...WLg..	....&.._.#..Z..'yL....Q......@.	?......D.C&U..(..*...{.4..S......d.)K.W^..%.ek..w|X....$I-.g..~.h<..P4.,.BZjx.#_F..@z..._.5..P.|.V....6....`.C.r.0^.Lc.Z.P...V..[.l.GH.S..w............I.I......v4(.....VN..Z...u.}...,.R.?.L.z\f.[V?._.........\&..9m#C....6..+<L..m....
+..tw.C..;.[..28.O..x.....J....&.(`9....0D.....$L7i.b...1..A.....q^.O....\;.%...
+F..l...)..!.KL-.../C......pY.^.G..D......N.../2......z....Qi%*.........B..i?....I.r.H.].U....d.u..@.
+1N..8n..4F....z.{F...R..a.`.(........v...
+y.g..7..>........T..]UCai.
+01:14:33.087261 IP (tos 0x0, ttl 64, id 49313, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x3cca (correct), seq 615, ack 9222, win 380, options [nop,nop,TS val 10644464 ecr 66041004], length 0
+E..4..@.@.....2..P...G.P.=..._.....|<......
+..k.....
+01:14:33.142832 IP (tos 0x0, ttl 50, id 50604, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x5f71 (correct), seq 9222:10670, ack 615, win 14, options [nop,nop,TS val 66041009 ecr 10644464], length 1448: HTTP
+E.....@.2.!..P....2..P.G._...=......_q.....
+......k...t...|.|..$....$u.......
+G..O..k.._....A,...........J.p.a1...x.1.c.S........_...F........O....`sK.B..R..........]M.eG..E0.CB..g..8.	.
+.......Y\.SW.E..J.....J....t.=..>9..
+.W.....O.'.
+fV..$.AG.......7..&..QR...$.n....e.).w.....h9Q`_...6..:."%..
+..(...S&.......C.......Q...L. .c...x..$.U....`..	
+..[K.n.r..V.Y+..&....I...!..E..X*ZT	.....\.p.0..J*.....TZ...HP.0...Qt......./........n.r?..V..s........n...Z...`...	....`..l..C].`..S.1.......~....~.9<..B.u..g.B&.."....vH....0..L.P6.gQ*0.V.&.;<{TQ	4~.h .F..,IhKo..Gh....8...C..a.k........qA. .H..BF...3.........e....)y.,u....T......@.b.
+Z....A.>.4..2.E.e...#.s.2..W....C.....z....b..>.....X....."d$.Bl7.!.0..T#.a@F..-..5.D.A.H..........:.W...Y.a.T..|8..Q.......51......e
+...@y:.j....w..WH..
+.w...B.EHYDs...OI.b.ku....d}F... ..........x.7..Wj....4#.J..(cIgIZ>.e....X....x.Q...UI.e.*.......9.&...\.}........e.0.*...y.........:p.......B.^zq^.....
+.9b>jL....P......t.P..g..h....'r...Bo.i..[z%.'.....r...$.$3.@.H...}.....a..\:..V..->.M.!.3....a..U2+.k...6.#...?f~..	l....g	...:..,U.+,.....k.....A..Z!.@.X...#h....!|.@.hT0@*..n.3..#j.[+....U[...]...q.&.c.d..9.%Zd.|.r.......e..ZJe...AfJ ...(.....?.....eb....N......h]l/..v...}.?....U.s...._....?.M...c"..|!.).........'..H.1.?.....D!B	.!.q.....d.t.&-...%9.....W.aVc2$A.O3.Ye;._...!|m(..P.........3..S...Ua......b/..2..ae.'c@......X...........2..4..*..J..C6..+B..Q..-..a.$.J....^...#.v...r....r..XY.....2.,....@...X......2....E..)...z....i..&E.w..= .5qc.."./...
+01:14:33.142863 IP (tos 0x0, ttl 64, id 49314, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x36df (correct), seq 615, ack 10670, win 425, options [nop,nop,TS val 10644481 ecr 66041009], length 0
+E..4..@.@.....2..P...G.P.=..._......6......
+..l.....
+01:14:33.142952 IP (tos 0x0, ttl 50, id 50605, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [P.], cksum 0x6173 (correct), seq 10670:12118, ack 615, win 14, options [nop,nop,TS val 66041009 ecr 10644464], length 1448: HTTP
+E.....@.2.!..P....2..P.G._...=......as.....
+......k..Q......SAG................(
+=D.D...=...$.....M1,...!_..6.%';.
+^...&........9..[t...HY..b\&.#..6.cw.P..(&gcX(.......FP.[.`5@.'e..79{.-.3.ku...EY..'*WJ..];:.......Z..~{.H.K........OXc]Nq...' W..r...Ud.*.(R.
+....'..9.!..K.72.............r....>.m.Ny......,..j.tQ.r]T.G...F.x. .yiqI.?.h.k.^...:.......I03../...R...q.p>...a.d0..v......q.3....../.....j....0.Z.o.`.NOT.9.W{5.o
+.C.R...../).Z....J..d)S.=..-[5.6.n.vK.+..Z.OR.2.!.L......(..)...Z......	y.!M..
+;J..{.Y .!...T...{.k.)..f.....A..%..y.....F&9..
+....QH	..jk..W....U.>Zjl...l...$'.-...8.t )...RS.CC31.re^.n...R_...q.}.........)..]/.`..5UK..'.2...!{.E.......g....(s0W.8.....p....c..C....!.....v.V.~4..n....Jk.....e....qm&..$n.......).(.Z..f.lC..!yI..kW:r./.N.2..z..Q;.c.n...$.g\....	d..cD:..[..-..}E.:s..[((...4.wi..l...@.....$..$].*B
+.2..M'5'.n..gj..I..u"......I...#...y....@>....f..):...<...."u.....2.).Hk.^.........sdr........C.76...9....J,...!..6..9.v..n..:..JYU.ovf.e...Z?......h2i..C...Wf........SE.....y.H.T.R..r.HF...0).....].\$..+]t-.......P`K...]..<3...4......d...[._bLS.I	U.I.....C..}ut.`.......O....%,Y~.8Y7T.SU..`........4]...{...Q...XT.{/...../....`..Y.Er....{......P"....a U.%.z..O.].:....'..U.o..^I.6...=..G.).x.._..1zy...y.....Cy0.L..cvN......c.........o\:.$...7j..g......N.\....o.7....K...V.X.......l4x...W`b.9.....N.,.6.....f..gf..9"....[...U....a}.P3..20.%....I...i._.z.L`..t4...sr...R.h....)..$.D=...(......x....M..tY...1......;O.y2et....No..	1.>.t..A..^..'.p..;.....M..5...,.XM
+01:14:33.142968 IP (tos 0x0, ttl 64, id 49315, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x310a (correct), seq 615, ack 12118, win 470, options [nop,nop,TS val 10644481 ecr 66041009], length 0
+E..4..@.@.....2..P...G.P.=..._.W....1
+.....
+..l.....
+01:14:33.196542 IP (tos 0x0, ttl 50, id 50612, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0xba24 (correct), seq 20806:22254, ack 615, win 14, options [nop,nop,TS val 66041015 ecr 10644481], length 1448: HTTP
+E.....@.2.!..P....2..P.G._.G.=.......$.....
+......l....m.:....w.........B......H.k.@L+t....r.........WDh.....r...L..t)H...Q.;\..J^`..YzC..m.:..@....%..}!....q..u..g.....l.W...:C..".&....x.g..........1.6..._...|A.'&..Y....h..ha..^'...^...r...pJ...J\_...%...P8.3........yWH..A.....p..%..j.OL.i.."B..y.S...kL.E+BgW...g..p7..r$.......F.&..ZlJ.]....Tf.n6...|...F^..X!...Y4...tV...%..&....Q.+(,...Ko....Xw....(...Q...7s....V.....om........).......Yov.........iuU&...e.'J.c.{_.<f..n..L*RqN.'G.wW.../.....o..".U..?.@Sn....9i.9>p.~..{..	.&.....^q.y...)=....p2.%V......3..%..j.SE....B..l]..eU..x.S..3......E....>$].M...{....Ej.
+.u.K.%.9.Dw...@.d4....!.... |.uLQe...FKEk_.7s.....u:~...+..|.d.M...._.QH0.6.}O].L#,...zM.P,Eh.D.$..Ph.m..MeCQ..R.....`....`.....|E.8..G...g[r.v...@.5.....^!.u.S]...>.x>./.E.g.....wAH..b..r..........,Z..VNts...r...K.tg.p.K1.z?../.Dd.G.........+>..D...LW3..Tu.,/...{.s....u...#.z.S.<.V.a..".\.2..\..GI.E...~^
+..J ..I.y.....\H=A..fQ......nNC.]..........|..F.M..*..AH.....]<e......#X...1.XF.@R......mv;-.....AM....d...$j..hQ.:!.." ..E...(.r-J....cO..;...$...K.F'u+.4..e......{...4c..tJ.S.D..a.d.t.....J..k..i(.....jK......r9....y.....M...;.^..z..e...h.... [...-O_	...... ............./p>..6.MQVl.))+u+...	)f........YD2.L.`y..R.]Rq8uL..2./6.......Q.....nRYnwQ.t<P.U.i....W'.>..P...9!....Y..x-^.-.\f.aG..&b.4P....b...<Y<.9.Rm...a...,.}./k4.e../..S..`.o.D7w).........*.t....'[.h....NF..<..................S.w.._..YZ...i....I.K...D.l...uX...ew....v2n.fx.S...wgQ.O?M#.].@...~..g.....r
+.e..lP
+01:14:33.196562 IP (tos 0x0, ttl 64, id 49316, offset 0, flags [DF], proto TCP (6), length 64)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x8beb (correct), seq 615, ack 12118, win 470, options [nop,nop,TS val 10644497 ecr 66041009,nop,nop,sack 1 {20806:22254}], length 0
+E..@..@.@.....2..P...G.P.=..._.W...........
+..l........
+._.G._..
+01:14:33.196665 IP (tos 0x0, ttl 50, id 50613, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x0f91 (correct), seq 22254:23702, ack 615, win 14, options [nop,nop,TS val 66041015 ecr 10644481], length 1448: HTTP
+E.....@.2.!..P....2..P.G._...=.............
+......l..._N`'.K3.;.0*....Oia.._&..p...'....I..<..].j.|.....t.8...,..)H_....&vK....l..'...$C{B.{fM.yj..~C...?........QE/[r..........dI/...Z4......P,......#...s.].....6..9S.G.. .......qS...u..g..&S..*X\Q..E.V.....`..?.7.`T......*.j._.A.4..\3....Rf...>...z./4.5.6..K[...4*./.){._(s._...E...gD...
+.pSOV....fc	[.k....X.x...$..`<...Ia.w...
+8m...<.gYPc..t.<7..r.J....].[{..u..n....rjUm3.7...H-....^.X.;.&.p..j%V..QS.D..... #..NO....t.. ..\>..Z...O.9FN0}.d...q7.....)..._.[d.....S..az..E!....]pc4d[.......r...F..%....S......u.PS.3.-;.^O..Z.[..dm..@..b.^94..bI....[
+....>\B0]Z.........<.K..}}^a
+.t....E...x.Ms.@..Z.....tk..=.*..Fi0..i	.YZ..y.Y..D.59.8....0\C..&.E....2.......^..`...R....!. 3......v.&..!.^..O.S.{v..P...s...g.. ..)_...E...c....|.&qidY:..Lu-E.@.&...Fzy3L9....D...=.......p?..I.\v..'..=>.8....O0..a7.d.2Z1....ZJ.G.'.)..L"....	..p..'*.TV?v|.........`...?..$9..c..k.*...)P....jW3L.!.9.XS>.. ..%.
+..c5.........s.4}..>AAE~)x..#...&....T...~......b$.cCs.11.gE.=..8.p.D..5........r.......U.M..i...M.G`....*W.C..0c.I&.l...ehC...2..h$s:`r....}.!..J....&..j.9..Z....$2x&..`...3..v)...
+......#.......{.``+...~...K>.bb.h..H.....O07..8C9t(&....).T.y..5=wS.Sf./0...q..............b(.Y..H....P1$..LBD@......|......svb.l..Sz%..s.G..BY...V^J.<0.1P.@UdCL...P.Z...$..2..N..XC..$.8.....0Aa.....p.s:#."y..,.M0x..c...........p.W......x:7].c:....;.\.\.J.cm.....m....\...%...zI.0.....2S...=
+.\.,%^...L.b.X@yS.~"JDYX..2efP.z.Ru.Z.Y..O.='....j"..`aG.[m...w,#v....}tg.c..F....
+01:14:33.196679 IP (tos 0x0, ttl 64, id 49317, offset 0, flags [DF], proto TCP (6), length 64)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x8643 (correct), seq 615, ack 12118, win 470, options [nop,nop,TS val 10644497 ecr 66041009,nop,nop,sack 1 {20806:23702}], length 0
+E..@..@.@.....2..P...G.P.=..._.W.....C.....
+..l........
+._.G._..
+01:14:33.196917 IP (tos 0x0, ttl 50, id 50615, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0xa365 (correct), seq 25150:26598, ack 615, win 14, options [nop,nop,TS val 66041015 ecr 10644481], length 1448: HTTP
+E.....@.2.!..P....2..P.G._.?.=.......e.....
+......l....C.5n...C..3....e%@.q.x.u.. x............`X.TUO.%
+v-.7:./...."Q`..|.vB....42.N%[.......HD...TAD...!D. "U..*.H.D..u.......?....
+*.U.....;..._....).0..G...?.Ro..F.....M2....~..1.S......z..|.g`e...0.E..V}b...\....&B....}...,...c0.J...e.0.qNi...q.........bE.r.._.S.~...	,p-TTm-#..E9."g.9..@w....+...#P..... G...&...xlC.....7I...-Gw.}..4......R.`...!..`..g.|&...,.4...x........nt..~.o4..O.nva......7_.......z..........G..S..(......*
+R.......E..Q.MW...../=..v....'.....)<..=.......A.R@..+.(......y......k.o.....j...y......
+.D.h..z...M,...(.....CqdT.e..N.)....c. .YU..e.@.xO......(..;......'.m..J.... .M..R..]..,.o....kZ...p=..=.8I....u..'}..@.@..OkZ.4.x.2...d).i.q.8.+..f.g...J...E;....].NU.,.e.Be..].......R.......%.X......	bA..._
+p.............i....r..R.......F.HX.>Q...m......XAJL.w.'..YI0..q.v.....z^./E.Y..q@...B.|..t...^.Qn.).0..y.Yj})...K.]....ht.}.5.....zc..m.w....^w..@...,.{'.....&.f....	s.S|K)6.~k. ....y.9>.>.v.~...e.......j.Qm..gb...".....f.u.BOV...
+M....di..LV.&k.C....-...".....VhrKI<.f.d#.....!..G.....o.h[.f...j.o.et..J.D+............^g....A...r..@.>.&.B`>...ta.w|UMX...."O...*0........e.]+(.L......'3.....Y..l_ou.\..<......}...jf...f........^[e.4.I....F..Nl...l+....N^.N..[m4Q.]i5..x.Z....6S....O.h.*4[.9[W.........&R....	....XE..Z\.......I...w7.B6K...{kj..0R.... ......k_x~..N..g8..<.>P...*.!`.?.Xb.....F....U...7........J.r.*8...Y.B..B.L.6e.....h@......=.....H...6.....F.......w.....F......st6.*g.g._)][......6Pk.5..D....i5.........
+01:14:33.196936 IP (tos 0x0, ttl 64, id 49318, offset 0, flags [DF], proto TCP (6), length 72)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xd54b (correct), seq 615, ack 12118, win 470, options [nop,nop,TS val 10644497 ecr 66041009,nop,nop,sack 2 {25150:26598}{20806:23702}], length 0
+E..H..@.@.....2..P...G.P.=..._.W.....K.....
+..l.........._.?._..._.G._..
+01:14:33.250759 IP (tos 0x0, ttl 50, id 50616, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0xa5cb (correct), seq 12118:13566, ack 615, win 14, options [nop,nop,TS val 66041020 ecr 10644497], length 1448: HTTP
+E.....@.2.!..P....2..P.G._.W.=.............
+......l.=..........5`....e.
+...3H..._.	.2....^r.K...5t.{.......O..$..u._....LS)......c..V..S....9\Su.Jc.+D.......|.c.a<q.R...U..fk...11].#........=Q.XE.&Sc...5.B!..@...4
+..........1.c.....J.1O..4..)................/Kc.^. h..w..2&.......!b....e.k~...G;.2".z3.I0............y..VN.F..s.h.q......K....Nh...."..Ma..!. .`.	.,o...01$7...Jy7...h..8..0.)...
+m.....6V.aX.!.....C1..X....E....O...0.X.3n..?.Ti..D.E).F..,...K.R.....P.c./<......5d.....'..G.*......0..j..*..G....t......r.d.b....toi....w..As........K..........~@........./..n|:V W<...J.......!..d%.;..b.H9IQo._.=.D>L.N.b....y..O.0	.M....M...&'N.=.BK?.l...J...|/..A.8.?I..
+-\.q.......2.%.7V...y4.`.dc..DV.B..{..._..D.}......R..<.......a....h..0.Y....,)......./.W......1]..q.a}..B..i`*I .i...`Bo.w)..K..C.6f#T...8......
+H,....5.y....PB]...vH.....zW4.:..B..j.d.....r..o.$.9....&..,eqi/uK//..).|.O.....a"....%.g.....v0.....O|Y..5...A.&.....=.#
+.s..3......s.!._.........}.W.h.M.xR,5....].,...{.JL.=u.b...wveX.........K..z........
+....U.r'.{..]
+.....p....{......\....e.@.B..O	}`..	P........^........D.y<B+-........m#s.....O_...........:...^.9....+.aO..?..........Y5.....b.cx.S...X......C......=_.g.F....|..l...v..{N:r.;..S.5H.h.....g.N..N%..7	<g...w..}..g..]t..... Y	e)S.=.K.L&)W.
+..E..h....k.%-.}z..AR.K........Xgo.,.8..W..F...M..ly]Z.8l.d.b..@....kz?G...e..J>..H.O.".D....?....b.....<,.(.....9............h;7S...G
+....v.7....<.U/.E.B......1.${{h.._...q....!k..*.../qW......C*.A$
+k.H'...e...?....%..LU..9.[8]ML
+01:14:33.250777 IP (tos 0x0, ttl 64, id 49319, offset 0, flags [DF], proto TCP (6), length 72)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xcf5a (correct), seq 615, ack 13566, win 516, options [nop,nop,TS val 10644513 ecr 66041020,nop,nop,sack 2 {25150:26598}{20806:23702}], length 0
+E..H..@.@.....2..P...G.P.=..._.......Z.....
+..l!........._.?._..._.G._..
+01:14:33.250880 IP (tos 0x0, ttl 50, id 50617, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x405e (correct), seq 13566:15014, ack 615, win 14, options [nop,nop,TS val 66041020 ecr 10644497], length 1448: HTTP
+E.....@.2.!..P....2..P.G._...=......@^.....
+......l.OH.
+g...6......eR...}...y.o....r_(.L.^.h0.Q...0.....X2..ZsVS.=.....P...0..Z..r...&.....Z.U....O.v./.e...fC...y..(-..S;........P.L...........3...dCI....JJ..}S;...L..$.OJ|DO2.1.).-.	.PTa.R.g.q..dp...
+G.K.Y..}...1...b.f.S3C-..Bm{qj..6..V.L.F..R._Y..TLXE./p.<'k.M.D..).C..-s....}i0ou...R.&.f.DBo..t.{.#.,.N0Ex.,.9lw.!.g....,..Y....?...!..8.9..9.D#.O..-.J..l...t6F}N...'B..".W7@.u.3.......3D#o`.;.Z..&..e.....W.-o*..,..;5y.r2T.c......6y...<..;.i..........C./>H_.A.z.......1.~.b.b&...9.m..-...m.....r....I.....)7.snYbF.R*.......g.Ym....5...KT..8K
+{..v.n`vF.Yt...^.&b..G...I......Z.L.....;..P2..h.o.	.4........5...8....+......j.v....;.$...|.....=yrd.B...M..'M.'h..E.n,v.].5u..*..S.[.zg/g..Wj.../E*5Wa.-..&kq.cS.I..K'...W.....Fy..s...C.RR..b-..76.z......#e..z.........@v..F6........`.3..Dy-.8<.....DF=.y...........Id.s..a..j.I.)[Q.v..!%QK...`~..|..@.w..kH..\.....K@.%..7bVMHq.. NzU....7..d..T...<.Jjb.*..>.:.$pR..gQT#?.+Rz.H.0.[.=.T...99Vy#.;.'...!)t.F....&p........#TA...f.s..zW.J	.G.P.\..d..8'....c.R\~"J.N*1%...-...H...'..,..~....X....u..B..p.m.O.H...^/5t........d........eH..M.M..g..WR!.<.S.C..vUA.-.s....3....QI/.....WO.H...u.
+.H....`7. .j.sc......H..V...W.&nI.D.......1......]W.-. ...n..
+...h.G...{....+s.]...lq/..5..v.N.Dw./.n.[...{a.g....c.o|......}:..t.C..E.!7.<.t...X.1s.$]u.I+..T)..O...+.....<.Sl..S........}.	C..; ch.{..[\.[.. .......=ac.:..'.'...:...el2..c7f....Kv.|x...q......D$O.....@.C?..FW.TP.7..e`W...X...Ja..5f~.].@8...k.F(@Ie.....@.L.V.
+01:14:33.250897 IP (tos 0x0, ttl 64, id 49320, offset 0, flags [DF], proto TCP (6), length 72)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xc985 (correct), seq 615, ack 15014, win 561, options [nop,nop,TS val 10644513 ecr 66041020,nop,nop,sack 2 {25150:26598}{20806:23702}], length 0
+E..H..@.@.....2..P...G.P.=..._.....1.......
+..l!........._.?._..._.G._..
+01:14:33.304481 IP (tos 0x0, ttl 50, id 50619, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0xa221 (correct), seq 16462:17910, ack 615, win 14, options [nop,nop,TS val 66041026 ecr 10644513], length 1448: HTTP
+E.....@.2.!..P....2..P.G._.O.=.......!.....
+......l!Ne.I\.S.I..."
+?..Q.E....).dk[..1......:Fu*x\A."W....i...[S+.)^l..Ex.^..LS&.1.^...d8.....[0.RP.mb..X^d...6s..f...,....]5............H..q#.<....e	gz.E.^..!.XJ=...<6v.).......^.9...r..wD....01/~./..8fY...:o..#..:....=.4.Q.G..D..J.,.	.V..P.;.R..>f...VF`Z........1.....Ry......
+......9..~yD...$3......GW..2.9.R ....o...Y}4...=...e.E..@.c..|g..2..l.|#'..bfU.$.C...d+RyN<....E.n...C;e....Dr........D..[@i.1u..G....*).Y.z1b>...]%.-..=.l.).%).....Q....2..:L..S....a....4.X.3N.4........Q........k-,....b.).....V.I.;..^Id.....aQf.%.{.....so|..y.(.4.......,Wn.B....
+H$...W...Kb(2.rV..h0..e........!..........K..../Xa.c.E^...,.C`....M.M.(......iH....0.s...>.`q.....;.p.....59..&..V..{m{K....R.S%.I..s`...C.e.@GQ..0.`....V...P!G..G....B.....c..a.......p....IG.;ydAi...vh.q7.C=B..Ym`.rP.9.)r..L.....G)U....Y,.@J...".4...)&..w.N"...
+...\m0....F._.....".....1..}a.?........Gp..y....(..9..._.......@(..@../.@.Es ..!.....k>.....o..(.w..q.n%....^.L.......aqM...)..D`.)9-5c.p..}a.`....~....#;.......N$.K..!...b.I..t=	.d.(Oc@..:.9..-...i.4.....xtH+bG...._ .V}n<......U.Y.....l.=.B/"l.Q!Aw..4..\Z.	!......D...Ad.TM.b`...Z.U.L.....|.A.....OU.rj..r..Re..I..4..a...i.yCm.KJz..'..
+..A.Ij	eo?I<.ldr..Pn....y.#.1%z........fGAQ3..Pb..Z....[4Y....y$..p...&.!_E..4uw..7.Z.dY..T..........1.W...W.GT.!V.1SF...?....N.E...dh-)....P>..g..+..\...AN-.P~^.....U......&2.V[B8.SY;H.DX.e..s0..y..G>..&y..A...\..a..,.Q..x....Ah..(......K{...
+Y.....A.......1>E.Q.....$b......Y.......`..W(_?...
+01:14:33.304529 IP (tos 0x0, ttl 64, id 49321, offset 0, flags [DF], proto TCP (6), length 80)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x5c5e (correct), seq 615, ack 15014, win 561, options [nop,nop,TS val 10644529 ecr 66041020,nop,nop,sack 3 {16462:17910}{25150:26598}{20806:23702}], length 0
+E..P..@.@.....2..P...G.P.=..._.....1\^.....
+..l1........._.O._..._.?._..._.G._..
+01:14:33.304599 IP (tos 0x0, ttl 50, id 50620, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x1e12 (correct), seq 17910:19358, ack 615, win 14, options [nop,nop,TS val 66041026 ecr 10644513], length 1448: HTTP
+E.....@.2.!..P....2..P.G._...=.............
+......l!.q.r.'...7. .Khn.........&.Y\.s....../....EaE...%H.K"..N..2..2.... ...F.lP|.n6|Q.~.:........al..V.#.k...t.9.3.sI6.M..s.d|..O...e.7W.r...r...0.BRy`..y..h....$,Qj.A.VVa.....'...i.+L&.2.}....lv...[.f..!.)6.t.h.m..@....m.m.4!...........Fb.3*.:q>R.e.>^.....Ol#..,cT.3n$...$....y]'v..&*O%.#v..0!-QL.}.j..%.....%...x.13..-pq..Z$....._.wS!G=.......B.....#.D..	8........y-f.;........i.....=Y '....p<w.w)dil..g..R.`.=.).(.N.BYE\...ib.)K.i.N/u+..	......c.."..4{...ym0.7.x..FS..('P.2t....:.<&eU....^.....e.C....V......{I..(0.,D...>.$.Q. TE...L..s..+.......S...S[c.F;S#.....J.E...'.*H............	.#.*...>..v....1...hh..(.X.}.w.;.;(?..'0k.Z...F.!]G.E.;..(.}9.:.x.C....R%........_cO.`...eZ/...	#.':.e.N!.w.0.;
+m..$.i.(.-.@gig.......D.*J.......rG..~i.......\.n..V...9..E...n{C>.u.2
+.6.$v61]......Z.........<._7....	'.....2qB<...!T..%......._......v.}.~....`..*.V8....._...I.......&x.<...=....6.gR.'.........y......(..[9M....._..0.?..?c.......~.oa......w..C.*.....!0Z<..a..C?.~rG.T./q.....?3.p#N'0.s...v...-...2.&o-.R.wT2.2Y....H...... .....M.eKj.....d.$v..du....^.W...U#.....`.x.+1.v.R.n.-.a.)5........t'.#G9@R9$..Qg"P..eO...L..V.Y.......;.3..wG.......hNR......
+.v.g0>.--.v5..z.....=>...-..l...h. c......H3.kz..c...A...x..NsG...s..d......>./)v.p..5.A...R.d..q.....C.....I..!c...;.@.....<.S4.1..F..t.T.v...j.a O..6b/.bF....D.....B._..E./..}e....z..<...#....>....)....8.#C.=.L...;z;b...2...P/../s..#.z..}........?....G/...e.~~a.i......]dE.#.._SfKu......o-g.q.q..|.P
+01:14:33.304623 IP (tos 0x0, ttl 64, id 49322, offset 0, flags [DF], proto TCP (6), length 80)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x56b6 (correct), seq 615, ack 15014, win 561, options [nop,nop,TS val 10644529 ecr 66041020,nop,nop,sack 3 {16462:19358}{25150:26598}{20806:23702}], length 0
+E..P..@.@.....2..P...G.P.=..._.....1V......
+..l1........._.O._..._.?._..._.G._..
+01:14:33.358189 IP (tos 0x0, ttl 50, id 50621, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [P.], cksum 0x93d0 (correct), seq 19358:20806, ack 615, win 14, options [nop,nop,TS val 66041031 ecr 10644529], length 1448: HTTP
+E.....@.2.!..P....2..P.G._...=.............
+......l1$9.h....=..3.....X.......t4.W&r8"g..l...._...w.......f@r.U..........*$j...>.<.ie...2^...JB..L...\.Y.A...<2i...<.O....ia.C&.......\h.H:....9b6.F....'..:....D....L........o5.h.!....g$..W.c..8.\(\..S&....j."j....|XO]...R...-..q..R.._...
+.(....mi.....`mL..q&d....h.M.....3..=...'..x.6N?.i....T.....n|..W.Mg.D....2.*..)...Z...	.#...}..K.z.2):	4.$.7.E.Z.x.0..;.J1vU`.....i.7Y.).3....=.....Y....vLw`...g@..-.N..i.......w.8^N"y}&w..!.}.D...u...V.....a..+...n.I...E...a.g..x.2....n.....wH.	..@.3....*...tv.......v....LefHn....rb..N.F..
+....i...Q.Y".=.....GyX.L....#..?.\..17,..J.U..^Q..i.w...R.w..6.)|`)...D.rQ.b..0.(......b%._..._..............
+...l..^:g.*./}z.0is...oNP?....C..V..}..s.......$....7...C...I.
+f]...B|*.?;~..R.B.Z..q7N..x.....j./ej...Pi`..hpL.Y.......S...6..\...>.`W...?Y.......+...R.*K...sz...zh.N....|i.9........".^Z.|.S<w..<..-.~*.8.%F..Z!.......b....{F................7...x.a..._I..+...2)-$...`...W.......\.G+.K......#\.?.H;9'........T;9.\g........7.....$.H....Kd.Xff@..."....\..\Vg..O.>Q.B. sH..N.W...N...(......)_....,...{I..q.....s..4.tr
+....}...
+..+..$Y..XNT..da.o*x.....F.<....R.=}.h...;..k...g...db.....|:{(]..a6<........x....:>.......o..h..}....P....S.=..5z..........."~.....!*..+...\)...9>..8.%c...]Z...)4;+..u.V1vr*....8M.GC...U....bb.|..|.....9\%.....u.....u..)..J'.Qu..............I..-....xA7..oy........D.3u}.......}....%`t.8..
+.wi.......,;..^.......N.#.Nt.Ro...	
+.8.w.m..N..\Z9..).;+..v...ur..N.a......3.-...v.c.]...+......Xz
+01:14:33.358204 IP (tos 0x0, ttl 64, id 49323, offset 0, flags [DF], proto TCP (6), length 72)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xda5d (correct), seq 615, ack 15014, win 561, options [nop,nop,TS val 10644545 ecr 66041020,nop,nop,sack 2 {16462:23702}{25150:26598}], length 0
+E..H..@.@.....2..P...G.P.=..._.....1.].....
+..lA........._.O._..._.?._..
+01:14:33.358316 IP (tos 0x0, ttl 50, id 50622, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0xf3ed (correct), seq 26598:28046, ack 615, win 14, options [nop,nop,TS val 66041031 ecr 10644529], length 1448: HTTP
+E.....@.2.!..P....2..P.G._...=.............
+......l1z.......Tp.*j...@0u..zf.u..OQ........iM..%..I.z...1.w......-......|..(J.i.}.1......G.qC>..Oq..lE..{..'....r.Y..	......^{]....~..Z4i.K.....X....)wi.M......t#M......UXR!,Y@.y..2.PB...V...2......<{X*...k......omk.....{.._{...a...H.....<.(.<..	9.H.5..........3....h.......G......F...H.f..z....WQ.X.Y........\..G4X..XQ...gB..9+.1	....9.J.D.........M...i<17J..R:.,..|..>..)..Cv....i.....^8.=i.{..g..e.....S.d...V..#|1{iOa..........f....P.~...`V..{.u.Th^.:i.X..^.%.te.4... ...W../...	Bk..t.4&.Fw.>....]}....j.[.-...7.k.M.^..S|...../z......h/."..N...7..9.pw.......=.c..=.K..jG.'.g...Z...S...g..F...e.....4.....v..8.....\o..A.H\JOc....8`....OSL!4../....)..B.J...6%...Ax.\....0.%..*..5.......K....#..!H....H....>w.....Nb_z.....o.7}}5..~a{~.....U.....~.b
+.=%10.P...*..JR.M..*q......k.....
+U..[..x...B..l.......B.....?.9ix..j..%.......E.w..M...!H.UjQ.4....*#...){.......S1.#T.7U.....UO.6uV......;...Gv........>...,D..FFscU\Ar...
+......az..tj.g.7..Z.&jX...?.....F9..1.L...o1..`..]......+..q..2n0....s.....w.{r!.VR.|....p+.C>..:...........Y".._.7...+..U..f3............RU..*..R......%.V..H........".t.,....6T.lXL.3->...+.--..7.li...a.Z67z....j.].......i..D.N?O.........+...-.e.5W0A.l....^.S...............!...W.<...\......].w.1 ...Zj..Z.:....[.....p........m;.o..Fl..#...+z.j..}...5R.U..H"..2.>p.....\`.+....ly..t..Lb.......0.$..r.....+ *}r..)|%.h.D.*......&y....".s.......g/m&B.Y.......t...W).......sb..Q1..|....T.vjI^&.N.P...	b.Z...X....{........gR..|...|..=.
+01:14:33.358331 IP (tos 0x0, ttl 64, id 49324, offset 0, flags [DF], proto TCP (6), length 72)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xd4b4 (correct), seq 615, ack 15014, win 561, options [nop,nop,TS val 10644546 ecr 66041020,nop,nop,sack 2 {25150:28046}{16462:23702}], length 0
+E..H..@.@.....2..P...G.P.=..._.....1.......
+..lB........._.?._..._.O._..
+01:14:33.412655 IP (tos 0x0, ttl 50, id 50623, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x3ae8 (correct), seq 23702:25150, ack 615, win 14, options [nop,nop,TS val 66041037 ecr 10644545], length 1448: HTTP
+E.....@.2.!..P....2..P.G._...=......:......
+......lA...\........f..A../.......d...~F.%...&.Au................{.3.x..0.@...>.m.~..e.pyyY....*.....fA]....8......4......X..p.C.?.q.........-...%.....Gs.\...f..>,......oz.#f.E)F..c..#a!...8...!...../.d...1..K.|........^.._..^.|.7EgIDK.o.}+|
+.E_l....%!].(....A.P...a..W....dP.......8rA.$..demD.T.~..C.v..nr.....a....O.....$.c..\k.._..HE.Sk....,....W..
+.....G..0.)w..[h....K{..j]c..4.;..3..w....a..:........tS.M.j.{qv.:./..$.9>.'.d..z.........,.U\...\K?..kM...Z$/......?..Z.SE...K..>.G..4|d.#.N....wZO.........../N.~.6..k.RE..).......G.....y..6F.$"...........V....>.......u...s..G
+e*...(SA..H..[..=x4....A0....u..G...].s..Q..*
+..fv0p.%S...>....A`.....FiH.f.*...k.r;z.\..`.R...W.SL.O#...*#a......c.._
+(.....I.......c....F.....[Xi[.)5>...0n."....p..f....Qm...kW...V...pS-{...#_..
+.EE.D...bNe....jdi.q#G..*&]c.4U.Z.M#b-.T..........P..2Dj..M.....Ym...X.o.'^.g../..m...Vz..zvX.l!....C...$..I..UQ}.F.r..B..^]m..@v}..*.	.b.g.....q...p..tIIk.......w....Z.......A.Y.v6.$....-....f..........3...E./...q......R...b.I.r..E..pJ.\..T....z.F.+P.4' ..U..Ub.JX..'.;...n.".).N.F.kr..B...$..h.. ..#...S	.....xB.:.R.N&.n...Ujb.>?.PhL....{..v.L..3...G....9..%@~........pU c..]..-..]....4.[J.5.BE..U.....v.N.i.....'o.<}.Mg..{&..p......3..ZT...T......<..........Zy.t.._......Bv-.P.`.hm..,oZ.b..G.}U.......I..X..O,....!|.!....l..=].".~......I7....x.....!..g...M..+0......P. ..PU....>.eDv....t.o.......'....vhO~a...7..%.3U.?\oo.<.....%..2./.XZ.H/wEH..p...L.JN.7:u....J........&..{ I
+01:14:33.412669 IP (tos 0x0, ttl 64, id 49325, offset 0, flags [DF], proto TCP (6), length 64)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x7a4c (correct), seq 615, ack 15014, win 561, options [nop,nop,TS val 10644562 ecr 66041020,nop,nop,sack 1 {16462:28046}], length 0
+E..@..@.@.....2..P...G.P.=..._.....1zL.....
+..lR.......
+._.O._..
+01:14:33.412902 IP (tos 0x0, ttl 50, id 50624, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x3408 (correct), seq 15014:16462, ack 615, win 14, options [nop,nop,TS val 66041037 ecr 10644546], length 1448: HTTP
+E.....@.2.!..P....2..P.G._...=......4......
+......lB{.X.P."w.i. ....~E....+w8. I.........s.ip.....*.\..YC.UB.M
+CZ....f....1.....
+f.C
+...im.:m....lgU.):.."Z.E.X#J.1{!....d..Gnl.....b....)...Mz.............p_kI.. ./l|I.>....h.Y.....m....b.jJ.Y..".xC.Wc.]ZD.X.VI%...a.A...O..eH.,....0......J=....2....0.;.....Gz+.].....`R=.q.........0.;S@.....D...r.(..4'#.p..bX{
+....8%b...JU8..BZ..........Ja.Ca)Y=...w@.X.i.cR.*.i.......|..(9.........a...uIX...]o........b@Yq.....'.....=.E.`..fpi.....;2.I.PE...d..c....z.)....c.x....%L.DVivG.r..`.)...H{GI..0.K..4../*....F.<>.7....~g.....jN.r...Xk2.......t.8>$1.".`4...*..;I.....Q...)..1.'(.h..".....9..\o..t^Z|d.\ ...._a..D.1..}......VPG......
+.S.0...>AI.........M.W....v.+.Hj..C.8<..... ..R..3..E../(.....)...+q....r..Z....K......"mawima....U?.../m:...Q..2>.k.{..!.G.h. ....HE..=.2O5OT.H............o..Y....[p(e....U......^5.#..^.uy........L...iG.5[.xq...ZH1
+eL.@.q.....N..W.......L....G......Y...>.....Q..	.%.........w...K#..m8..>7..jP..	..1_.na..".....R(./5...T(M...H..GAtJ.v..X.n@b=.4..T9.;..j..[+.y...s&./...V..4..32.Ewu.}4.M.i..w.Y(......}.ie.~..y.A@!.[.dD.)!......:..'......1....\..]BZ..	Vk.!..K+[.....*..61K...5.k..>.K..|.\0*..4..k6..........T._.u.0.....Vp-....hIA....L..X..'@($...\........P..b}....].bc.....yF...iO....u>n...Ro..@	.f.
+....T}..W(}.
+-..1.....J%.M...]..=4#.....J.,u,!..tH3...........=.~.=...........>...1\I...6!...T.8..	)..<..T..I.....Q....J.u...P,.;m?ga..8..X.HH4....M.3..........6H.e........3S./7S.h...Da.H.I.~..>.c.........PR.0.^_&......1V....
+01:14:33.412920 IP (tos 0x0, ttl 64, id 49326, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xf1dc (correct), seq 615, ack 28046, win 606, options [nop,nop,TS val 10644562 ecr 66041037], length 0
+E..4..@.@.....2..P...G.P.=..._.....^.......
+..lR....
+01:14:33.466379 IP (tos 0x0, ttl 50, id 50625, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [P.], cksum 0x067d (correct), seq 28046:29494, ack 615, win 14, options [nop,nop,TS val 66041042 ecr 10644562], length 1448: HTTP
+E.....@.2.!..P....2..P.G._...=.......}.....
+......lR..Z0...-zC.r.=.J...5."	...5..N....9..,)..g....N.......".wY..."w..W/...?c..Z...:..kOjc...T.4....F..]rD...c.+.y..W...t..HX.H.......B..]*..D.,;.$PyiWDX..0.........C.....-..U3.D..cm...)....\-..\...N..F.fi...A..|/...).....qw.Y.q7...T	...,*.&.....O.k9....;...,*.T.2.1.#.5.!.b....&ELZ....z.S....X.:...n.z.6hc.$/.....C.a..{%..h....O94r.is.	.`.C1.NS.`..0.B6.-X!l............w.....7qac^m..EU...5.....e.c<..i.2N....F....?.=k.%.-U9..=u..t...~.!{./D......&....4.@6..f....$._e`.B.A}.K$F.._....n..e__.f....!...jK..=<........Qg..Y}........c.Wv..6nI.9P.Ra..|...3O.*....L,...r.X...\....^....jV..+..(..(..L.PzT$.dy.F.,.W..7...Xy....u.^..i.v3..ZE.qz.P!q...9...TtKh.W...R......N..B/.mv...R....`7.b.....|^m..b'.....I.^......r.=d."o...O"....3G..hO&>....X$..r@r#].....H..S0$i.N5t.h4Z.{...<.).A&.9....,1.pG.n..{.A.k...C.....}Z{.7.=.....L...1...2.@..?.(....;...L.$.1t....x..<`.@X......r..?.q..U.o'..Z1....x.A..>w....
+ok..4.ULD.2e.#d.)[).G_.9.*...]....."5,......L.....#X.Mq... n.<.......n.j$)$}.$.E.$........;.`*1.T$..c.m..mU[....V.V...i..V..~4.j..i~1.[....a...FpXD.........Y..2n.^.T......l.........n.n.U.,....,{./p`.7...z.>..Z.D....@uR8..8..8/z..^.S.b.,.$.Cf...^.`......[....-....<.....h....G.....E_..|6sTJ/.$..5q..sT..S<..q..(...k_`....
+G.$
+...k.o.G\...s.f.....1	.`.V..$dy&&U.&U..*.....\"]o..*
+.........KZc..R.
+	.*.KW......dI.)+
+.2.p3...EE.c.);.....~.F.j.r....T.>..n.5...`...7..r7......=v..'...P...3p.._.... ...At.A.K..cI.Y.-<dO.........3.b'..$.N..9f.C9...+...Gxl.s.;..X.s.
+01:14:33.466413 IP (tos 0x0, ttl 64, id 49327, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xebf2 (correct), seq 615, ack 29494, win 651, options [nop,nop,TS val 10644578 ecr 66041042], length 0
+E..4..@.@.....2..P...G.P.=..._.7...........
+..lb....
+01:14:33.466503 IP (tos 0x0, ttl 50, id 50626, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x9c35 (correct), seq 29494:30942, ack 615, win 14, options [nop,nop,TS val 66041042 ecr 10644562], length 1448: HTTP
+E.....@.2.!..P....2..P.G._.7.=.......5.....
+......lRp.......~.E...ol|.6.....}....{...{
+......:..F...9u.+..+[.........}xm.'.Y.-..Q@M..K.y..w>......7..._@....3o.C..7.R.;.....~.....3
+.U...<^./..{.%z.Y.._....P...G....Q,..D.2...8.....9..-..A..yz...*_..T..q.p`0....g~..y..l.*x...w...%. .'..j.....w...X....#R.-@....E....p..w.={D.o.z_EB............^	.:.....d..
+	*..{6.v .<....'...k.N...:.D....'.9^~....a"|.G.U../"1...!F.O..}...D.. ..}..Y.I.}v2w.	H.'P....7.........s	.3{N..=@.'......xDG.P..X.....HT.............T..u.W.)....!9 .eG..i.~.-..A'>...c..x..`oM.p.{...mz.+.7.l...;.........]D.....K..	..... .o4>F... ..Q4B...?....2.E..Hpz*bF .!.}..9Mh...4...$}}.{........,.(....W..	@....Q5A@..L..?!...<..D.....u....X..HvD.L.S..m.E..|.K[.*w...... p..>t.k...P...k(	.. .<......$..V....5...u..aG.Q.ag.b...I...4...3."..XX2N.5.+v.=.......%L....{.,...3...%....L....8l.vc;...4~...<V....83.&l....~.iueF......X.?...".H....H.x8..*>...H'..;n.m...P;i....[}#...\m@Vn..},.p..^.&d.w.e/....
+........Zp.A...Txr..........V}o...ef._./K....S:.....a_V.ro..Wi.W...z...A..._V.....r..}.P...R.8P.......sAI.f.|@..\.3r.Z.Rg.v.Y..].....y.R2...AB....n...B. ....P..eC...Y].BY.h7...A....AP...^......MaGo......=.).G..o...(.M..l6.;...\jb...h......{...A.((Cso..k......b..f.._..)..i./.l..../7....g5.:...ncO.$...)..v.R?.C9.`.._H'q.Cg*.O.c.F.U...o....[.V.spxEd..Y/..j.8.).."......(..O.$JT...`J#.V.\..x. .fN...L..K.....I^GL...u...~.`yS......{...+.ep...A..Q...)..g..]v!.FP91g...-Xh...&.JB...).1C.J..f..[.H..N...o\E..Y/..Rb....&..&....F..d...L..?DG..<I.mR..	y.
+01:14:33.466518 IP (tos 0x0, ttl 64, id 49328, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xe61c (correct), seq 615, ack 30942, win 697, options [nop,nop,TS val 10644578 ecr 66041042], length 0
+E..4..@.@.....2..P...G.P.=..._.............
+..lb....
+01:14:33.519836 IP (tos 0x0, ttl 50, id 50627, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x2a92 (correct), seq 30942:32390, ack 615, win 14, options [nop,nop,TS val 66041047 ecr 10644578], length 1448: HTTP
+E.....@.2.!..P....2..P.G._...=......*......
+......lbY..{.Iw..'F..A......FE..(..%.T..G....
+.s=...B.2.a.....;..tW9.>....BY.3... .... ......9".c.@.[+..-.....O<...h`1.'m....m{K4.z4....*..	.:..2v.R......J..BT2.II.r.P...d.+..W...h........:......-.CWe6....Y.Q.Qj..^"d.\.....P.....!.0j..Bx...'.sw.x7T..`...ER8!.nBy_.|/R<.".I.|..`..#'h....$..~g.......a...Y..'.z.........Da6......K}.....".."....}*..Z....Vy.%s.W..a.y.DM.En.....x.T...2K{<%7I.g..Q..f....4...H.........^...U.G...[vz..M.....f...Jm.....'j..dF..0.a?'<.Yr..........W....Sk.H....}k.=...s..u......v..$.M".R.Y..D..|.i...]..!Y.....;:,c;............./.....?.....................?......................!..0.Lg.....D!...l...:p.u...."....f9"t../@W.........c.v..J....h...h..hw.{{.\,	.'..'P..O..?.....!..0..2Q.v....'.....?....Z.p.e...	s.7.......D{.E.@..\."..,7..L.6.....s...s..F..n4Z.U.}2.....*
+D4}.|7	..
+...d&z...n...).[4.y.,.:9.$y.>=..5'....ccS...J..........&T..:.
+.2.b....5..U..../.._...._....?..............W..........?..9?%S[.Aoo..zE.aoj....u=d...o..;..	t+.....Wb.\.Z..'I{...K.{.	....[*n..*R..........<.AH.......}....#z./_+ .&..b`..?i...H.;..TU`..^.. .S..........$&V.......i.....).V.(....
+...S....p..W...Su...^.!....n...B.<>.S.HL.L...t@4.....*...k.{.p..C.%....F.......?p..^....>...uT.......{...W|.5=...j.....q..
+N'n.pB+zB.......v.......1.y=J.\.QF.z....k*...2..<bQf&...&sy...y.)A..U.J.-.........[,.%4.!$\....e...X.H.....4._.... .A.ov..f.uXk....(....A..h..;.k.w.F{.N......w:..}.6...\./A6|.`...+...`23...'..V.>..Ao./..GnRPm..N.t$.`....rxH.Vpk..D.7.$...o_....
+01:14:33.519853 IP (tos 0x0, ttl 64, id 49329, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xe032 (correct), seq 615, ack 32390, win 742, options [nop,nop,TS val 10644594 ecr 66041047], length 0
+E..4..@.@.....2..P...G.P.=..._.......2.....
+..lr....
+01:14:33.519957 IP (tos 0x0, ttl 50, id 50628, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0xec35 (correct), seq 32390:33838, ack 615, win 14, options [nop,nop,TS val 66041047 ecr 10644578], length 1448: HTTP
+E.....@.2.!..P....2..P.G._...=.......5.....
+......lbu..m..B.LB...A..$r<U.dM/W$_.P.6....
+B..c..
+M.8..0m.-...e...Y.`.9".JB..$..c. ...-.}Nkx.T..B.R	.
+.KE....1.,..IP>.......E&."..r</.e.	.bT.p..2%|..z9B.2...4.
+...B'h...N...-.....{.g.P..[.....<.@k{...k..Du_.....'.K.].[..8...H.`2:.}....p.s..:.Z..?....UN..E..JdDu..fR......d.....m...\.....~...........x|......h..Z^.M.. i..].d..].Q.r.2......t#..(..M.L.t...*.[...........p........Jd..*.6..R.s.iC....zu/
+gQX'.....n.......g..,...f....z.J>..
+=24....Mj}...%S.u.U..G.{.. 3.......j.y......S.
+..j..........j.VR...cI.ddy...`w..T......SjM..{..|.caI[.V.*P.....rP!....K..U..u... b.#...7..:.{.`i."...9,.2..D...X0<...y.i...O..H....._z......Q ..D...w>..)J$...0....d|.8l.aMko..+@...2N.p.
+a.l..._.t....Cw....b.hi..R&..@p
+=..iu.Yr........,...p.l.:....|6QX...	...>........u
+|...Y.N.T...9....w...VC.:.E.X.j'm..K}...k..2...d.....>..#w..6=..n..E...F../6.o.....$.F.....O|................-GHrh.GQE....~.{..j......j...<.m..,q,. .1+
+..........&.d)Fk.....M......b....~.........S..=_....=.....q...`.Bc.*.L.j...9......|....I...H....4<...A....Z.E2w...N.U{e.O.XW._k.H..e.W.gn......U[{..3y.mE.C...B.@..w@.F......
+..U.j.7..].,,..4.Km-.GZ5...o...i....l...&.......%."......'.......y...(@.uV..i...=.i.B..cO......Z.D..CJH..2....'....{.'...y..8TS...j...?Y..W....y];..*...V;n3...|..
+..D%A.......0.%..j..r..,A.|D....3.p.=k.f0...e.....K.TJFp
+.%w...5.#.-.....8.......U.\.9.....y..1..f........6..'}K..I.....+......(X......hJ.~J.....1..u....R.e.;{*.......X.TY....._..|.H-.3....fA.v$.A.B.#.*1JU$J.3.@...
+01:14:33.519975 IP (tos 0x0, ttl 64, id 49330, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xda5d (correct), seq 615, ack 33838, win 787, options [nop,nop,TS val 10644594 ecr 66041047], length 0
+E..4..@.@.....2..P...G.P.=..._./.....].....
+..lr....
+01:14:33.573559 IP (tos 0x0, ttl 50, id 50630, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x8243 (correct), seq 35286:36734, ack 615, win 14, options [nop,nop,TS val 66041053 ecr 10644594], length 1448: HTTP
+E.....@.2.!..P....2..P.G._...=.......C.....
+......lr.=]..}.._..7.....	A*1.TF....&..b.N.D..L1?mXA..H.....grHm.[4.7.&_.....Z.bu.`..8.....K.gt.|..p"...hN.
+......Ku..<{....0x..a..C1...JH..z.w....W......N.Z.U.7..c...1.ul..S.q..{7......N.u..@.
+!!e.QHX.$L.I........(3.+.T..V...[O..B{.c..}).....(5.=X...tO&.]p0dy..9.....].....v.Q..W.YI....RJg....c*_1_...we.......*!^A..Y_...."r-....	.f.P..U...X.27J..Aj......4...^H1G.O.
+V..A.....S.{o..0..%D.<`...^+.........i....+5......c..k...m.+`.x..:......$..QEC.....4...Ke[11j.u^......S...zn.....(c*5.=......L.O....eYV.....z?
+..{........g..D..6...9.)..)&.q]^...q......=..>N..6...7.l..P...$..D|....$.U..%..T..ac=.g.-.=.I.]k....{C.u6]M..Uv.hb...5....N......).$.$w....!..."N....y..LG....:.
+N..3..#I...	.r...Y....?...V..I2>,..>l.)...;v.a.F.c....6......>}r.-k1F......6W;R.g....Y..._YqU_.wW..K.y.	.`]AEx...xiE....a..%5F.....b..o.B.7KS_..o..J.......).g..A.V......K....~.<oHn.. 7"-?..?.4.M.......yrdO.j..z.....z.....T..M</D{~./..AdM0../=/..d>..P.}./+F
+.. ...........T....<M.T...`.........*...._&..d....)4~V.-l.....~!.0.%.u.-.Z04.t.L..r......f1+....Cg...-.^..n
+.F.bd7[.v....6.f{u.....3.B...0......-...|.m9.4.t.o...A...g.}...".6[..b%z..8.............c...B....p.+4..,~9KM5....../..<.....pI.. .Q....x.t...2.l.x%............y-..w...-....:1..+.mt..\.A..x..`......V%......-.H!_......x(.#+
+.o.DQj.s.D\.B.bV.B....1st..1.j;~.....1.O..(;............"....o9.PSY...y.p*u~....(.:E..p.K..7j....m?.....2.c...x..I....;SP........M2`vw..._E.N.%......O./.T..f........J(X.....moq.+..
+....+.~5u).6.w.B
+01:14:33.573607 IP (tos 0x0, ttl 64, id 49331, offset 0, flags [DF], proto TCP (6), length 64)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xc41e (correct), seq 615, ack 33838, win 787, options [nop,nop,TS val 10644610 ecr 66041047,nop,nop,sack 1 {35286:36734}], length 0
+E..@..@.@.....2..P...G.P.=..._./...........
+..l........
+._...`..
+01:14:33.573797 IP (tos 0x0, ttl 50, id 50631, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x179c (correct), seq 36734:38182, ack 615, win 14, options [nop,nop,TS val 66041053 ecr 10644594], length 1448: HTTP
+E.....@.2.!..P....2..P.G.`...=.............
+......lrk.;...c}. ........:.@4.!...G`....P ...L.j.....f...
+.}.......>K..#..p.........7...s=Z. 75...t..m..<.1r.R3...x.*8c.W..l.&B.u....R.Fx.U.p.L`z..Yj.s..AL...5.t..z.R...}b......v....N.[.V.,7..mq%..g....._.....8...h.Z...W.....J.].;.\j...BK.....r../..d.\.q...h......%..~.....F.p..M..Z......).l.Z.;.k........^.{.pSw.uQE.9".B.7........H....X..,..=w...?......@_z..I.>=y..=.ua5...Q].....m^.q.*8..=m..6..e).9.n.*9..	7.N....b. %.4.*.....&).Sj..Y.pe..M....v..J.&..+......T.(.l*vS.H..ht6..ia.....x.-_s...hR.$...L^..mW....9.P{#.....Q.,.j.......`..W.5..a.(...L.Zpt...AI......K.....g.....a..]:........ ......e...@.Y.t.B...w.a..U_...%.H.f...H%..Fa1pF.:S"...).`.)Ri.Q1E.<T.&.'.KO	..&..g=-w.O).....%.R.....e...)%lJ.......Na.n..a..|.[.DB|.	....|........b........y.N_....].L.20..:&..h.S...b..?3.v.M....2...z:..l..N.-Xg.,...........!,.\G.`"(.S..l....v.h`.NV:.%]%...;Dxi......4...^.<.X. 7>.E.{..]..k....i.VUI..m.Y.4/c..s..._.IK.R.-.
+<..........UESr.D]j..Y..l.......C...6..P
+|..{...Wo..^0........).|..k.Y.`..v.\.S.. .S..?..h..W..P.e.0..k..;...JP..Q.*.p..k...oq...IA-I.....*.*....|x!VZ$_	........n...Q..]Fs.&<`C[.W.e{...mp<...Z.S.Ln0U....U......'...
+LX.'l.N7...t.m|.L..d.."..(e....\'~..=k...~I.....e......t.up.*I..........w.n.Ei+}..@b......1#2..2^x-..RP..N.	V4...RN.aQ.:.E.....}...5...d.._...*...._....................../....................{.._............O..w*...2-....7............7..{k6..' w....<..9..d....;..^.mw...w..X.=..m.y...i.9zB..;...h.9j...=}.RU.mu.....\Uc!...,....
+01:14:33.573813 IP (tos 0x0, ttl 64, id 49332, offset 0, flags [DF], proto TCP (6), length 64)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xbe76 (correct), seq 615, ack 33838, win 787, options [nop,nop,TS val 10644610 ecr 66041047,nop,nop,sack 1 {35286:38182}], length 0
+E..@..@.@.....2..P...G.P.=..._./.....v.....
+..l........
+._...`.'
+01:14:33.574048 IP (tos 0x0, ttl 50, id 50632, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x9007 (correct), seq 38182:39630, ack 615, win 14, options [nop,nop,TS val 66041053 ecr 10644594], length 1448: HTTP
+E.....@.2.!..P....2..P.G.`.'.=.............
+......lrG<J.....\.(=.."u...S.......D'q..~n.cZ.....<_.I.\?{....{...4.Z-}W@!...j..L'Tl.fsu...0.+.........TY+x~%.....5.i.....{.e.C.9+p.w...X.~...&i.[j.......=.....mw(>.N..C.Z..#J....n`...B0.x.3/
+',n..i_..WQ.J...V.....Lq*..e...Bs\....Js0.....;..y7...[j\.]..........O........K..,a..........T.~.j...a........23*&>]^S{fC.p..p..".=....R.*RX.....E.~t|B...6v...W0.X...].W.P!| g......E..N.....
+u|...Q#=y.6....m..7.P..4...)...II.....X..%x...c.....E...VlwK...K.^.q.y0ww..0..}..y.V..w......9.x...:......i...............<xh...?w0.....w...W~............m.......8.1......Yhgy$?].P)9.....LuY.....)i&.l.}.w...S...yYF.q.g..v....{.%.g...\!%.n...B....IK5..U.y..U..c..RM.....g...y...b.2%T.8......L.U.:..V..wZM.........*2..<. T.......N0.D(...P.F.q..\w	c.%vs....M...l.N....W.....}{...+....'..W.....7....p+|........r..>..........s..!.b...L.To..J....	...#.x>.#...wE..*jG5.....F....[....S.&....*....5..x ..n xH.[Q{.`.4x.._..5.....*b.,..n..}.....4.....3m..6+.t...0(+...H...(....u....K>.!.e.....r....*r..t.&g*>..0DWZ.......	.....#.+.A..>..PT.^..h..x#_Q...|...9.9U..uaD.:...;...t..o\.....l(...	}.o^.._.'..c...[....O~..............	.........Cg....]..b..}P...).A.Te(*..H...WwN.w....
+G.'.?n..9..	U?.*.....H:.my.l.....j.	..oI..N.	>...._.Q..D..,.....13..Xm..n....Jv...DL.....a.....{...H.D.'..3.3..........B.m..F....-....#...c1..a\*.Y.C'......2.>..<:.....l.s..bV.#...i.R.W...{....0......1...2..aS...^...F.(P..u.......8.".xB...jv...~#....z.5..n.[d9.3.s.....E..dj+zj)8d2.Y.@.....M.'5...e..s.....
+01:14:33.574062 IP (tos 0x0, ttl 64, id 49333, offset 0, flags [DF], proto TCP (6), length 64)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xb8ce (correct), seq 615, ack 33838, win 787, options [nop,nop,TS val 10644610 ecr 66041047,nop,nop,sack 1 {35286:39630}], length 0
+E..@..@.@.....2..P...G.P.=..._./...........
+..l........
+._...`..
+01:14:33.574174 IP (tos 0x0, ttl 50, id 50633, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x938f (correct), seq 39630:41078, ack 615, win 14, options [nop,nop,TS val 66041053 ecr 10644594], length 1448: HTTP
+E.....@.2.!..P....2..P.G.`...=.............
+......lr......j..;@..cx6..>.L?2P-./4.U..K....`.>Jf.&........nYX9.U..fd..K...w.KZ..X....z.p....^"..+O.*..7..$....d...h'.d...A..t......:].....w..s6.&:R[...&.B.w.a[..z...%.F..FE.RS.....K.8F...5RC..~..._..L\..Y.tg...@...O.vZ\.....l.x.i.*I........*..|o..-..R....z2C.-..H....Gh....u..@&.....<l....LZ....-^....S.W......;Yy9....Z......<VY..
+T$
+T$
+\...'.M.=J..cF..A[.I........$.F.}+U.}R3......$i...G.......G.>....=..L......d..]....].....Tp..=;..,.....n
+..`o.ZJ.P........wO.>y.2...m.L.C.".u.|......F.c..dD.....dM.-^..RS3.Z/..5.Z..w<.;u.i.$..^....j.v..j.V.....*@....+....t....8^4.[.%.y.^{.....\.zCZ..Vy.m.....
+.....$W...a.+oF..f.]...<.....)]6Z....C.3......2......}.?C....c{.........Bj.u.C..w....+.}.......?.p..N..q..5.\...}y$....`.m......6..&..d.....
+.>HD...Y0Ec..?R2..w..O3<.8@tn...|...zt..V...*?.6..Kr..R..?`O>Z.......$...v^1.^..........x.....R%...1'A..../.S...5.7..&.$!.`.5>S>/+..#...9.{...	.......6....6..........*Co.....35...G_...[....>`A.m..)......j..........3@.d.E....]...Db..S.`......F7r..$f.YP.\.4	9.....Yq.4e.l.2...D~.m.G.. I1>.3....er....^p.G......;...f...~o.Jks.p.D...;....sv....;..6...Vc..S.,>.K...n.V..=..nn......K...y6..f.9..R..n...7\N.f..&.$}@'q%s.g..K..........8.:Sd.'...D..K.B..GB4....@.YZ.-.=.E..i.v..Q......_....\I..r...:.c......8I..Y....Tu.X.}.M.0...Q..'.;".&.v..)@.Q...K`Bj9.".B....)Z%....2-.Q..O.f=..N.kd+....M.......R......G..B\.)_....H...LW)]......#N1b......2...=....5..[..s`......NO...g...K^..."o....c...,...w|........wG'K._a.K`..i..Ve....{`
+01:14:33.574187 IP (tos 0x0, ttl 64, id 49334, offset 0, flags [DF], proto TCP (6), length 64)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xb326 (correct), seq 615, ack 33838, win 787, options [nop,nop,TS val 10644610 ecr 66041047,nop,nop,sack 1 {35286:41078}], length 0
+E..@..@.@.....2..P...G.P.=..._./.....&.....
+..l........
+._...`.w
+01:14:33.628014 IP (tos 0x0, ttl 50, id 50634, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0xb6d6 (correct), seq 33838:35286, ack 615, win 14, options [nop,nop,TS val 66041058 ecr 10644610], length 1448: HTTP
+E.....@.2.!..P....2..P.G._./.=.............
+......l.%.v..W..L..n.1....].$...Q.!+.!...f0B.8(..V`.s..(. [k.k.+..p...........ue.+UU....~....jG.."W|.l.P.[.....]....Q..S.Vc..
+-....>.6.*I...N.?..N..}...1..&...`^.._.Y`6...D.Qs........d".-..V......	.Q..=.._...K."8....=U..A..4..%|#	C[..Gk.>.j&. .f.N.?-..fd..kQ....
+.....]`Yrt......i...jLb....].....8....W.l.,.....s....1	P....^c....I.a....).c......t...,...W.~..{..%.....g...=)|..NW.oh..zj.Vp._..VS.\.wWiHVx..X..*N.d.%..
+.....n.g.FD5.&.H.+T.$S.....i...D.$.....r+....g.F...R	tJ.[f.g.8.......J..........j..>.].....Ud...oy.>..l..R.F.^..RS...K....%..I"<(5.8X:...h..y...........n!...H#.{....,n....O....aO.Ei.....	..%..../.D......_,.4.4.%.[.i..Y..dr.s.X...l.I.......=.PhR.L..(.....R..G.J.....b V%A....6.O..Z..Y....O.....q..F...(..k.W......wa....|.h..U...K...U..]i.T......Q.I4`8..r>..`'.t....u..|yRc{....8X~9.........-_x..,...#cD.."T......U..*..r@.1.T.h.1..qJ.......8_Zx.b.n.M...\)......=	.|.n?.	..G.).......1[..kE._....C.....<..u...A.0..1.C.`.a0..b...'........Q..N_.(.x....r.[....P.\.).~.r
++4...K.f..7rv`..M.&2.....~3....YL...?{.'S..AY.......fB..~.Z..B..(s]a.../t #.U..^....&.7......aZA#I...0.l*MN1.B.....s......Y:B...YY..he..B..z.2...f.Vd.....lq...f&I.D.d.J.45.<.....g3.....x...E"..G*.h......m..?ew
+..+..Y4.7.h..\.#.L%O........Jx../.....>Wx.F9%j.l.....c.NrYL.....ak..l..Z..v..}.R....$C.H..d.4."...{........M.g. ..W..7...4....mf.2X.d..6.%..\_.L.y	e....O.....$7......-?i7.....]...;...`=.{......k..........w,.(...f~.f1..).\.....e.....d...Go....~..Vb...6.3....l....}.Qv
+01:14:33.628035 IP (tos 0x0, ttl 64, id 49335, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xbdbd (correct), seq 615, ack 41078, win 832, options [nop,nop,TS val 10644626 ecr 66041058], length 0
+E..4..@.@.....2..P...G.P.=...`.w...@.......
+..l.....
+01:14:33.628265 IP (tos 0x0, ttl 50, id 50635, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x0488 (correct), seq 41078:42526, ack 615, win 14, options [nop,nop,TS val 66041058 ecr 10644610], length 1448: HTTP
+E.....@.2.!..P....2..P.G.`.w.=.............
+......l..h...b...6..j....Z.+.z...\.f....,.&^.:s...E..m"..u'..h...;..+.)...:.......PFfUQ..ZV.k.oTQ-
+.?b<(.*f..K...9S_f........N..@.0......8F.....=
+.?.U..v.s....CS..Z.Y...;&f...f..8.Y4..vD.Y..=`.G...........9"..}...K@...G{Wqhd._..!...^......@.s........?..]..g...].r..9m>.9.....k.U....;.@.....d......x./`...d..c.i......U...,...=.UJ..r4.u...........D.!..B..'...q..1^...,.g......$e.7.........j. s......i..x>.z....,..{.~.9....:..Kp.....~2......;>..._....|,pU.....G;....Y^4s<>$<.j<..X]...U1...`.........*..W....vc...-...........N.6..a.'..=...`.a..r=S.@.E.)..NA.e	p\..........O>S0..I..G./.f+.~`....).:V...X...:..-..a}8..L(.a....{QMz......``|&.#..g.........JA.j|QO..K....c,A...'..9.N)..
+..>.0Do.&.$...z@e..@...v..4.g2[<e~U...J........0..M...y,,.r$.v%c....8.......x.-.`...7./.`(..5.Y.T.,C...!.=.6....D.....~n9...]..hW.tS....y.........A...v...T...d......8....g!..:...	D...}r...+...W.^*....W.>.............V.>.!...u...c.O.}...;....M.`..O.p/l.s....[.5._H..Nr..D7W T.9.rUA.[...A.L.Gg...A.f.@.K.. ...j^.xL'M............-iz.d.L.GJK...j... ..1..U9.\-...$9.x....bIN2.........k.t.	......e..-.M;....KX.*...XM..J8...3K"..D.....<%....W.....|...p.S1u._
+.NW/........YK....[..A'....j.4+!.....6.b.....c...g.XJ.3X.}..fYQ... .@....._..?.i..AJ.Qe3>.B....GY-..y.~.w	.	...........k1.?E...f.q.a".=.}..ka.	.Ji.v.......I.]|1.....v.c......>..F ....1
+.J	....>...r....J?......H....O$.d...e.f..l..a..D4...w.>|.DQj....'...._..D.w
+...p.6.....c.|..].....9.A.`.e.	Oue.w.o.b....Nz..y....w..z.P..{...
+01:14:33.628283 IP (tos 0x0, ttl 64, id 49336, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xb7e6 (correct), seq 615, ack 42526, win 878, options [nop,nop,TS val 10644627 ecr 66041058], length 0
+E..4..@.@.....2..P...G.P.=...`.....n.......
+..l.....
+01:14:33.681733 IP (tos 0x0, ttl 50, id 50636, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0xf079 (correct), seq 42526:43974, ack 615, win 14, options [nop,nop,TS val 66041064 ecr 10644627], length 1448: HTTP
+E.....@.2.!..P....2..P.G.`...=.......y.....
+......l..|A.Y.>.}<Y..`...74.E.Y-D.2...3...._*u-r.A....Es.O.............1w.;y 4....^...=..M.1E.%.F..@.#...u.....J.H.i9<..Rd.B.....P<~..~b..F.4'.}..7...r!.hQ...%..&..0..V..	U..9M.*..x.0.9....Z..N's'.w.d.s..m.......v.....s=..$..IAQ.t.Z=.e..Va7.D(.....z.j.O.E3.K..~.%..T`...3....$........._.......av.s`....7.f...Y1e.Zk_Lwb.p.uZ.3..$....a....Ve..]..5...E.WfQ..pl.8.40.z.u...Zlm..`......S.........O.3...X.&\XV1.b......\..raP`".f.CNs.....8!f)=..T..o1.U.h.....'4.....\=\8.C..C:...\rmz..(_bNe1.Bo3.{-H...l.u..l..i..{.S.\.....hy..J.}..c..D"....s..D..4J.N....I/.J.~...../.j.......'riKO..-`..B.?p.%T......,f	.....?n7.XvV..@.^..c>3'..xA.,......@......I......v#.Z..q.L.......Q..50.......,....rDCc.Xug...W...<.c..;.*..F..e.{.d.....;......B...&...u.]{..3q.............,..7.Mh.q.#G|...-......{.].S.z@...WXL.rRc\V....#@E.......T..Eq.....6.-i.Q.+Yav*[.....+..U..}...d..t...Qk...Xw.u.sK.&...2..N..8..e...O..m.........a.)..C.hl..j...C.S/..?.DP..'..E.1.4.z.l..bM.....<...|.]...}..........G..^|..H..BG..g.@.!.$z}V...mI......9.B..p7.\.yt6....EA.K.t.=k.sKln.q.g.....|?..a..l..t.f.s!..A.......y..@,..8.]q.....Io......nV..z.$.......%.Gy...0j` HY.!.....~.9..,)...S...N...........@d.X.v.II/..n\^kY;.x~X..2kM.WT..c.K.d.....w..V.@....QT.{(........Yu.......Rm...b..Q..M.....|.b...J..<*[.;e[.WDS4
+....g6....kT...D..R.......m..{	_......H........<.6..A.....kR.=S......z.o".n.ho....R...U.>..Z;o.6O|>.
+..#,.URi...Tw/./6(Y..{...:/d.f.I......v..h.c.2..........5...Y.nd.. ..D
+.	y^..{.=N........^.
+01:14:33.681748 IP (tos 0x0, ttl 64, id 49337, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xb1fb (correct), seq 615, ack 43974, win 923, options [nop,nop,TS val 10644643 ecr 66041064], length 0
+E..4..@.@.....2..P...G.P.=...`.............
+..l.....
+01:14:33.681857 IP (tos 0x0, ttl 50, id 50637, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0xe523 (correct), seq 43974:45422, ack 615, win 14, options [nop,nop,TS val 66041064 ecr 10644627], length 1448: HTTP
+E.....@.2.!..P....2..P.G.`...=.......#.....
+......l.".kL.NE..n...Z......./k.<...L..*.!&..u.......q.g|:(D.Ua.A....U..e..e.c<.+:..r.T7].{4...].y&./B.t..@UwM.4....=.Y	.....S.z..../!#~..`.........&.VE."4rE.*o1.2V.:T..9......Y.f.....k1..1......&SG.l.....p.c7y.{>...,....m.....>	...h....U.......m;i.......V[yX.(....O09..-r..u.......*>..R.....IN.".....T...R..hi....jZn.V.q.x.9..`B..N}/......i.Z>l}..%...N+..D.@.G.1R..x.S../O........v.....#O..Ngy.~.qL..p..^r.- ^.
+.	.O....L..E..z[`......%A\.56.J6......n........?.b.....N..[@...].o...yn.._D\..x..c"......nqu.m..D..O. 4.....c..hp.........	O.........^o{r..cE........ES3..*.......T#|.?14.p........8.e...#..=...M}^Z..
+..l..P(.S..n.O...AJ4..`p+."..]...
+..r;.....J..E...O1>..7h,h..>.|.....W.;vDj..H.9..??....)..9...=..w....b........9.)w...a....J>...oo..'.] ."....WfJt.........3..........l.B.....>_
+o..... ).....(.Z.O1.5..H..,.Hh.i.<t..,.:.....M.sY..W........	o4..9.r....w.	.....X.nn.....{.....'...F.h..... 3...S.e...B.......&...Og<.`).i.....3.A...:.....|\...o.Q..S.....K...........qA....+\..f )..._..K...[&&.a..d..na...-.t8..U`M...Q._=.....m._..D.F7=...s.....p..L.Y.2YZ...l...X(.`.....{........nug...MyY*..T/T...yg...r.co`J...'..W.ht.........H.....z.....r...6..=...o_.!....E7.....y........y..A.Id0n42......e./..S/L+.t...y..b.......fv...F=...N..t...M:"...@...}J..^..t..h`..QX..+;..Gr
+N.L.(......@.m[Wt........<.8.o..."(.e.W0U..[u.).... ......L..No.......o(...'.c.Q.%/.....G....m....z......=(..<.u.7a...RL.b...e=.f[.q~.$.O.k!.~<wqAO_m7..yZ.x..SJ.LX.,g...)..#\1../....
+01:14:33.681871 IP (tos 0x0, ttl 64, id 49338, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xac26 (correct), seq 615, ack 45422, win 968, options [nop,nop,TS val 10644643 ecr 66041064], length 0
+E..4..@.@.....2..P...G.P.=...`"o.....&.....
+..l.....
+01:14:33.735197 IP (tos 0x0, ttl 50, id 50638, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0xfe90 (correct), seq 45422:46870, ack 615, win 14, options [nop,nop,TS val 66041069 ecr 10644643], length 1448: HTTP
+E.....@.2.!..P....2..P.G.`"o.=.............
+......l.........g...T...m.....Kr...7<f6.q.z	.?#......^$....!..eV'.2.....9...{..&:.J........H.).z..?H...lcp.kV..`a.U.q....g...w....X$........?$..r..+9%1.n~.v-.V. g?..~..^..Il.......6.o.Q`...(..1K{..m..|? ...W..F.$..#.s..t....|+..Q~..<.....]....u..<.....VaX.J0. .P.......[*.......N.o_..xK........".....R.z.-...E...[....I.. .&.....R.....+......I........_..`.0..b.../n!{..I.(.(..7....e.!.....d..Z.3%.1&..e....7j.....*.cA.d.. ...B...T.9.ju.Y.3u.i.+W.{.I.....4l...s1.q.5.bfY....}..;z..g{s....$k3.t.T.....k...0..IU.Nfz.......b......Yk1.r..M.p,\W......{.(....P.c{v{sg...\...8..[.(*.y.hT...h..p+e....+.a.a<.9..^.&$B........S...
+P.t.4..@..c.p.A~3..!....G....kX...J7./..?.......D......}......h..........d
+LK.;c..%\L....sb.8'.aS...Zmk.QV).r.....3....m....r.T........k.....S1..{to....HB...D..........vQi<.1'..W0Y.3J.T...\.o..Q.9....Ja.L....;....(;.".Qz.t.T.l.U.2..S.Y..t..
+x.....+2.S.,...,...U..7..9.;..Yw.....k.....7qc]a.3.*..l....U..iL{....v.T]+(...r+r69u.....,U.;...].........6..n Kcn`..=..X#=.s}...%..."...:...YnTF.9R/!.@.o.$.y..<..Y..b.........FE:..........q.(*..........C....U1Y.;./....Q..m.....N..95..n.5....r..5]...j%...u%.<..<_......Q...l........>..5.....[...z...1p.`.r\].......).F.. crDmX.Mb|TZI8....n../.ma/..n*.<....z. ..v.....<......#wD.g....p).S....J.*U......pr.4.d.[....$...kDA|...z....#_....2.V....>..:...Q....M.u)..y.........../......zN.N..j....Bo.{...j]k%[.
+.^.....}.F.....R..EV..].h.v&.\0l}E.....^4.....:n4..m..`...Z.#..n.X/	.r.O....#...Yqo.
+......d.
+01:14:33.735210 IP (tos 0x0, ttl 64, id 49339, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xa647 (correct), seq 615, ack 46870, win 1002, options [nop,nop,TS val 10644659 ecr 66041069], length 0
+E..4..@.@.....2..P...G.P.=...`(......G.....
+..l.....
+01:14:33.735696 IP (tos 0x0, ttl 50, id 50639, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x7929 (correct), seq 46870:48318, ack 615, win 14, options [nop,nop,TS val 66041069 ecr 10644643], length 1448: HTTP
+E.....@.2.!..P....2..P.G.`(..=......y).....
+......l...\o..|.. .....>.....W.;.. .E....j>..:.c.k@..T...#...e1i...=L.....\o7...T....Jk.3........'XsE..@#.X.&.V..........r.O...&......q.-.U^s.......+]o..U.W........p)....Ca.)..o.k.5..`.n..b...:..../......QXL.sV....hv.@....u...H.|.T..G.?....qQ/.V........k2.|.h..U....caD....7~.+.7ir.o......W..........&.k....[.j...a..{...p....)..\.m.
+.........-...1.g..O..(`.'<..c..[)j/......Si....1.3...N20."..W..>....W.<...'....F......r.7
+iP..
+..|1...`Y0d
+.7..........7.A..%D..$#.7..=.M....L.i..u...f.....\Um2G ....."...:.....i:.O..y...P...K..M<....&...z ...fw..QQ/..].bnw{..9..........%S.;.N..r+CJ..G .....@>.M...c.H_..].m;...J...W]/..3HaI\.dy..s.L.....7..zk....q.Z...C./:sJ."M.....%s.i..&vE.<...)...2\.[.....u.........o..@Y...?.....[T*x.....g......>...
+..@Lm<^.}..Z.....H$^]r.....7.."...g....1.w.AW\...X...tW...U.9.r#...-......7.V..y.,.!....f.*.bT.TU/_.q.....H....w.%....S.....&..[...?x-U.t.K..:*....fv&6.F....._..z:N..>w.Q..#.s.......{g^....7....{VK.......%>..B.4.W.....
+.u7.>..6.ax..uQ.f.XX..8.0.......x:/. .e.WP.w....>s.S.....r.3.z...XD.p...m....$d....C.8...F..M2~....._3......".j..=..y......;.nn.|,.C........eKt...|.....\..e.e.%=......`.A=.s..vP./Yc.+S.;....%.db..o";..].w'S..3..s..Y.......e=.f.7bk	....	7.....X....,&..M*.N...Z.I.....\......&>...!.k.D.......gYTs..yh.....G?D..........
+....P..4\...`.+.9.]..6.U.m]?.d..E.,.U....&.#..M....\`XY..b..$)...../.......5.B./.u.~.{.._.>..."3b.,..z..Vk.....Z7r..m;.R...A.*O..T.v..Z........v.....<.5.#.uL..
+
+5...f..Hv..i.Oq?2.v.
+01:14:33.735711 IP (tos 0x0, ttl 64, id 49340, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0xa09f (correct), seq 615, ack 48318, win 1002, options [nop,nop,TS val 10644659 ecr 66041069], length 0
+E..4..@.@.....2..P...G.P.=...`-............
+..l.....
+01:14:33.735819 IP (tos 0x0, ttl 50, id 50640, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x4332 (correct), seq 48318:49766, ack 615, win 14, options [nop,nop,TS val 66041069 ecr 10644643], length 1448: HTTP
+E.....@.2.!..P....2..P.G.`-..=......C2.....
+......l.D......h*.<Dd...tA....~[hyD^.)}_R../.E...YPB..b.5.I.R.%7.%.....q...;...%.......m.k..A...............WO.....;......X.{.......&_)=....h.9.A.Q.F~z.P..>RW.1v...H.........
+z...7|.Qf.o.u..(..uAO_-./.yQ..A`_.....,1.`..D.L..R..-..g-..."...d.Q."US}VK.+.... ..&M1...99\..i...,,..0.GC..f............ .I....OuF..
+u...s........K.m.@QW. ..%..$5..J....
+..@t..S....a.......hY...lb;.l...[.....t.J:.....+..lP..,.C.R3Q.x....\..Y.......w.oy9...&.)*...{3`<.m..}..d.....1 t.B..O...6/Mk..Z..."..p;].C.........e.B.QE.I4.!...r.YO|Y..........[.......r.I......l.Y[..eM..U.QP...a.$..v......)-.'.".....&.E.C......<...u...{.A..e....+....J.*.H."....E..HQ.>..x..v.......;...........5.;....<..y.1.:./
+
+	-~....j.qF2j.\/..E...B..K.........&...s.7.P......p?......o.)8Sh..>.[.c....4.-..........[h{.......i...3-.^>.q^../r.w....G]...&B...R.8.BT.l{..kE.(..q........4.:^L..9P.B..'.9..[/{..0-...N......J.g>.g...D....5..........=..q...|v.&..=.xn...L#.E}..Z.+.`.hD.'.....Rx3.yiP.B.......-G..X...7.4*8b.z.|.s.^......$.40Ta...8....L(....;B..5v)..2..50..h..E..>..X.....u<Z...{..x.a.....m. .8h....5.*Uz.W6t.........&.y..bb..[........u.9....P..`8R.O...q..L_..u_......z.w...s.e....=}u...+1..[......u.i.I.cn.s.!%.q...d...s.m......^.L.,.&<....xo.......N
+J.D.L.<....Ec./.C...M.s...t....N..C..[....<..6.05.%..n.,H.<....I.....u...X.).F...b.q.{.s.<.`L}..Xr..e	......;..['@.F..|x.....zk...3e.j.Dea....%....&.Ja..,...Xu....l6.a..>.s..g.4.L..0P..@.+..v:...X!.o...B.....,..K.~....v............A.
+6..IA.(.%...
+01:14:33.735833 IP (tos 0x0, ttl 64, id 49341, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x9af7 (correct), seq 615, ack 49766, win 1002, options [nop,nop,TS val 10644659 ecr 66041069], length 0
+E..4..@.@.....2..P...G.P.=...`3g...........
+..l.....
+01:14:33.735946 IP (tos 0x0, ttl 50, id 50641, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x1fdb (correct), seq 49766:51214, ack 615, win 14, options [nop,nop,TS val 66041069 ecr 10644643], length 1448: HTTP
+E.....@.2.!..P....2..P.G.`3g.=.............
+......l.....J ..@._ G...#q....D......"....w..x~X..7..7N....ay....g.S........3.qFf.../....L.."H.J )e.fh...=..@....[.....c..WP.....V.M..C3.f{%K...n..D..d.ao......=.......7...lV.{.(m."K....:.Q4. ..{S..C.I......W..u...b.M.>P.............Pw...a&..&.	'.G...l..rJ{..8..=......h.c|.},........31)o.5^;...!.......K.........B;*R(w2........1..5...3..5.GWy$|.Iz<......w.m...EB.#..x.vf_6ZC.E..B.D..yR../.i:......	#...........&......e........d.....(r.@....B..M.....77	T...
+..1.3...)..x.Z.H.&..;0...%|k..8..$.1D.	!U..b.....Ll....~z..D. .....a..8C9.I.{o;....`X!...^n.._a...=u3...>.....V(`...d.o....m..5..dx......4W....2.1.={(nz.......!..,.M.u..Z...`S...e*. ............IUAO_m.,..r....=a.$&}..o..a..E.C
+...I.q..}..lz.......L..%.rE...ot.(....p.r..2.L.L.IbN.uO.;..L...A.oq........m..u.F]`.iFKE....41.b.J,.l..c....2k...*..)}...".../N8..5.`.#...K]......?......."...:.<.l........'K.......-.=.	......uC....Fw.T.T.Hr....Y.....v..:..O....)...]{g......zW...p..g..Ho1H...l&.'G.o...T.I2}...G.J7.i......J..\_.._....9.dD..Z.}+R......}..p].F~Y$?.\.....p.{..2..!.....Y.^..3...d.......a..z/......{.._.Gx....c..6..\#.1..'......?........._R`.4Yh...f.N...)..R.Fw'o|.v.h...R..\.<..`...mt..T........e.......4eI..;...=*...f..._..LN.vO..3/... ...h%]......VhZ.n#F.g..:8.Ju...kF..B.m........I....v#.5..$..o...g...$'..DcIy].........8H.".KY..e..6."..w.^...N...XR..)[.;.x..J.....Q4.q...<......w.Y|..1].....G....'.........A.qA.k,H..(*..1.Z..W]/..CFM.&g.b..hJ6..L`E...t#....._n7..).N=/.T-..y....9V.0fX.G.
+01:14:33.735963 IP (tos 0x0, ttl 64, id 49342, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x954f (correct), seq 615, ack 51214, win 1002, options [nop,nop,TS val 10644659 ecr 66041069], length 0
+E..4..@.@.....2..P...G.P.=...`9......O.....
+..l.....
+01:14:33.788413 IP (tos 0x0, ttl 50, id 50642, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0x7793 (correct), seq 51214:52662, ack 615, win 14, options [nop,nop,TS val 66041074 ecr 10644659], length 1448: HTTP
+E.....@.2.!..P....2..P.G.`9..=......w......
+......l.\.q.3..5.....~...2..S......bW....N.....c_m.....J..........
+9.l...s./...^u......o.....I...x......".....n.No.....'....Ocn.
+........=.o..P8V.I...o.4...C.a6...............>..5L.d)S...-a.3t......3_./..C...I...\...&A..>.......$.o\.{.9.vc.Z.g...K=.c..m...R.H.*.}....0.......r.?..a.0...z......T.v.@...|...J...Vqw0............{.9......=.a...r.Z.4..Jp.....U......&...
+.<^....&R.&.......m..M. ..H....8..*....N8.wY.'.T@f:....W\...).mX.7..O.k.....]2...x.=.......n...#.{...%..m7.7g...n...`.W...V.}+*..\+
+.P...P,.\.ty..LA.....&......v-..k.c..X.R9..{.@.c&\......Q.f.Lx.....O..-.o.!.+....o.)J..S)..=...RGL......~U.......
+.<....Q..PF]H.....K.%DV:....X.+1......l.K......+.yM....x...b.sk....r........m@....EX.p.t).C..|..y.[./)}='x..."..W.,3....3...p.".........6....$.	......W....T..^A......7.....r....$..'r..x..Sm.U$Z/"..?O.......YW..?y95.,.UP..X..mX.......\gty..LA.!.
+7..}.O...}[.KA.....6.LF...]2...d.........m.	..tP...+.....z...3.........;..1.).*Q.........*.v].^..,..L.....0......v.yP.k........pb....c.l.<....^.6..F./....^.C....'..9%MX.O..ez.I....;.<..J1!.%X.).BG	N.......hh..0.0G.X.P.q...b...+..y.{..d.I.......I.C...DS.9|.$..@:..MFE.../...<.Q. .
+..?s].F....3.2..........=..*....|...L......}..3.Lo......u......|..<4..^...9O..x&|.#;.t.V.5T..M8.=.......?.p.SOX.sk.:..Jq.6....v#kr..TLN...MAZ......b.U...(W. S@....B..........U..e...cj...+..7.$.2.qx2..q.\q..|d.5
+gJn...vl7.>......#.c....V...l..........?.V..^...S..S;d..y~..S..=K...3..b.)..=`....F.&....S/.....#.Io .(..k..
+01:14:33.788425 IP (tos 0x0, ttl 64, id 49343, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x8f92 (correct), seq 615, ack 52662, win 1002, options [nop,nop,TS val 10644675 ecr 66041074], length 0
+E..4..@.@.....2..P...G.P.=...`>............
+..l.....
+01:14:33.788658 IP (tos 0x0, ttl 50, id 50643, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0xf883 (correct), seq 52662:54110, ack 615, win 14, options [nop,nop,TS val 66041074 ecr 10644659], length 1448: HTTP
+E.....@.2.!..P....2..P.G.`>..=.............
+......l....n....@K6.."..;.}..`..GS...u....:.4~.......q...G.k.....4....j...r./..C...5....'.\..p...fT...Nx.h.:l....7....P.x..?..p...c.c...ph..Ys.t.Z..z..j5..[{..Mx..u...i.
+..Go.,=..4..)..1r......pk.#X.l^.....v
+...Z.%...B.?...<..o8GZ.~....U.bK.$]C.....k..1%.=..5.RP....`. .p..	.....RQ..U...G.@a.....uB.n>..5.?x....>..{	../....r...#...f<.0..>..'.~.wU.#...;K.....^I.CU.3....k....~0.../.{.>.Y...uS..2o.d.^i.z.z.....Y..`-..=.n...x.0...B......-..L.NPbQ.z.{%.....qf.D.`Z07q+..n.+*]..|
+T..;T..).%.}....ht.EA_...L....F.....p&~.	..f1...E.w n.t.^.h.......".|{....~.s..wB5eqS\..i..*...W..wO..P.	.6....@].........g..........H.
+...3>..w....3....~...C.Bc:....)V.5\.).........I)b.U..e..z...f.-.T. ../`W..-..-.p.....|.wE.<V..D......a.I.v.q........Ir../.wC.......c.J,...[.]b.<T.^.$.......HD9|bVU..I.rl...~.TU.....@.TD...O...W...b...[.*B..]t..Z
+...P|..&.......7......_.vh.jt!@P...7.6...Q.|dJ.....2>.".G.K6.<.|..@.....b"Z.~3i'......xc.M	... ....:..x..z.....`. @..i....>..|.X.C6...8x.....`...)>.......?.a.......v<<&..Y.Y.I....H...u.F.e./....1n.~.E.|..$.....a..q....p,.....F..q.rt.x..-..:......l.M..>'.bJ[Z.6.. A.)...-....S..j$...F3.............r.......s3Ys.Su...M~.^^F.n....8...s.z.!u.~..|....._........".Bn.`=.../....Ipf.JM.T1.YE..v..;.......R...V.{.d..F.2.4.(?..d.I2...OyT...}......+>f....TK.O.lN./.HTR.HQ*^e.948..E..C..'....h%...b_p..~..]..d.C5	.E.....V..,..:6.X.s..... r.y.W....(m-@|....I `?...c...( ...............c}....!P..)).j..jd..B......q...K..j.[.w..\Q......6.....[P	..
+01:14:33.788671 IP (tos 0x0, ttl 64, id 49344, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x89ea (correct), seq 615, ack 54110, win 1002, options [nop,nop,TS val 10644675 ecr 66041074], length 0
+E..4..@.@.....2..P...G.P.=...`D_...........
+..l.....
+01:14:33.789910 IP (tos 0x0, ttl 50, id 50644, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0xc7c3 (correct), seq 54110:55558, ack 615, win 14, options [nop,nop,TS val 66041074 ecr 10644659], length 1448: HTTP
+E.....@.2.!..P....2..P.G.`D_.=.............
+......l...?2]...H...-.....d./C.$...... E,H....y.s..u.$........4......./Fj.5PU...X.`6.....v.!....E.R...b....i.?....x..K.[...R.*gM..Ih.c.Z........2.e.Y1.R.r.2MM.........
+5.dM.A......C..P.~Y...C/..O.&#1.j..d....`.h?e.~pr.....$.&......J.CSE.t.b.^.....EH.0us.P....0..$.pc..c...I2..&..,..3.},..DH.X6..5.....i.^.............r.G0.k5.k.....~w...Dc(..&t..}...8.....o).2..hn.9.L...c.Y._=.......65...>%......G..C..h..R.a..&.3\...g..mkxS.S..Y2.Q......g..Lo(t.4z......a.O..U[....}-w.H......,.......+.w.y..h.kz}7........T.......`.:..Vc.......wvP-	....N.cd$.........{(E......`~..8)..e)..Q....B.`..kA...M	....X.`
+...fF....X..6..j@.%f.e...6._.}.....U.o.k.D....'h......g.J.w#..Y2N*	......Z.k....\...!....B...N.F:.J:....z~.@|....|.2....	2$:(.M...L..:..E...@`[..7.N...j.3.Cv...K.LE4.&.cK..$p.A~L!..d.2.U.*.Ze....0s..\.._.9NJ..R..-	dM....G`...m.e..,....F......R...^...:R"oyT..f.;....4.
+E\..z.):.........\..-C"+.....c..3...	..8v.H...n5q..0...{B.....T.\..)f.......B..7P...:....1'. ...9....7.I...h..C.D.o3....X....H^.8.Z.`o....r...).m...V.....e^... .U.~....g.....Q;p..q..p... (0.{.
+..../.K....]...!...O...~v`...;.. A.%?0.......k.d......R..........a....N.q.:]....L.V....Q.,.5.]
+..j'T...L.c.=$s.=....$B../......n.[....ah#A.......m.xOyG.O ....U.4..UID$.8.2.....AL4.....M......BI...I.V....."Mgq.).4:.._.%...'..........1\.F.pJ..'0....a.4....8........
+...w.3....t.7.~.:..lF......I2....'..8.(7.E.>.q...}h..=.6..[~..K>A.x..'c&.h.yT"....4}...y81..4....#.W.....Mn.......>.i.......z[.....%q..
+01:14:33.789923 IP (tos 0x0, ttl 64, id 49345, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x8442 (correct), seq 615, ack 55558, win 1002, options [nop,nop,TS val 10644675 ecr 66041074], length 0
+E..4..@.@.....2..P...G.P.=...`J......B.....
+..l.....
+01:14:33.790037 IP (tos 0x0, ttl 50, id 50645, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0xbd55 (correct), seq 55558:57006, ack 615, win 14, options [nop,nop,TS val 66041074 ecr 10644659], length 1448: HTTP
+E.....@.2.!..P....2..P.G.`J..=.......U.....
+......l.s(..l..n.....3.zq..\:.W|<... .d..eG...x2C..i..e...5a........c........q{........6..{).`X7...f.....P<...%E...eZ......u....^.....I..N..Q.%?V..I.......(....zT..l.f...^.....y.l.....c...,...gv.3.....H.$.....d.-..j_.n_Y..\...e_Y.t,m_.....W.@"
+...DMV.........B.......
+..\-.....-...B.....l...PZ.k.r.A...8=...dv<..d....!=	..,.$i.\<;.d.{].z.^}d.~d?z.^=m..........._$..{...z&R..N...B".. !.r$T..Q...Ry.....#7..R]..h.T.....Z.K..xj............$=F..y.....s.<G(.%..n{..p.....-..m.V{.....K./..o?l.m.Z.[?.~.^..........ue..-.D..qs...>..W*p.K...1&.,Q."..pb1....I..Y=..N.h-.../HF..	u.......8.w!%..X.........R..vw.8N.Hx$.....X..?S..N.....g..8.%.4p}l{.j.....a.......h<9$.Vd5Otqv.>...H.|.L......+...!......]|+.........]V[_	.yV..... ....L^...r)..=H:'.f$!)qf.....Y.S...#..P5.?.C.e...t....../..K.G.I\.vP'..[....L
+D....H.@.8....Y...5%),.....G2..8sr.;'.LE-.D.....]..%ds.,..`.^..7Oo\........V.....'3!.......?.}..*....).@..
+..X+hR.7.y..].`mF.SeN...].LQ...<. ...$+.U9.F.9Y.......bpRrI4.R^........n,....?].4
+..X.E.@..[...u.Rj9Q.|.+.j.g..!.......G!.......5.O..:....S.xj4..GHj.de......_......y......K...O.v..?>X..-...p9.UI..]N..:>.!......9]!s.b" ..[.p).D.K.,......M...7"....9..*LS.SW.....o..n.e(.X..ps.....?S...K.".....T..@..=...9.O...9.'.!/.'...>....O...^..Hz........^.4.9...W:9pG...I..N"....v )'.t....h...=Nb...mgg.bg.....$.Eg.Rg.........d|....@.tg.K........8J_(..P..sj..u[...>"..i.m.rlT.k...%......3..v...n....+.v.DQ..e\.......t....'k.wi.%.j.O.F.a......2....D+.....>.X.....H....."
+01:14:33.790050 IP (tos 0x0, ttl 64, id 49346, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x7e9a (correct), seq 615, ack 57006, win 1002, options [nop,nop,TS val 10644675 ecr 66041074], length 0
+E..4..@.@.....2..P...G.P.=...`O.....~......
+..l.....
+01:14:33.842131 IP (tos 0x0, ttl 50, id 50646, offset 0, flags [DF], proto TCP (6), length 1500)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [.], cksum 0xa6da (correct), seq 57006:58454, ack 615, win 14, options [nop,nop,TS val 66041080 ecr 10644675], length 1448: HTTP
+E.....@.2.!..P....2..P.G.`O..=.............
+......l.c...W..{.C..e....^h......L...MQ....Q.5.>F7.E..>.....H.`..3../x...^m.....@W...H?h.....j..AM.4K	.N..?..Q..)$. .l..eX"..9Y.+n/......K.....|.^^....~9.....7..|.^....q...?..qH...C'$.CN...........`.w}.:..............x.^\....^...n..gBW.].M.K..-....r.R.q.~m...AI/.F...@...(..f$YV.X.5.A....g...1.l..aw..h.<.}..Ag.A:K'..o..k..A..t.w.w0..Q8a.....C.T..o
+..0.nA.......3.....#u..o.q.&.^..=....... C,..:.q.H...v...{..9....O.....{.3..3.....;s....#......u..:s+.....7Z.._w.>".O..).$V8. ....&S.E.F.M...V....>>.9.W...X..D.G:.\.x\.f%5.j...+RI..6-Er....9......@o.UC......Y.!&..cW...(.Hz.........~~...../.....~..1:.P...#.n..+.nT....Zk}....".r....R..U.*&.....`:..Z%%.7....9..8..t&..Ee...P...g.6.m.......u.F..|.D..6.n|.qu.Z..T...u..R53..q.....LOhJD?.....\K.`H.e\...x]h.w.Xe.u=...9..s...nXJ.yN`.i~\......#..q.......Z..i
+K..jxJ-...9...7.Q.......g....D../......@I....?_._?M-...(.1x*.....#.Z....~.#7...C .u.=...
+......e"....Y.....*+...s..I.){YT#.u..........w5........6.HDp|4...9..h1dsak...."...5$..[.c..G..\.wL...]....*1......4<Y.N...2Bv......`[.Kg../L......H.#|..7F
+.....?.v.C..q.<d..-8.. =ii.hM....n....aGLS
+".uk...'..#.&.eM......U.q.Zwx..q...X..-.R..17..s..)...9.u..3.."b..r...e</{....f/}a.|.^....F/-.KK.....2.#..Q.&_c`.#...I.S9'.r.#N...v.$1.. ..n=...........O..K..{....+w.....m{.._../@[...^....Z.."&W..K.n~..........HKn.G.[.q....G}
+9..d....@...../..@R.Z...j...@.fpz..r.....O..on......(+dW.%2.h...:..&..F.Fs.m.).Lo...g.6...............<.._y................]q.Y.Xz."}7.oQ.....
+01:14:33.842145 IP (tos 0x0, ttl 64, id 49347, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x78dc (correct), seq 615, ack 58454, win 1002, options [nop,nop,TS val 10644691 ecr 66041080], length 0
+E..4..@.@.....2..P...G.P.=...`UW....x......
+..l.....
+01:14:33.842214 IP (tos 0x0, ttl 50, id 50647, offset 0, flags [DF], proto TCP (6), length 967)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [P.], cksum 0x7c8e (correct), seq 58454:59369, ack 615, win 14, options [nop,nop,TS val 66041080 ecr 10644675], length 915: HTTP
+E.....@.2.#..P....2..P.G.`UW.=......|......
+......l..W......Nf...:Y....
+...Y...w.|i	..zP.......:!w.|...U.....q...f,... _.......2....L.%...W.<{..........O7oD.8..8..............r..l..}.......>x.{...;;........c..B.l..8.......9.@..xH5X......%.........T1#........7)4U...&..).
+@.^9)..00.wd...1...!...Vo..C...BH@/6DY!..-<)@........\.sC.......o..^..\%.G................!...Q.2.\...}...*..'.8R.i.k.}-......).$..*d..	...._h.......W..d.......J....}/....2D...!... ..J...II.zf..N.O.Yfr8....k..:..&oxN.$m..2.$.o..8.....>..........e.$.S..X.j.^u.&.P33..F..U.........j...y	pAW.ekS.).'.*...}.......@..D........Q.3...N+...{.2..NX.Z..i.)K......./...O...u.8...4......
+........J.)G>.....TsT"`...C3.-(9(...*y_.^.X!._......."....&xU.O~......i....."c.Md3..n9......E.wk.'....... .....c..1.\..?.L.kP&..B.)..o.+..(......'.....N...	z..%.G....t...q(..M.....].{....B.r	jx....D.G....!.{t..AGR(.lyJ.	MPK.L.l..<....v.....Ox....a..xq.$....-..95wH.....+..A5)..:..........}..#.!..>$.t..&Cs.b..#..o..Wt...
+01:14:33.842226 IP (tos 0x0, ttl 64, id 49348, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x7549 (correct), seq 615, ack 59369, win 1002, options [nop,nop,TS val 10644691 ecr 66041080], length 0
+E..4..@.@.....2..P...G.P.=...`X.....uI.....
+..l.....
+01:14:34.224552 IP (tos 0x0, ttl 64, id 49349, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [F.], cksum 0x74d6 (correct), seq 615, ack 59369, win 1002, options [nop,nop,TS val 10644805 ecr 66041080], length 0
+E..4..@.@.....2..P...G.P.=...`X.....t......
+..mE....
+01:14:34.224690 IP (tos 0x0, ttl 64, id 735, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [F.], cksum 0x4d50 (correct), seq 1475, ack 59526, win 1002, options [nop,nop,TS val 10644805 ecr 3742391996], length 0
+E..4..@.@.0...2.H....?.P.5f.........MP.....
+..mE..^.
+01:14:34.254492 IP (tos 0x0, ttl 53, id 52754, offset 0, flags [none], proto TCP (6), length 52)
+    72.14.204.147.http > 192.168.50.130.43839: Flags [F.], cksum 0x3ff9 (correct), seq 59526, ack 1476, win 135, options [nop,nop,TS val 3742396277 ecr 10644805], length 0
+E..4....5...H.....2..P.?.....5f.....?......
+..ou..mE
+01:14:34.254547 IP (tos 0x0, ttl 64, id 736, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.43839 > 72.14.204.147.http: Flags [.], cksum 0x3c8d (correct), seq 1476, ack 59527, win 1002, options [nop,nop,TS val 10644814 ecr 3742396277], length 0
+E..4..@.@.0...2.H....?.P.5f.........<......
+..mN..ou
+01:14:34.277475 IP (tos 0x0, ttl 50, id 50648, offset 0, flags [DF], proto TCP (6), length 52)
+    208.80.152.2.http > 192.168.50.130.45895: Flags [F.], cksum 0x7886 (correct), seq 59369, ack 616, win 14, options [nop,nop,TS val 66041123 ecr 10644805], length 0
+E..4..@.2.'n.P....2..P.G.`X..=......x......
+...#..mE
+01:14:34.277491 IP (tos 0x0, ttl 64, id 49350, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.50.130.45895 > 208.80.152.2.http: Flags [.], cksum 0x749a (correct), seq 616, ack 59370, win 1002, options [nop,nop,TS val 10644821 ecr 66041123], length 0
+E..4..@.@.....2..P...G.P.=...`X.....t......
+..mU...#

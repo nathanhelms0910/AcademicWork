@@ -1,0 +1,18 @@
+Nathan Helms
+CMSC355 - Lab 4
+
+1) The backend DBMS is PostgreSQL
+
+2) the username field is vulnerable
+
+3) Boolean based blind SQL injection is a technique which relies on sending an SQL query to the database, and forces the application to return a different result, depending on the query based on a boolean result (True or False). Based on this response, the content within the HTTP response will change, or remain the same.
+
+4) Time based blind SQL injection is an attack technqiue in which the attacker sends queries to the database which force the database to wait for a specified amount of time before responding. This allows the attacker to know if the result is true or false, even if no data from the database is returned
+
+5) The secret phrase is "Obstreperous horses dine longingly"
+
+6) The inflated imitations of gold and silver, which after the rapture are thrown into the fire, all is exhausted and dissipated by the debt. All scrips and bonds are wiped out. At the fourth pillar dedicated to Saturn, split by earthquake and flood: vexing everyone, an urn of gold is found and then restored. -- Nostradamus
+
+7) x') OR 1=1; --
+
+8) Congratulations, you are the master hacker.

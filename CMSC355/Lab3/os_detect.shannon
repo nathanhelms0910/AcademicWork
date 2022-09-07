@@ -1,0 +1,21 @@
+Starting Nmap 7.92 ( https://nmap.org ) at 2021-09-23 13:23 EDT
+Nmap scan report for shannon (192.168.50.112)
+Host is up (0.55s latency).
+rDNS record for 192.168.50.112: shannon.cs.longwood.edu
+Not shown: 918 filtered tcp ports (no-response), 74 filtered tcp ports (host-unreach)
+PORT     STATE  SERVICE    VERSION
+22/tcp   open   ssh        OpenSSH 8.4 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 8d:50:ee:49:fb:19:bf:38:0f:99:48:c8:14:5e:42:17 (RSA)
+|   256 8f:3a:16:92:25:c2:37:27:45:99:cf:b2:89:12:52:b5 (ECDSA)
+|_  256 9a:8a:1f:d8:6c:3c:cb:97:21:90:c1:01:b5:83:e6:bc (ED25519)
+53/tcp   closed domain
+79/tcp   closed finger
+389/tcp  closed ldap
+587/tcp  closed submission
+4444/tcp closed krb524
+5432/tcp closed postgresql
+9418/tcp closed git
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 70.12 seconds

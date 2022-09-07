@@ -1,0 +1,24 @@
+Nathan Helms
+CMSC355
+Lab 6: Buffer Overflow
+
+
+1) My compiler does not give me an error
+
+2) Nothing happens when I type "hello world". The program simply terminates.
+
+3) The program returned a segmentation fault
+
+4) The program returned another segmentation fault
+
+5) The memory address the payload function was stored at is 0x00000000004005d7
+
+6) -a specifies the architecture to use for --payload and --encoders
+
+7) The name of the Polymorphic XOR Additive Feedback Encoder with excellent rank is x86/shikata_ga_nai
+
+8) The memory address of the buffer is stored at: 0x7fffffffce10
+
+9) I believe we didn't need the vuln.c source code specifically in order to get the shell code injection to work correctly, however I do believe we have to have a program with lowered security permissions on compile in order to perform the buffer overflow attack. If I only had compiled binary to work with, I would have ran xxd on the compiled binary in order to convert it to hex and search through for the address of the vuln function that way
+
+10) Three ways include: having protections against using the NX/XD bit, turning on the user of stack canaries, and make sure compilers create position independent executables. I believe each of these could be easily circumvented so long as an attacker has the ability to personally compile programs on the attack system with gcc, as well as having access to gdb. If these were not circumvented via compiler however, I believe that having these protections in place will make performing for example the shell code attack more difficult because the stack could reject the external shell code from being injected into the program upon running. 

@@ -1,0 +1,27 @@
+Nathan Helms
+CMSC355
+Lab 7
+
+1) -P defines the rule for a chain, whether it is ACCEPT or DROP, while -F flushes out all chains if none are specified
+
+2) iptables -A INPUT -j DROP --source 199.181.173.179
+
+3) iptables -A INPUT -j ACCEPT --source 216.235.233.181
+
+4) iptables -A INPUT -j ACCEPT -p tcp -m tcp --dport 80
+   iptables -A INPUT -j ACCEPT -p tcp -m tcp --dport 443
+
+5) Chain INPUT (policy ACCEPT 1 packets, 76 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+  272 18824 ACCEPT     tcp  --  *      *       192.168.50.0/24      0.0.0.0/0            tcp dpt:22
+    0     0 DROP       all  --  *      *       159.230.226.129      0.0.0.0/0           
+    0     0 DROP       all  --  br0    *       192.168.50.108       0.0.0.0/0           
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
+    0     0 ACCEPT     all  --  *      *       192.169.50.1         0.0.0.0/0           
+    0     0 ACCEPT     all  --  *      *       192.168.50.100       0.0.0.0/0           
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 67 packets, 6416 bytes)
+ pkts bytes target     prot opt in     out     source               destination   

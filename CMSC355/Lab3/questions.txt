@@ -1,0 +1,9 @@
+1) www.google.com / en.wikipedia.org
+
+2) You searched for Pandas
+
+3) there are more windows exploits than linux exploits
+
+4) When I ran cat /etc/passwd it showed all the logins on that system, but cat /etc/shadow does not print anything because our exploit user does not have root permissions to view passwords in /etc/shadow
+
+5) The secret message says: "Know Thyself"
